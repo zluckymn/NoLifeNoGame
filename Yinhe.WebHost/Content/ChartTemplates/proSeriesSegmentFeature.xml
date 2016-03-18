@@ -1,0 +1,40 @@
+﻿<Chart ImageLocation="..\..\TempImages\ChartPic_#SEQ(200,30)" BackColor="248,248,248" BackSecondaryColor="White" BorderlineWidth="0" BorderlineColor="195,195,195" BorderlineDashStyle="Solid">
+  <Series>
+    <Series Name="DefaultSeries" Legend="DefaultLegend" CustomProperties="PieLabelStyle=Outside,PieLineColor=Transparent,LabelHorizontalLineSize=0.6,LabelsRadialLineSize=0.6" ChartArea="DefaultArea" LabelForeColor="100,100,100" LegendText="#VALX" Label="#VALX\n#PERCENT{P0}" >
+		<Points>
+      <DataPoint Color="83,129,172"/>
+      <DataPoint Color="140,163,85"/>
+      <DataPoint Color="167,73,73"/>
+      <DataPoint Color="112,151,184"/>
+      <DataPoint Color="158,189,225"/>
+      <DataPoint Color="179,207,240"/>
+      <DataPoint Color="159,181,106"/>
+      <DataPoint Color="180,201,130"/>
+      <DataPoint Color="204,223,158"/>
+      <DataPoint Color="195,96,96"/>
+      <DataPoint Color="232,124,124"/>
+      <DataPoint Color="238,153,153"/>
+      </Points>
+	</Series>
+  </Series>
+  <ChartAreas>
+    <ChartArea Name="DefaultArea" InnerPlotPosition="20,15,65,65" BackColor="Transparent" BackSecondaryColor="Transparent" ShadowColor="Transparent" BorderColor="Transparent" BorderDashStyle="Solid">
+      <AxisY LineColor="64, 64, 64, 64">
+        <MajorGrid LineColor="64, 64, 64, 64" />
+        <LabelStyle Font="Trebuchet MS, 8.25,style=Bold" Format="P0"/>
+      </AxisY>
+      <AxisX LineColor="64, 64, 64, 64">
+        <MajorGrid LineColor="64, 64, 64, 64" />
+        <LabelStyle Font="Trebuchet MS, 8.25pt, style=Bold" />
+      </AxisX>
+    </ChartArea>
+  </ChartAreas>
+  <Legends>
+    <Legend Name="DefaultLegend"  BackColor="Transparent" Docking="Bottom" Enabled="False">
+    </Legend>
+  </Legends>
+  <Titles>
+    <Title Font="Trebuchet MS, 10pt, style=Bold" ForeColor="120,120,120" ShadowColor="0, 0, 0, 0" Alignment="TopCenter" Name="Title1">
+    </Title>
+  </Titles>
+</Chart>

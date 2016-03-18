@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <!--   VSdocman config file for current project/solution.-->
+  <activeProfile>default</activeProfile>
+  <appSettings>
+    <add key="VBdocman_regexFilters"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<filters />]]></add>
+    <add key="VBdocman_comNonCommented"><![CDATA[-1]]></add>
+    <add key="VBdocman_comPublic"><![CDATA[-1]]></add>
+    <add key="VBdocman_comPrivate"><![CDATA[-1]]></add>
+    <add key="VBdocman_comFriend"><![CDATA[-1]]></add>
+    <add key="VBdocman_comProtected"><![CDATA[-1]]></add>
+    <add key="VBdocman_comProtectedFriend"><![CDATA[-1]]></add>
+    <add key="VBdocman_comMethod"><![CDATA[-1]]></add>
+    <add key="VBdocman_comStdModule"><![CDATA[0]]></add>
+    <add key="VBdocman_comObject"><![CDATA[-1]]></add>
+    <add key="VBdocman_comForm"><![CDATA[0]]></add>
+    <add key="VBdocman_comProperty"><![CDATA[0]]></add>
+    <add key="VBdocman_comEvent"><![CDATA[0]]></add>
+    <add key="VBdocman_comVariable"><![CDATA[0]]></add>
+    <add key="VBdocman_comConstant"><![CDATA[0]]></add>
+    <add key="VBdocman_comEnumeration"><![CDATA[-1]]></add>
+    <add key="VBdocman_comStructure"><![CDATA[-1]]></add>
+    <add key="VBdocman_comDelegate"><![CDATA[-1]]></add>
+    <add key="VBdocman_comInterface"><![CDATA[-1]]></add>
+    <add key="VBdocman_comAttribute"><![CDATA[0]]></add>
+    <add key="VBdocman_comEventDecl"><![CDATA[0]]></add>
+    <add key="VBdocman_comDeclare"><![CDATA[0]]></add>
+    <add key="VBdocman_comContextID"><![CDATA[0]]></add>
+    <add key="VBdocman_comWriteDescription"><![CDATA[-1]]></add>
+    <add key="VBdocman_useConditionalCompilation"><![CDATA[0]]></add>
+    <add key="VBdocman_conditionalConstants"><![CDATA[]]></add>
+    <add key="VBdocman_showFormsSeparate"><![CDATA[0]]></add>
+    <add key="VBdocman_showInherited"><![CDATA[-1]]></add>
+    <add key="VBdocman_indentMode"><![CDATA[0]]></add>
+    <add key="VBdocman_insertSourceGlobal"><![CDATA[1]]></add>
+    <add key="VBdocman_unbreakSourceLines"><![CDATA[0]]></add>
+    <add key="VBdocman_removeAttributes"><![CDATA[0]]></add>
+    <add key="VBdocman_generateVbSyntax"><![CDATA[-1]]></add>
+    <add key="VBdocman_generateCsharpSyntax"><![CDATA[-1]]></add>
+    <add key="VBdocman_generateCppSyntax"><![CDATA[0]]></add>
+    <add key="VBdocman_generateJscriptSyntax"><![CDATA[0]]></add>
+    <add key="VBdocman_supportedPlatforms"><![CDATA[]]></add>
+    <add key="VBdocman_supportedNetFramework"><![CDATA[]]></add>
+    <add key="VBdocman_supportedNetCompactFramework"><![CDATA[]]></add>
+    <add key="VBdocman_supportedXnaFramework"><![CDATA[]]></add>
+    <add key="VBdocman_customVar1"><![CDATA[]]></add>
+    <add key="VBdocman_customVar2"><![CDATA[]]></add>
+    <add key="VBdocman_customVar3"><![CDATA[]]></add>
+    <add key="VBdocman_titlePageText"><![CDATA[]]></add>
+    <add key="VBdocman_rootNamespaceText"><![CDATA[]]></add>
+    <add key="VBdocman_rootNamespaceCommentStyle"><![CDATA[2]]></add>
+    <add key="VBdocman_pageFooterText"><![CDATA[富兰克林]]></add>
+    <add key="VBdocman_outputPath"><![CDATA[$(ProjectDir)VSdoc]]></add>
+    <add key="VBdocman_templateFolder"><![CDATA[$(VSdocmanDir)Templates]]></add>
+    <add key="VBdocman_externalFilesFolder"><![CDATA[]]></add>
+    <add key="VBdocman_fileNamingConvention"><![CDATA[0]]></add>
+    <add key="VBdocman_templateLocale"><![CDATA[en-US]]></add>
+    <add key="VBdocman_templatePath"><![CDATA[html_msdn10_lightweight.vbdt]]></add>
+    <add key="VBdocman_enumSorting"><![CDATA[1]]></add>
+    <add key="VBdocman_helpTitle"><![CDATA[Yinhe.ProcessingCenter]]></add>
+    <add key="VBdocman_customTopics"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<topics>
+  <topic>
+    <type>normal</type>
+    <is-default>yes</is-default>
+    <name>处理中心文档</name>
+    <id>yinheprocessingcenter_reference</id>
+    <comment><![CDATA[<summary>
+A2.5处理中心文档
+</summary>
+<remarks>
+主要涉及后台管理代码文档
+</remarks>vsdocman_escaped_]_]_></comment>
+    <namespaces />
+    <topics>
+      <topic>
+        <type>placeholder</type>
+        <is-default>no</is-default>
+        <name />
+        <id>4c4741f67044476987d68a0f8a7aeb1a</id>
+        <comment><![CDATA[vsdocman_escaped_]_]_></comment>
+        <namespaces />
+        <topics />
+      </topic>
+    </topics>
+  </topic>
+</topics>]]></add>
+    <add key="VBdocman_linkForExternalNotInFramework"><![CDATA[0]]></add>
+    <add key="VBdocman_allowMacrosInComments"><![CDATA[0]]></add>
+    <add key="VBdocman_emptyOutputFolder"><![CDATA[0]]></add>
+    <add key="VBdocman_dontSortSeeAlsoList"><![CDATA[0]]></add>
+    <add key="VBdocman_comModulesSaveExcluded"><![CDATA[-1]]></add>
+    <add key="VBdocman_comModules_Properties...AssemblyInfo.cs"><![CDATA[Off]]></add>
+    <add key="VBdocman_comModules_Properties...Settings.Designer.cs"><![CDATA[Off]]></add>
+    <add key="VBdocman_comModules_Web References...AuthorityService...Reference.cs"><![CDATA[Off]]></add>
+    <add key="VBdocman_comModules_Web References...MessageService...Reference.cs"><![CDATA[Off]]></add>
+  </appSettings>
+</configuration>

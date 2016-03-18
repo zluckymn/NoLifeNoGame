@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-----头部-----*/
+body
+{
+  background: url(../../../images/client/suning/contentbg.jpg) center top repeat-y; background-color:#c8dae8;
+}
+
+
+.title_box{ height:75px; background:url(../../../images/client/suning/page_top_bg_suning.jpg) no-repeat 50% bottom; background-color:white}
+a.logo{ display:block; width:211px; height:75px; background:url(../../../images/client/suning/logo.gif) no-repeat left center; }
+.q_entry{ text-align:right; float:right; margin-top:-60px; margin-right:20px;}
+.q_entry span{ margin:0 4px; line-height:24px;}
+
+.nav_lev1_box,.nav_lev2_box,ul.nav_lev1 li.this,ul.nav_lev1 li.this a,ul.nav_lev2 li.this,ul.nav_lev2 li.this a{ background:url(../../../images/client/suning/nav_bg.png) no-repeat; _background:url(../../../images/client/suning/nav_bg.gif) no-repeat;}
+.nav_lev1_box{ height:38px; background-position:left top; background-repeat:repeat-x;}
+ul.nav_lev1,ul.nav_lev2{ width:960px; margin:0 auto;}
+ul.nav_lev1 li,ul.nav_lev2 li{ float:left;}
+ul.nav_lev1 li{}
+ul.nav_lev1 li a{ display:block; height:38px; padding:0 16px; font-size:12px; font-weight:bold; line-height:38px; _line-height:38px; color:#fff; _display:inline-block}
+ul.nav_lev1 li.this{ background-position:left -75px;}
+ul.nav_lev1 li.this a{ color:#653600; background-position:right 113px;}
+
+.nav_lev2_box{ clear:both; height:37px; background-position:left -38px; background-repeat:repeat-x;  border-top:none;}
+ul.nav_lev2 li{ height:22px; margin-top:3px;}
+ul.nav_lev2 li a{ display:block; height:22px; line-height:24px; padding:0 12px; color:#4d4d4d; _display:inline-block}
+ul.nav_lev2 li.this{ background-position:left -151px;}
+ul.nav_lev2 li.this a{ background-position:right -173px; color:#fff;}
+
+.vertical_menu{ margin-left:100px; display:block; display:inline-block;}
+.vertical_menu ul.v_menu{ float:left; padding:3px 0; border:1px solid #b34c42; background:#efe9e8;}
+.vertical_menu ul.v_menu li{ padding:5px 24px 5px 12px; border-bottom:1px solid #dddddd;}
+.vertical_menu ul.v_menu li.have_child{ background-image:url(../../../images/client/suning/vertical_menu_bg.gif); background-position:right center; background-repeat:no-repeat;}
+.vertical_menu ul.v_menu li:hover{ background-color:#ea9991;}
+.vertical_menu ul.v_menu li a{ color:#404040;}
+.vertical_menu ul.v_menu li a:hover{ text-decoration:none;}
+.vertical_menu ul.v_menu li.selected{ background-color:#b34c42;}
+.vertical_menu ul.v_menu li.selected a{ color:#fff;}
+
+.vertical_menu ul.v_menu_child{ float:left; padding:3px 0; border:1px solid #b34c42; background:#efe9e8;}
+.vertical_menu ul.v_menu_child li{ padding:5px 24px 5px 12px; border-bottom:1px solid #dddddd;}
+.vertical_menu ul.v_menu_child li.have_child{ background-image:url(../../../images/client/suning/vertical_menu_bg.gif); background-position:right center; background-repeat:no-repeat;}
+.vertical_menu ul.v_menu_child li:hover{ background-color:#ea9991;}
+.vertical_menu ul.v_menu_child li a{ color:#404040;}
+.vertical_menu ul.v_menu_child li a:hover{ text-decoration:none;}
+.vertical_menu ul.v_menu_child li.selected{ background-color:#b34c42;}
+.vertical_menu ul.v_menu_child li.selected a{ color:#fff;}
+/*-----头部结束-----*/
+/*-----登录页-----*/
+.body_sign{ background:#eaeaea;}
+.body_bg01{ height:563px; background:url(../../../images/client/xuhui/body_bg01.png) -20% top no-repeat; position:absolute; width:100%; z-index:10;}
+.body_bg02{ height:563px; background:url(../../../images/client/xuhui/body_bg02.png) right top no-repeat;}
+.body_bg03{ height:800px; background:url(../../../images/client/xuhui/body_bg03.png) right bottom no-repeat; position:absolute; bottom:0; width:100%;}
+
+.sign_in_box{ width:840px; margin:0 auto;/* border:1px solid #000;*/ padding:220px 60px 60px 60px; background:url(../../../images/client/xuhui/sign_in_box.png) left top no-repeat;}
+.sign_left{ width:370px; float:left;/* border:1px solid #000;*/}
+.sign_left .sign_logo{ width:357px; height:94px; background:url(../../../images/client/suning/sign_logo.png) no-repeat;}
+.sign_right{ width:400px; padding-left:20px; float:left;/* border:1px solid #000;*/ background:url(../../../images/client/xuhui/sign_right_line_bg.png) left center no-repeat;}
+.sign_right table{ font-size:14px;}
+.sign_right table td{ padding:3px 2px;}
+
+.sign_in_box .user_name,.sign_in_box .user_name1,.sign_in_box .user_name2,.sign_in_box .user_key,.sign_in_box .user_key1,.sign_in_box .user_key2
+{ width:186px; height:41px; background:url(../../../images/client/xuhui/user_info_bg.png) no-repeat;}
+input.sign_in_inp{ margin:12px 0 0 38px; border:none; background:none;}
+.sign_in_box .user_key{ background-position:left -41px;}
+.sign_in_box .user_name1{ background-position:left -82px;}
+.sign_in_box .user_name2{ background-position:left -164px;}
+.sign_in_box .user_key1{ background-position:left -123px;}
+.sign_in_box .user_key2{ background-position:left -205px;}
+.ts_keep_txt{ font-size:12px; margin-left:6px; color:#777777;}
+.sign_in_button{ width:70px; height:33px; background:url(../../../images/client/xuhui/sign_in_button.png) no-repeat; display:inline-block; vertical-align:middle;}
+a.fet_key{ font-size:12px; margin-left:6px; color:#d23723;}
+.ts_box_txt{ font-size:12px; color:#d23723; background:url(../../../images/icon/12.png) no-repeat left top; padding-left:20px;}
+
+.sign_footer{ text-align:center; color:#999999;}
+
+/*-----登录页结束-----*/
+
+
+/*-----分页20121102----*/
+ .engList{display:block; margin-left:8px;float:left}
+ .engList li{ list-style:none; height:25px; padding:3px 5px;}
+ .engList_a{}
+ .engList_a{text-decoration:none; border:#cfcfcf 1px solid 1px solid;background-color:#fcda6f; color:#653600; padding:2px 3px  }
+ .engList_a:hover{text-decoration:none; border:#cfcfcf 1px solid 1px solid;background-color:#fcda6f; color:#653600; padding:2px 3px}
+ .engList_select{} 
+ .engList_select a.engList_select{ }
+ .engList li.levl2{ margin-left:15px;  }
+ .engList li.levl2 a{}
+ .engList li.levl2 img{}
+ .engList li.levl3{ margin-left:30px}
+ .engList li.levl3 img{}
+ .engList li.levl3 a:hover{}
+ 
+ 
+p.p_pic_dev1{color:#404040; line-height:12px; padding:2px; min-height:12px;}
+.floating03 .aw_l1{ background-position:left -61px;}

@@ -1,0 +1,28 @@
+﻿<Chart ImageLocation="..\..\TempImages\ChartPic_#SEQ(200,30)" BackColor="WhiteSmoke" BackGradientStyle="TopBottom" BackSecondaryColor="White"      BorderlineDashStyle="Solid" BorderColor="26, 59, 105" BorderWidth="2" >
+  <Series>
+    <Series Name="DefaultSeries"   Legend="DefaultLegend" ChartArea="DefaultArea" IsValueShownAsLabel="True" LegendText="#VALX" CustomProperties="DrawingStyle=Wedge,PixelPointGapDepth=10, PixelPointDepth=70, PixelPointWidth=20" LabelFormat="#,###" BorderColor="0, 143, 215"   Color="0, 143, 215"   >
+      
+    </Series>
+  </Series>
+  <ChartAreas>
+    <ChartArea BackColor="WhiteSmoke" BackGradientStyle="TopBottom" BackSecondaryColor="White" ShadowColor="Transparent" Name="DefaultArea" BorderColor="64, 64, 64, 64" >
+      <AxisY LineColor="64, 64, 64, 64"  >
+        <MajorGrid LineColor="64, 64, 64, 64" />
+        <LabelStyle Font="Verdana, 8.25pt" Format="#,###"  />
+      </AxisY>
+      <AxisX LineColor="64, 64, 64, 64" Interval="1" >
+        <MajorGrid LineColor="64, 64, 64, 64" />
+        <LabelStyle Font="Verdana,8.25pt" />
+      </AxisX>
+   </ChartArea>
+  </ChartAreas>
+  <Legends>
+    <Legend  Enabled="False" Name="DefaultLegend" BackColor="Transparent"  Font="Trebuchet MS, 8.25pt, style=Bold">
+    </Legend>
+  </Legends>
+  <Titles>
+    <Title   Font="Trebuchet MS, 13pt, style=Bold" ForeColor="26, 59, 105" Alignment="TopLeft" Name="Title1">
+    </Title>
+  </Titles>
+ 
+</Chart>

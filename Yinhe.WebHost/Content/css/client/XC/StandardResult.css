@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.search_block{margin:3px 0 0 0;border-top:1px solid #dadada;border-left:1px solid #dadada;border-right:1px solid #dadada;}
+.search_block a{cursor:pointer;}
+.search_block .search_field{border-bottom: 1px solid #dadada; padding:0 0 0 25px; background-color:#f7f9f7;}
+.search_block .search_field div{display:inline-block;}
+*+html .search_block .search_field div{display:inline;}
+.search_block .search_field a{display:inline-block;padding:2px 9px 4px 10px;}
+.search_block .search_field .select {background-color: #81a973; color:#ffffff;}
+.search_block .search_field .search_field_title{width: 120px; color: #808080;margin:7px 0 9px 0; vertical-align:top;}
+.search_block .search_field .search_field_title.sup{margin-top:4px;}
+.search_block .search_field .search_field_title.middle{padding-left:50px;width: 80px;}
+.search_block .search_field .search_field_title.fdi{width:70px;}
+.search_block .search_field .search_field_all{width: 60px; vertical-align:top;margin:5px 0 4px 0;}
+.search_block .search_field .search_field_items{margin:5px 0 4px 0;width:750px;}
+.search_block .search_field .search_field_items.fdi{width:800px;}
+.search_block .search_field .search_field_items .search_field_item{padding-right:20px; text-overflow: ellipsis;}
+.search_block .search_field .search_field_items .square{margin-top:2px;width:70px;}
+.search_block .search_field .search_field_items select{margin:1px 0 0 0;width:76px;}
+.search_block .search_field .search_btn{padding:0 0 0 50px;}
+.search_block .search_field .search_btn .N-btn0004{padding: 0 20px; vertical-align:middle;}
+
+#resultList .structlisttop{margin-top:10px;}
+#resultList .structlistmain{padding:0px;}
+#resultList .structlistmain h3{border-bottom:1px solid #e8e8e8;height:30px; line-height:30px;padding-left:15px;font-size:12px;color:#296f32;}
+#resultList .structlistmain .pic_ul03{padding:10px 15px;}
+#resultList .structlistmain .pic_ul03 ul li{width:150px;margin:0 15px;}
+
+.tableborder caption {text-align: left;background-color: #eeefee;padding: 6px 6px 4px 6px;color: #6d6d6d;font-weight: bold;height:18px;line-height:18px;border: 1px solid #D6D6D6;border-bottom:none;}
+
+.clasc{ background:#f7f7f7 url(../../../images/style/clascbg.jpg) repeat-x; border:#e5e5e5 1px solid; padding:16px 10px;}
+.clasc h2{ color:#777777; font-size:12px; float:left;}
+.clasc .clasc_li{ float:left;}
+.clasc .clasc_li a{ color:#414141; margin:0 5px;}
+.clasc .clasc_li a.this{ border:1px solid #81a973; padding:2px 4px; background-color:#81a973; color:#fff; #zoom:1;}
+.clasc .ullist{ overflow:hidden; padding-bottom:8px;}
+.clasc .ullist li{ display:block; float:left;white-space:nowrap; padding:3px 7px 3px 0; margin:0 15px; color:#0368a8}
+
+.move_btn01 a{ background:url(../../../images/client/XC/move_btn_bg.png) no-repeat;}
+.move_btn01 a.m_up:hover, .move_btn01 a.m_down:hover, .move_btn01 a.m_left:hover, .move_btn01 a.m_right:hover{ background-color: #dddddd;border-radius:8px;}
+
+.project .project_block .ablock{margin:6px 4px 4px 4px;}
+.project .project_block .project_block_title{padding-top:10px;color:#808080;}
+.project .project_block p{margin:6px 4px 4px; padding:6px 4px;}
+
+.dl_checkbox{padding:3px 0 3px 6px;}
+
+.focus.structlistmain{padding:0;}
+#valItemListDiv .level{ background:none;}
+#libManage .mainright .structlisttop{margin-top:0px;}

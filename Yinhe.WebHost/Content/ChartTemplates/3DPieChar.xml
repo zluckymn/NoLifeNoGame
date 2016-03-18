@@ -1,0 +1,32 @@
+﻿<Chart ImageLocation="..\..\TempImages\ChartPic_#SEQ(200,30)" BackColor="248,248,248" BackSecondaryColor="White" BorderlineDashStyle="Solid" BorderColor="26, 59, 105" BorderWidth="2" BorderlineColor="200,230,230,230" BorderlineWidth="1">
+  <Series>
+    <Series Name="DefaultSeries" Legend="DefaultLegend" CustomProperties="PieLabelStyle=Outside,PieLineColor=Transparent" Font="宋体,9" BorderColor="180, 26, 59, 105" LabelForeColor="100,100,100" ChartArea="DefaultArea" IsValueShownAsLabel="True" LegendText="#VALX" Label="#VALX #PERCENT{P0}" >
+	  <Points>  
+      <DataPoint Color="83,129,172"/>
+      <DataPoint Color="140,163,85"/>
+      <DataPoint Color="167,73,73"/>
+      <DataPoint Color="112,151,184"/>
+      <DataPoint Color="158,189,225"/>
+      <DataPoint Color="179,207,240"/>
+      <DataPoint Color="159,181,106"/>
+      <DataPoint Color="180,201,130"/>
+      <DataPoint Color="204,223,158"/>
+      <DataPoint Color="195,96,96"/>
+      <DataPoint Color="232,124,124"/>
+      <DataPoint Color="238,153,153"/>
+      </Points>
+	</Series>
+  </Series>
+  <ChartAreas>
+    <ChartArea BackColor="248,248,248" InnerPlotPosition="20,20,60,60" BackSecondaryColor="White" ShadowColor="Transparent" Name="DefaultArea" BorderColor="64, 64, 64, 64" >
+    </ChartArea>
+  </ChartAreas>
+  <Legends>
+    <Legend Name="DefaultLegend" Enabled="False">
+    </Legend>
+  </Legends>
+  <Titles>
+    <Title  Font="Trebuchet MS, 13pt, style=Bold" ForeColor="26, 59, 105" Alignment="TopLeft" Name="Title1">
+    </Title>
+  </Titles>
+</Chart>

@@ -1,0 +1,10 @@
+D:\115Box\Autolink3.0\FLKLSite\Senparc.Weixin.MP.BuildOutPut\Senparc.Weixin.MP.dll
+D:\115Box\Autolink3.0\FLKLSite\Senparc.Weixin.MP.BuildOutPut\Senparc.Weixin.MP.pdb
+D:\115Box\Autolink3.0\FLKLSite\Senparc.Weixin.MP\Senparc.Weixin.MP\obj\Debug\Senparc.Weixin.MP.dll
+D:\115Box\Autolink3.0\FLKLSite\Senparc.Weixin.MP\Senparc.Weixin.MP\obj\Debug\Senparc.Weixin.MP.pdb
+D:\115Box\Autolink3.0\FLKLSite\Senparc.Weixin.MP\Senparc.Weixin.MP\obj\Debug\Senparc.Weixin.MP.csprojResolveAssemblyReference.cache
+F:\115Box\Autolink3.0\FLKLSite\Senparc.Weixin.MP.BuildOutPut\Senparc.Weixin.MP.dll
+F:\115Box\Autolink3.0\FLKLSite\Senparc.Weixin.MP.BuildOutPut\Senparc.Weixin.MP.pdb
+F:\115Box\Autolink3.0\FLKLSite\Senparc.Weixin.MP\Senparc.Weixin.MP\obj\Debug\Senparc.Weixin.MP.csprojResolveAssemblyReference.cache
+F:\115Box\Autolink3.0\FLKLSite\Senparc.Weixin.MP\Senparc.Weixin.MP\obj\Debug\Senparc.Weixin.MP.dll
+F:\115Box\Autolink3.0\FLKLSite\Senparc.Weixin.MP\Senparc.Weixin.MP\obj\Debug\Senparc.Weixin.MP.pdb

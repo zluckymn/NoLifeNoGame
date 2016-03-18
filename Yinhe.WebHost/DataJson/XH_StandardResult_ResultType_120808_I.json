@@ -1,0 +1,85 @@
+﻿{"typeId" : "1" , "type" : "1" , "nodePid" : "0" , "name" : "户型" }
+{"typeId" : "2" , "type" : "2" , "nodePid" : "1" , "name" : "住宅楼层户型" }
+{"typeId" : "3" , "type" : "3" , "nodePid" : "1" , "name" : "别墅户型" }
+{"typeId" : "4" , "type" : "4" , "nodePid" : "1" , "name" : "别墅楼层户型" }
+{"typeId" : "5" , "type" : "5" , "nodePid" : "1" , "name" : "住宅户型" }
+{"typeId" : "6" , "type" : "6" , "nodePid" : "0" , "name" : "批量精装修" }
+{"typeId" : "7" , "type" : "7" , "nodePid" : "0" , "name" : "立面成果类型" }
+{"typeId" : "8" , "type" : "8" , "nodePid" : "0" , "name" : "示范区成果类型" }
+{"typeId" : "9" , "type" : "9" , "nodePid" : "0" , "name" : "景观" }
+{"typeId" : "10" , "type" : "10" , "nodePid" : "0" , "name" : "工艺工法类型" }
+{"typeId" : "11" , "type" : "11" , "nodePid" : "0" , "name" : "公共部位类型" }
+{"typeId" : "12" , "type" : "12" , "nodePid" : "0" , "name" : "设备与技术" }
+{"typeId" : "13" , "type" : "13" , "nodePid" : "9" , "name" : "老年人活动场地" }
+{"typeId" : "14" , "type" : "14" , "nodePid" : "9" , "name" : "儿童活动场地" }
+{"typeId" : "15" , "type" : "15" , "nodePid" : "9" , "name" : "运动场地" }
+{"typeId" : "16" , "type" : "16" , "nodePid" : "9" , "name" : "水景" }
+{"typeId" : "17" , "type" : "17" , "nodePid" : "9" , "name" : "小区出入口" }
+{"typeId" : "18" , "type" : "18" , "nodePid" : "9" , "name" : "单元入户空间" }
+{"typeId" : "19" , "type" : "19" , "nodePid" : "9" , "name" : "沿街商业空间" }
+{"typeId" : "20" , "type" : "20" , "nodePid" : "9" , "name" : "地面停车场" }
+{"typeId" : "21" , "type" : "21" , "nodePid" : "9" , "name" : "道路及广场" }
+{"typeId" : "22" , "type" : "22" , "nodePid" : "9" , "name" : "地下车库出入口" }
+{"typeId" : "23" , "type" : "23" , "nodePid" : "12" , "name" : "给水系统" }
+{"typeId" : "24" , "type" : "24" , "nodePid" : "12" , "name" : "太阳能热水" }
+{"typeId" : "25" , "type" : "25" , "nodePid" : "12" , "name" : "排水系统" }
+{"typeId" : "26" , "type" : "26" , "nodePid" : "12" , "name" : "雨水系统" }
+{"typeId" : "27" , "type" : "27" , "nodePid" : "12" , "name" : "消防水系统" }
+{"typeId" : "28" , "type" : "28" , "nodePid" : "12" , "name" : "通风" }
+{"typeId" : "29" , "type" : "29" , "nodePid" : "12" , "name" : "防排烟" }
+{"typeId" : "30" , "type" : "30" , "nodePid" : "12" , "name" : "采暖系统" }
+{"typeId" : "31" , "type" : "31" , "nodePid" : "12" , "name" : "空调系统" }
+{"typeId" : "32" , "type" : "32" , "nodePid" : "12" , "name" : "燃气" }
+{"typeId" : "33" , "type" : "33" , "nodePid" : "12" , "name" : "电器动力系统" }
+{"typeId" : "34" , "type" : "34" , "nodePid" : "12" , "name" : "照明插座系统" }
+{"typeId" : "35" , "type" : "35" , "nodePid" : "12" , "name" : "泛光照明" }
+{"typeId" : "36" , "type" : "36" , "nodePid" : "12" , "name" : "防雷接地" }
+{"typeId" : "37" , "type" : "37" , "nodePid" : "12" , "name" : "火灾自动报警系统" }
+{"typeId" : "38" , "type" : "38" , "nodePid" : "12" , "name" : "视频监控系统" }
+{"typeId" : "39" , "type" : "39" , "nodePid" : "12" , "name" : "周界报警系统" }
+{"typeId" : "40" , "type" : "40" , "nodePid" : "12" , "name" : "电子巡查系统" }
+{"typeId" : "41" , "type" : "41" , "nodePid" : "12" , "name" : "可视对讲系统" }
+{"typeId" : "42" , "type" : "42" , "nodePid" : "12" , "name" : "室内报警系统" }
+{"typeId" : "43" , "type" : "43" , "nodePid" : "12" , "name" : "一卡通及门禁系统" }
+{"typeId" : "44" , "type" : "44" , "nodePid" : "12" , "name" : "电话宽带网络系统" }
+{"typeId" : "45" , "type" : "45" , "nodePid" : "12" , "name" : "有线电视系统" }
+{"typeId" : "46" , "type" : "46" , "nodePid" : "12" , "name" : "停车库管理系统" }
+{"typeId" : "47" , "type" : "47" , "nodePid" : "12" , "name" : "信息发布系统" }
+{"typeId" : "48" , "type" : "48" , "nodePid" : "12" , "name" : "智能家居系统" }
+{"typeId" : "49" , "type" : "49" , "nodePid" : "12" , "name" : "远传抄袭系统" }
+{"typeId" : "50" , "type" : "50" , "nodePid" : "12" , "name" : "公共及紧急广播系统" }
+{"typeId" : "51" , "type" : "51" , "nodePid" : "12" , "name" : "其他" }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

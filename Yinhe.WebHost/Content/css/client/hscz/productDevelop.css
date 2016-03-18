@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+
+
+
+
+
+
+
+.content{ margin:0 auto; padding:0px; width:940px; background: url(../../images/common/container_bg.jpg);background-repeat:no-repeat; background-position:center top; overflow:hidden}
+.sr_box{ margin:10px 5px;}
+.sr_con{}
+.sr_con ul{ list-style-type:none;}
+.sr_con ul li{ display:block ; float:left; width:160px; height:175px; margin:10px 60px 20px 12px; text-align:center}
+.sr_con ul li dt{ position:relative;}
+.sr_con ul li dt .a_img_box{display:block;width:150px; height:100px; border:1px solid #cccccc; padding:4px; cursor:pointer}
+.sr_con ul li dt img{ width:150px; height:100px; border:none}
+.sr_con ul li dd a{ display:block; color:#0066cc; font-weight:bold;}
+.sr_con ul li dd { color:#828282; padding-top:5px; text-align:center}
+.sr_con ul li .bad_weather img{/*filter:alpha(opacity=30);opacity:0.3;-moz-opacity:0.3;-khtml-opacity:0.3;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);-ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30); 
+border:0px;background-color:#fff; */ position:relative;  }
+.sr_con ul li .bad_weather .message{/*filter:alpha(opacity=30);opacity:0.3;*/ background-image:url(../../../images/client/hscz/bg_transparent.png); background-repeat:no-repeat; display:block; position:absolute; z-index:1000; width:150px; height:100px; top:5px; left:5px;}
+.sr_con ul li .bad_weather .message p{ display: block; padding:20px 8px 0px; line-height:21px; font-size:13px; color:#606060;}  
+.sr_con ul li .bad_weather .cloudy{position:absolute; z-index:10000; width:70px; height:60px; background-image:url(../../../images/client/hscz/weather.png); background-repeat:no-repeat;background-position:left top; top:-15px; right:-25px}
+.sr_con ul li .bad_weather .rainy{position:absolute; z-index:10000; width:70px; height:60px; background-image:url(../../../images/client/hscz/weather.png); background-repeat:no-repeat;background-position:right top; top:-15px; right:-25px}
+
+
+
+.title_1{color:#0066cc; font-size:24px; text-indent:10px; margin-top:10px; font-weight:bold}
+.xm_box{ margin:10px 10px 0px 10px; height:30px; border:1px solid #cbe0f3; background-color:#e5f1fd; font-size:14px; font-weight:bold; line-height:30px; text-indent:10px}
+.xm_con{ margin:0px 10px 0px 10px; padding-bottom:10px;border:1px solid #cbe0f3; border-top:none; background-color:#f2f8fe; overflow:hidden;}
+.xm_con .pic{float:left; margin:10px; width:150px; height:100px;}
+.xm_con img{ border:none;width:150px; height:100px; }
+.xm_con .message{ float:left; margin-left:10px; line-height:28px; padding:5px; color:#6b6b6b}
+
+
+
+.title_2{color:#555555;font-family:'Microsoft YaHei', Î¢ÈíÑÅºÚ, Arial, Lucida Grande, Tahoma, sans-serif; font-size:16px;margin:30px 0 15px 0 ; text-align:center;}
+.follow_table{ margin-top:10px; border:1px solid #e2e2e2; background-image:url(../../../images/client/hscz/follow_table_view.png); height:400px; width:830px; margin:0 auto; position:relative; left:30px;}
+.follow_table .planline{ background-color:#ff8501; height:3px; width:830px; top:197px; position:absolute;}
+.follow_table .name{ font-size:14px; color:#0f67b7; font-weight:bold; position:absolute; top:190px; left:-90px;}
+.follow_table .follow_data{ position:absolute; left:-48px; color:#0b5fab; padding-top:13px;}
+.follow_table .follow_data ul,.follow_table .follow_data ul li{ display:block; width:40px; text-align:right;}
+.follow_table .follow_data ul li{ margin-bottom:16px;}
+
+.follow_table .follow_data2{ position:absolute; left:-48px; top:213px}
+.follow_table .follow_data2 ul,.follow_table .follow_data2 ul li{ display:block; width:40px; text-align:right}
+.follow_table .follow_data2 ul li{ margin-bottom:19px;}
+
+.follow_table .notename{ position:absolute; z-index:10000;}
+.follow_table .notename ul li{ float:left; display:block; margin-top:210px; color:#0b5fab; width:118px; text-align:center}
+.follow_table .Columnar{ border:1px dashed #a6a6a6; width:15px; background-color:#e0e0e0; position:absolute; bottom:203px}
+.follow_table .Columnar .note{ margin-top:-16px; position:absolute; width:100px;}
+.follow_table .Columnar .note span{ color:#ff6600}
+
+
+.follow_table .Columnar2{ border:1px dashed #a6a6a6; width:15px; background-color:#e0e0e0; position:absolute;top:200px }
+.follow_table .Columnar2 .note{ margin-top:16px; position:absolute; width:100px; bottom:-30px;}
+.follow_table .Columnar2 .note span{ color:#448109}
+.follow_table .notget{ background:url(../../../images/client/hscz/ico-no.png) no-repeat; position:absolute;  top:151px;  width:69px; height:38px;}
+
+
+
+.Schedule{border-top:1px solid #bfc8d2;}
+.Schedule td{}
+.Schedule .Sched_title{ background:url(../../../images/client/hscz/titlebg.jpg) repeat-x; height:28px; font-size:14px; font-weight:bold; font-family:"Î¢ÈíÑÅºÚ"; color:#4b5157; line-height:28px; text-indent:7px;}
+.Schedule .Sched_tdr{border-right:1px solid #bfc8d2;}
+.Schedule .Sched_tdrb td{border-right:1px solid #bfc8d2;border-bottom:1px solid #bfc8d2}
+.Schedule .Sched_tdrbsel{border-right:1px solid #bfc8d2;border-bottom:1px solid #bfc8d2; }
+.Schedule .Sched_pro{ height:140px; line-height:20px; padding-left:5px; padding-top:10px;border-left:1px solid #bfc8d2}
+.Schedule .pro_name{ font-size:14px; font-weight:bold; color:#005fac}
+.Schedule .pe_name{ color:#858585}
+.Schedule .pe_name{ color:#858585}
+
+.Schedule .Sched .Sched_line{ height:100px; position:relative; padding-top:30px; background:url(../../../images/client/hscz/jihuabg.jpg) repeat; cursor: move}
+.Schedule .Sched .Sched_line .plan ul{ display:block; height:17px; float:left; border-left:1px solid #c1c1c1; border-top:1px solid #c1c1c1; border-bottom:1px solid #c1c1c1; }
+.Schedule .Sched .Sched_line .plan ul li{ float:left; background:url(../../../images/client/hscz/jibg.jpg) repeat-x;display:block; border-right:1px solid #c1c1c1; height:17px;}
+.Schedule .Sched .Sched_line .plan ul li em{ margin-top:-16px; display:block; font-style:normal}
+.Schedule .Sched .Sched_line .plan ul li.note{ background:url(../../../images/client/hscz/yubg.jpg) repeat-x;}
+.Schedule .Sched .Sched_line .plan .title{ float:left; width:15px; height:16px; position:relative; z-index:100000}
+.Schedule .Sched .Sched_line .plan .plan_img{ background:url(../../../images/client/hscz/ico-ji.jpg) no-repeat}
+
+.Schedule .Sched .Sched_line .Actu{ clear:both; }
+.Schedule .Sched .Sched_line .Actu ul{ display:block; height:17px; float:left; border-left:1px solid #c1c1c1; border-top:1px solid #c1c1c1; border-bottom:1px solid #c1c1c1; }
+.Schedule .Sched .Sched_line .Actu ul li{ float:left; background:url(../../../images/client/hscz/shibg.jpg) repeat-x;display:block; border-right:1px solid #c1c1c1; height:17px;}
+.Schedule .Sched .Sched_line .Actu ul li em{ margin-top:19px; display:block; font-style:normal;}
+.Schedule .Sched .Sched_line .Actu ul li em .data{ color:#aaaaaa}
+.Schedule .Sched .Sched_line .Actu ul li.waring{ background:url(../../../images/client/hscz/jinbg.jpg) repeat-x;}
+.Schedule .Sched .Sched_line .Actu .title{ float:left; width:15px; height:16px; position:relative;z-index:100000}
+.Schedule .Sched .Sched_line .Actu .Actu_img{ background:url(../../../images/client/hscz/ico-shi.jpg) no-repeat}
+
+
+
+.g-tip{position:absolute;display:none;border:1px solid #ccc;background-color:#fff;padding:5px;}
+.g-tip p {padding:2px 0}
+.plan .pitem,.Actu .pitem {position:absolute;background:url(../../../images/client/hscz/jibg.jpg) repeat-x; border:1px solid #c1c1c1; height:5px;}
+.plan div.overcls-p {border:1px solid #6133db;}
+.Actu div.overcls-a {border:1px solid #056691;}
+.plan .pitem em {position: relative;top:-17px;display:block; font-style:normal; height:14px;width:300px; overflow: hidden}
+.Actu .pitem em {position:relative;top:8px;display:block; font-style:normal; height:14px;width:300px;  overflow: hidden}
+.pitem.redbg { background:url(../../../images/client/hscz/jinbg.jpg) repeat-x; border:1px solid #d6735c}
+.pitem.bluebg { background:url(../../../images/client/hscz/yubg.jpg) repeat-x;border:1px solid #f4b534}
+.pitem.greenbg { background:url(../../../images/client/hscz/shibg.jpg) repeat-x;border:1px solid #a4be65}
+
+.depsubtab{ padding-left:10px;} 
+.depsubtab li{ display:block; cursor:pointer; float:left; border:1px solid #99afc4; background:url(../../../images/style/deptabbg2.png); height:20px; line-height:20px; margin-right:10px; padding:0 8px;}
+.depsubtab li.select{ background:url(../../../images/style/deptabbg2sel.png); color:#FFF;}
+
+
+
+
+
+table{border-collapse:collapse}
+td{border-collapse:collapse}
+/*table tr:hover{ background:#f5f5f5}*/
+.Tlist{ border-top:1px solid #c6c6c6;border-right:none;border-left:1px solid #c6c6c6;overflow:hidden; background:#fff; line-height:21px; }
+.Theader{ border-bottom:1px solid #dddddd; background:#f5f5f5; }
+.Theader td{ border-right:1px solid #dddddd;}
+.Theader-name{ padding:5px 3px; line-height:16px}
+.Trow{border-bottom:1px solid #dddddd; border-right:none }
+.Trow td{border-right:1px solid #dddddd; }
+.Trow-inner{ padding:4px 5px 4px 3px}
+
+
+.tab_time{ border-bottom:1px solid #bbb; height:26px; line-height:25px; margin-top:5px }
+.tab_time ul{ list-style:none;}
+.tab_time ul li{ display:inline-block; float:left }
+.tab_time ul li a{ display:block; float:left;margin-right:3px; width:80px; border:1px solid #bbbbbb; text-align:center;background:#ececec;color:#333} 
+.tab_time ul li a.select{ font-weight:bold; border:1px solid #bbbbbb; border-bottom:1px solid #fff;background:#fff;}
+.tab_time ul li a:hover{ font-weight:bold;  text-decoration:none}
+
+
+.tab_time_1{ width:500px; height:26px; line-height:25px; margin-top:5px;border-left:1px solid #e5e5e5; }
+.tab_time_1 ul{ list-style:none;}
+.tab_time_1 ul li{ display:inline-block; float:left }
+.tab_time_1 ul li a{ display:block; float:left;width:65px; border-top:1px solid #e5e5e5;border-right:1px solid #e5e5e5; text-align:center;background:#F8F8F8;color:#333} 
+.tab_time_1 ul li a.select{ font-weight:bold; border-top:1px solid #e5e5e5;border-right:1px solid #e5e5e5; background:#fff;}
+.tab_time_1 ul li a:hover{font-weight:bold; border-top:1px solid #e5e5e5;border-right:1px solid #e5e5e5; background:#fff;}
+

@@ -1,0 +1,4 @@
+G:\115Box\公司站点\Yinhe.Permissions\bin\Debug\Yinhe.Permissions.dll
+G:\115Box\公司站点\Yinhe.Permissions\bin\Debug\Yinhe.Permissions.pdb
+G:\115Box\公司站点\Yinhe.Permissions\obj\Debug\Yinhe.Permissions.dll
+G:\115Box\公司站点\Yinhe.Permissions\obj\Debug\Yinhe.Permissions.pdb

@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+    </title>
+
+    <link href="<%=SysAppConfig.HostDomain %>/Content/css/common/common.css" rel="stylesheet"
+        type="text/css" />
+    <script src="<%=SysAppConfig.HostDomain %>/Scripts/Modules/Common/<%=SysAppConfig.MenuJS %>"
+        type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+</head>
+<body>
+    <!--页面头部-->
+    <div id="pagetop">
+        <div class="title_box">
+            <a class="logo" href="javascript:;"></a>
+            <div class="q_entry">
+                <span>你好，admin</span><span><a href="javascript:;">[导航方式切换]</a></span><span><a class="red"
+                    href="javascript:;">[退出]</a></span><br />
+                <span><a href="javascript:;" class="black">首页</a></span><span><a href="javascript:;"
+                    class="black">我的控制台</a></span><span><a href="javascript:;" class="black">全文搜索</a></span><span><a
+                        href="javascript:;" class="black">帮助中心</a></span>
+            </div>
+        </div>
+        <div id="topnav">
+            <div class="nav_lev1_box">
+                <ul class="nav_lev1">
+                </ul>
+            </div>
+            <div class="nav_lev2_box">
+                <ul class="nav_lev2">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--页面头部结束-->
+    <div id="container">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <!--页面尾部-->
+    <div id="footer">
+        <p class="copyright">
+            ©2008-2012厦门银禾公司版权所有.ALL RIGHTS RESERVED</p>
+    </div>
+    <!--页面尾部结束-->
+</body>
+</html>

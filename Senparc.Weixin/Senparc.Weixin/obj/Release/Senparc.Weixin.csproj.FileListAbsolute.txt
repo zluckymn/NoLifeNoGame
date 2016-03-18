@@ -1,0 +1,4 @@
+D:\115Box\Autolink3.0\FLKLSite\Senparc.Weixin.MP.BuildOutPut\Senparc.Weixin.dll
+D:\115Box\Autolink3.0\FLKLSite\Senparc.Weixin.MP.BuildOutPut\Senparc.Weixin.pdb
+D:\115Box\Autolink3.0\FLKLSite\Senparc.Weixin\Senparc.Weixin\obj\Release\Senparc.Weixin.dll
+D:\115Box\Autolink3.0\FLKLSite\Senparc.Weixin\Senparc.Weixin\obj\Release\Senparc.Weixin.pdb

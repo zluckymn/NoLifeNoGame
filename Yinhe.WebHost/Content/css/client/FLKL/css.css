@@ -1,0 +1,270 @@
+@charset "utf-8";
+body {
+font-family:Microsoft YaHei ;
+color:#444444;
+font-size:14px;
+background-color:#eeeeee;
+}
+body,div,p,form, img, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6,table,td,th{ margin:0; padding:0;}
+img{ border:0px none;}
+.p_block_l{ height:35px; clear:both}
+.p_block_N{ height:25px; clear:both}
+.p_block_S{ height:15px; clear:both}
+.fontred{ color:#fb2800}
+.detail_lineheight{ line-height:25px;}
+.content_width{ width:1000px; margin:0 auto;}
+
+
+
+
+
+
+/************ top ************/
+.top{ border-top:4px solid #d92400; height:85px; background-color:#FFFFFF;}
+.top .logo{ background:url(/Content/images/client/FLKL/logo.png) no-repeat left center; float:left; height:85px; width:200px;}
+.top .nav{ float:right; margin-top:20px;}
+.top .nav ul li{ float:left; list-style-type:none; float:left}
+.top .nav ul li a{ display:block; float:left; padding:10px 27px;color:#24211d; text-decoration:none; font-size:16px;}
+.top .nav ul li a:hover{ background-color:#eeeeee}
+.top .nav ul li a.select{ background-color:#e42800; color:#FFFFFF}
+
+/************ bannner ************/
+.banner{ background-color:#dddddd; height:309px; text-align:center}
+.banner img{ max-width:1000px}
+
+/************ block_content ************/
+.block_content_first{border-top:4px solid #d92400; background-color:#FFFFFF}
+.block_content_first .arro{ background:url(/Content/images/client/FLKL/ico0001.png) no-repeat; width:19px; height:10px; margin:0 auto}
+.block_content_first .title{ text-align:center}
+.block_content_first .title .title_name_C{ font-size:36px;}
+.block_content_first .title .title_name_E{ font-size:16px; }
+
+
+.font_pic{ text-align:center; margin-top:25px;}
+.font_l{ text-align:center; line-height:30px; font-size:16px}
+.font_style{ line-height:30px; font-size:16px; padding:0 15px; text-indent:30px;}
+.block_content{ background-color:#FFFFFF}
+.block_content .title{ text-align:center}
+.block_content .title .title_name_C{ font-size:30px;}
+.block_content .title .title_name_E{ font-size:16px; }
+
+
+
+/************ pic_scoll ************/
+.pic_scoll{ margin:0 15px; height:230px; overflow:hidden; position:relative}
+.pic_scoll .btn{position: absolute; right:0px;}
+.pic_scoll .btn a{ background-color:#797979; width:40px; height:40px; line-height:40px; font-size:30px;  color:#FFFFFF; display:block; text-decoration:none; text-align:center; margin-bottom:1px;}
+.pic_scoll .btn a:hover{ background-color:#636363}
+.pic_scoll .pic_block{ float:left; width:208px; margin-right:30px;}
+.pic_scoll .pic_block .image{ border:1px solid #e0e0e0}
+.pic_scoll .pic_block .image .pic{ padding:3px}
+.pic_scoll .pic_block .name{ text-align:center; font-size:20px; color:#fb2800; padding:10px 0}
+.pic_scoll .pic_block .detail{ text-align:center; font-size:14px; line-height:23px}
+
+.N_pic_scoll{ margin:0 15px;position:relative}
+/************ Slidebox ************/
+.pic_scoll .SBlist{height: 276px; position: absolute; width: 5000px;}
+.pic_scoll .SBlist .SBitem{width:970px; height: 276px; float:left; list-style:none;}
+
+.verification_list{ height:auto}
+.verification_list .pic_block{ margin-left:15px; margin-right:15px; margin-bottom:40px;}
+.verification_block .verification_block_list{ float:left; width:22%; height:320px;}
+.verification_block .verification_block_list .verification_block_border{ border:1px solid #cacaca; border-bottom:0px none; padding:5px;}
+.verification_block .verification_block_list .verification_block_border .verification_block_year{ color:#fb2800; line-height:25px; margin-bottom:10px;}
+.verification_block .verification_block_list .verification_block_border .verification_block_content{ line-height:25px; height:250px; overflow:hidden }
+.verification_block .verification_block_list .verification_block_bottom{ background:url(/Content/images/client/FLKL/ico0023.png) no-repeat; height:15px;}
+.verification_block .arro{ background:url(/Content/images/client/FLKL/ico0024.png) no-repeat right 50px; float:left; width:4%; height:250px;}
+
+
+/************ pic_scoll ************/
+.Interview{ width:490px; border-right: 1px dashed #afafaf; overflow:hidden; padding:0 15px; float:left}
+.Interview .title{ text-align:left; font-size:20px; font-weight:bold}
+.Interview .title .fontsize_N{ font-size:12px; font-weight:normal}
+.Interview .pic{ float:left}
+.Interview .detail{ float:left; margin-left:15px; line-height:25px}
+.Interview .detail .name{ font-size:16px; font-weight:bold; margin-bottom:15px}
+.Interview .detail .name a{ color:#444444; text-decoration:none }
+.Interview .past{ clear:both; line-height:25px; color:#949393}
+.Interview .past img{ margin-right:10px}
+.Interview .oper{ text-align:right; font-size:12px;}
+
+
+.Honor{ margin-left:550px; }
+.Honor .title{text-align:left; font-size:20px; font-weight:bold }
+.timeline_box{position:relative;height: 45px;overflow: hidden;position: relative; width:95%; margin-top:15px;}
+.timeline{ border-bottom:1px solid #dddddd;width:100%; height:30px; cursor:ew-resize;}
+.timeline ul{ list-style-type:none; display:block; position:absolute; top:0; left:20px; height:40px; width:3000px;}
+.timeline ul li{ display:block; width:35px; margin-right:50px; float:left; margin-bottom:10px;cursor: pointer;}
+.timeline ul li .dot{ background:url(/Content/images/client/FLKL/ico0003.png) no-repeat center center; height:11px; margin-top:5px; }
+.timeline ul li.ZZ_select{ color:#fb2800}
+.timeline ul li.ZZ_select .dot{ background:url(/Content/images/client/FLKL/ico0004.png) no-repeat center center; }
+.timeline_content{ padding-top:40px;}
+.timeline_content .timeline_pic{ float:left; width:380px; padding-left:100px;}
+.timeline_content .timeline_content_area{ margin-left:500px;}
+.timeline_content .timeline_content_block { overflow:hidden; margin-bottom:20px; display:none;}
+.timeline_content .timeline_content_block .pic{ float:left; width:100px;}
+.timeline_content .timeline_content_block .detail{ margin-left:100px;}
+.timeline_content .timeline_content_block .detail .year{ padding-bottom:7px;}
+.timeline_content .ZZ_cur{display:block;}
+
+/************ btn ************/
+.btn_0001 { text-align:center}
+.btn_0001 a{ padding:10px 30px; background-color:#d92400; text-decoration:none; color:#FFFFFF; font-size:18px;}
+
+
+
+
+/**********pabe_foot************/
+.page_foot{ background-color:#373737; padding:30px 0; overflow:hidden;}
+.page_foot .Link_logo{ background:url(/Content/images/client/FLKL/logo_foot.png) no-repeat; float:left; width:150px; height:78px;}
+.page_foot .Link_block { float:left; border-left:1px dashed #565656; padding:0 50px 0 20px; font-size:12px;}
+.page_foot .Link_block .name{ color:#fb2800; padding-bottom:7px; font-size:14px;}
+.page_foot .Link_block ul li{ list-style-type:none; display:block; color:#898989; padding:3px 0}
+.page_foot .Link_block ul li a{ color:#898989; text-decoration:none}
+.page_foot .Link_block ul li a:hover{text-decoration: underline}
+.page_foot .page_foot_content{ padding-left:200px;}
+
+
+
+
+
+/************about page**************/
+.L_pic_item {height:250px; background-color:#adadad; overflow:hidden; width:100%; position:relative}
+.L_pic_item .btn_left{ cursor:pointer; position:absolute; background:url(/Content/images/client/FLKL/ico0005.png) no-repeat; width:63px; height:63px; left:50px; top:100px; cursor:pointer}
+.L_pic_item .btn_right{cursor:pointer; position:absolute; background:url(/Content/images/client/FLKL/ico0006.png) no-repeat; width:63px; height:63px; right:50px; top:100px; cursor:pointer}
+.L_pic_item ul{ display:block; width:2000px}
+.L_pic_item ul li{ float:left; list-style-type:none}
+.L_pic_item .SBlist{ position:absolute; cursor:pointer;}
+.our_product img{ width:100%;}
+
+.Laye_div{ position: fixed}
+.Laye_div .Laye_div_list{ position: absolute; top:0px; left:950px; z-index:10; width:120px;}
+.Laye_div .Laye_div_list .line{ background:url(/Content/images/client/FLKL/ico0022.png) center top no-repeat; height:122px;}
+.Laye_div .Laye_div_list .main{ background-color:#FFFFFF; border:1px solid #cdcdcd; border-bottom:0px none; padding:10px 0px;}
+.Laye_div .Laye_div_list .main ul li{ list-style-type:none; margin-bottom:1px;}
+.Laye_div .Laye_div_list .main ul li a{ display: inline-block; color:#444444; text-decoration:none; padding:7px 13px; width:93px;}
+.Laye_div .Laye_div_list .main ul li.select a{ background-color:#fc684c; color:#FFFFFF}
+.Laye_div .Laye_div_list .main ul li.select span{ background:url(/Content/images/client/FLKL/ico0025.png); position:absolute; display: inline-block; width:24px; height:33px; left:-23px; }
+.Laye_div .Laye_div_list .main ul li a:hover{background-color:#fc684c; color:#FFFFFF}
+.Laye_div .Laye_div_list .bottom{ height:32px; background:url(/Content/images/client/FLKL/ico0026.png) no-repeat; cursor:pointer;}
+
+.layer_multipic_preview{ display:none; background: url(/Content/images/client/FLKL/ico0027.png); position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:10000;}
+.layer_multipic_preview .multipic_preview{position:relative; margin-left:auto; margin-right:auto; width:80%;}
+.layer_multipic_preview .multipic_preview a.close{ display:inline-block; cursor:pointer; background: url(/Content/images/client/FLKL/ico0028.png) no-repeat; top:-18px; width:36px; height:36px; right:-18px; font-size:0px; position:absolute; z-index:1;}
+.layer_multipic_preview .multipic_preview a:hover{ background: url(/Content/images/client/FLKL/ico0028.png)  left -41px; no-repeat;}
+.layer_multipic_preview .multipic_preview .scroller{ overflow:hidden; background:#FAFAFA;}
+.layer_multipic_preview .multipic_preview .scroller .pic_box{ float:left; overflow:hidden; width:100%;margin-left:-291px; border-left:1px solid #000;}
+.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_wrap{ margin-left:290px;}
+.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_show_box{ background-color:#0d0d0d; border-top:1px solid #0d0d0d;text-align:center; overflow:hidden; position:relative;}
+.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_show_box .playerGoleft{height:1500px; width:50%; position:absolute; left:0px; top:0; cursor:url(/Content/images/client/FLKL/goleft.ico),auto;}
+.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_show_box .playerGoright{height:1500px; width:50%; position:absolute; right:0px; top:0; cursor:url(/Content/images/client/FLKL/goright.ico),auto;}
+.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_show_box img{display: block; margin-left:auto; margin-right:auto;}
+.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_choose_wrap{ padding-right:291px; left:0px; height:70px; right:0px;position:absolute; bottom: -70px; z-index:20;}
+.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_choose_box{height:70px; right:0px; position:relative; overflow:hidden; background-color:#2f2f2f; }
+.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_choose_box .arrow_boxL{ background:url(/Content/images/client/FLKL/ico0029.png) no-repeat; width:16px; position:absolute; z-index:10; top:0; left:0; height:70px; cursor:pointer;}
+.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_choose_box .arrow_boxR{ background:url(/Content/images/client/FLKL/ico0030.png) no-repeat; width:16px; position:absolute; z-index:10; top:0; right:0; height:70px; cursor:pointer;}
+.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_choose_box  .stage_box{ padding-left:3px; left:20px; position:absolute; width:3000px;}
+.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_choose_box  .stage_box ul{ display:block; padding-top:7px; height:52px; overflow:hidden}
+.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_choose_box  .stage_box ul li{ float:left; display:block; margin-right:6px;}
+.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_choose_box  .stage_box ul li a{ display:block; float:left;filter:alpha(opacity=50); opacity:0.5; }
+.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_choose_box  .stage_box ul li a{ display:block; float:left;filter:alpha(opacity=50); opacity:0.5; }
+.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_choose_box  .stage_box ul li a img{ width:50px; height:50px; border:1px solid #7a7a7a; }
+.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_choose_box  .stage_box ul li.current a,.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_choose_box  .stage_box ul li a:hover{alpha(opacity=100); opacity:1;}
+.layer_multipic_preview .multipic_preview .scroller .pic_box .pic_choose_box  .stage_box ul li.current a img{ border:1px solid #ffa306;}
+.layer_multipic_preview .multipic_preview .scroller .info_box{ float:right; width:250px; height:100%; padding:0 20px;}
+
+
+.photo_type{ overflow:hidden; border:3px solid #fafafa; padding:10px 7px; cursor:pointer; margin-top:15px; }
+.photo_type_select{ border:3px solid #ffa306;}
+.photo_type .photo_type_top{ overflow:hidden; height:25px;}
+.photo_type .photo_type_top .name{ float:left;color:#e42800; font-weight:bold}
+.photo_type .photo_type_top .number{ float:right; font-size:12px; }
+.photo_type .photo_type_list ul li{ display:block; float:left; margin-right:6px;}
+
+
+/***********Client*************/
+.Client_pic img{ width:100%;}
+#div1 {position:relative; width:950px; height:550px; margin: 20px auto 0; background:url(/Content/images/client/FLKL/ico0031.png) no-repeat center center;}
+#div1 a {position:absolute; top:0px; left:0px; font-family: Microsoft YaHei; color:#4b4b4b; font-weight:bold; text-decoration:none; padding: 3px 6px; }
+#div1 a:hover { color:#FFFFFF; background-color:#fc2800}
+#div1 .blue {color:blue;}
+#div1 .red {color:red;}
+#div1 .yellow {color:#e8742d;}
+
+
+/***********contact*********/
+.contact { padding:0 50px 0 200px;}
+.contact .map{ float:left; width:200px; text-align:center; line-height:30px;}
+.contact .map a{ color:#444444; text-decoration:none}
+.contact .map a:hover{ text-decoration:underline}
+.contact .contact_info{ margin-left:230px; line-height:25px;}
+.contact .contact_info .name{ font-size:18px; padding-bottom:20px;}
+
+
+
+
+/***************interview****************/
+.Now_interview{ overflow:hidden; border-top:1px dashed #b0b0b0;border-bottom:1px dashed #b0b0b0; padding:40px 0; margin:0 15px;}
+.Now_interview .pic{ float:left; width:200px; text-align:center; line-height:25px;}
+.Now_interview .info{ margin-left:230px; line-height:30px;}
+.Now_interview .info .name{ font-size:16px; font-weight:bold; padding-bottom:15px;}
+.Now_interview .info .detail{ line-height:25px; background:url(/Content/images/client/FLKL/ico0007.png) no-repeat; padding:30px 0 0 40px; margin-top:20px;}
+.Now_interview .info .more{ text-align:right; margin-top:20px; }
+.Now_interview .info .more a{ background-color:#949393; padding:10px 30px; color:#FFFFFF; text-decoration:none}
+
+.interview_list{margin:0 15px;}
+.interview_list .interview_list_block{ overflow:hidden; border-bottom:1px solid #e9e9e9; padding:25px 0 10px;}
+.interview_list .interview_list_block .pic{float:left; width:150px;}
+.interview_list .interview_list_block .detail{ margin-left:170px;}
+.interview_list .interview_list_block .detail .detail_title{ font-weight:bold; font-size:16px; padding-bottom:20px;}
+.interview_list .interview_list_block .detail .detail_title a{ color:#444444; text-decoration:none}
+.interview_list .interview_list_block .detail .detail_list{ line-height:20px;}
+.interview_list .interview_list_block .detail .detail_info{ padding-top:15px;}
+
+
+
+
+/***************recruitment****************/
+.recruitment{ background:url(/Content/images/client/FLKL/pic0019.jpg) no-repeat center center; height:350px; width:1000px; margin:0 auto; position:relative}
+.recruitment .Node{ width:95px; height:102px; position:absolute; cursor:pointer; }
+.recruitment .Node a{ width:95px; height:102px; display:block;}
+.recruitment .Node1{ background:url(/Content/images/client/FLKL/ico0008.png) no-repeat; top:30px; left:0px;}
+.recruitment .Node1:hover{ background:url(/Content/images/client/FLKL/ico0009.png) no-repeat;}
+.recruitment .Node2{ background:url(/Content/images/client/FLKL/ico0010.png) no-repeat; top:90px; left:90px;}
+.recruitment .Node2:hover{ background:url(/Content/images/client/FLKL/ico0011.png) no-repeat;}
+.recruitment .Node3{ background:url(/Content/images/client/FLKL/ico0012.png) no-repeat; top:30px; left:180px;}
+.recruitment .Node3:hover{ background:url(/Content/images/client/FLKL/ico0013.png) no-repeat;}
+.recruitment .Node4{ background:url(/Content/images/client/FLKL/ico0020.png) no-repeat; top:105px; left:240px;}
+.recruitment .Node4:hover{ background:url(/Content/images/client/FLKL/ico0021.png) no-repeat;}
+
+.recruitment .Node5{ background:url(/Content/images/client/FLKL/ico0016.png) no-repeat; top:10px; left:780px;}
+.recruitment .Node5:hover{ background:url(/Content/images/client/FLKL/ico0017.png) no-repeat;}
+.recruitment .Node6{ background:url(/Content/images/client/FLKL/ico0018.png) no-repeat; top:105px; left:700px;}
+.recruitment .Node6:hover{ background:url(/Content/images/client/FLKL/ico0019.png) no-repeat;}
+.recruitment .Node7{ background:url(/Content/images/client/FLKL/ico0014.png) no-repeat; top:75px; right:0px;}
+.recruitment .Node7:hover{ background:url(/Content/images/client/FLKL/ico0015.png) no-repeat;}
+
+.recruitment_item{margin:0 15px ; }
+.recruitment_title{background-color:#ececec; font-size:18px; font-weight:bold; padding:10px 5px; }
+.recruitment_content{line-height:25px;padding:10px 5px;}
+
+.pop{position:absolute; top:0px; left:0px; width:100%; height:100%; background:url(/Content/images/zz/opBlack_6.png); display:none;}
+.popMap{ margin:auto; margin-top:10%; width:600px; height:400px; background:#fff}
+.pop .pop-close{position:absolute; top:0px; right:0px; width:76px; height:76px; background:url(/Content/images/icon/appbar.close.png); cursor:pointer;}
+.pop .baiduMap{ width:600px; height:400px;}
+
+
+
+
+
+ @media screen and (min-width: 1200px) {
+    .content_width{ width:1171px; margin:0 auto;}
+	.banner{ height:362px;}
+	.banner img{ max-width: inherit}
+	.pic_scoll .pic_block{ margin-right:70px;}
+	.pic_scoll .SBlist .SBitem{ width:1141px;}
+	.Client_pic img{ width: inherit;}
+	.our_product img{ width: inherit}
+	.verification_list .pic_block{ margin-left:35px; margin-right:35px;}
+	.Laye_div .Laye_div_list{left:1100px;}
+}

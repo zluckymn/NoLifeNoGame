@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.map_top{ background:url(../../../images/style/map_top_bg.jpg) repeat-x; height:30px; border:1px solid #c7cacf;}
+.map_top h2{ font-size:12px; display:inline-block; margin:9px 20px 0 12px;}
+.map_con{ padding:10px; margin-bottom:7px; height:360px; border:1px solid #dbe7d9; border-top:none; background:url(../../../images/client/XC/map_land.jpg) no-repeat 10px 10px;}
+.map_right{ margin-left:560px;}
+.map_right ul li{ clear:both;margin: 0 auto;width: 200px;}
+.map_right ul li a.ablock{ text-align:center; margin-bottom:10px; width:150px; padding-top:5px; padding-bottom:5px}
+.map_right ul li a.ablock:hover{ background-color:#81a973; text-decoration:none; color:#fff;}
+.map_right ul li span.ablock{ background-color:#f1f1f1; color:#808080; padding-top:5px; padding-bottom:5px}
+
+a.city01{ left:603px; top:205px;}
+a.city02{ left:569px; top:215px; background-position:right top; padding-right:12px;}
+a.city03{ left:619px; top:220px;}
+a.city04{ left:580px; top:228px; background-position:right top; padding-right:12px;}
+a.city05{ left:660px; top:320px;}
+a.city06{ left:630px; top:335px; background-position:right top; padding-right:12px;}
+a.city07{ left:684px; top:336px;}
+
+
+
+.map_con .city_box a.this{ font-weight:bold; color:#de2f33;}
+.city_pro_con{ border:1px solid #b5b5b5; background:#FFF; display:inline-block; #dispaly:block; #width:300px; margin-top:10px; margin-left:10px;}
+.city_pro_con h3{ font-size:12px; background:#faf9f9; border-bottom:1px solid #dadada; padding:5px 10px;}
+
+
+.map_con .city_box .tip
+        {
+            padding: 5px 5px 5px 10px;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding;
+          background-clip: padding-box;
+            width: 200px;
+            min-height: 30px;
+            word-wrap: break-word;
+            text-align:left;
+        }
+        
+.map_con .city_box .tip a
+        {
+            display: inline;
+            background-image: none;
+            
+            line-height: 21px;
+            color: #336cc2;
+            vertical-align: top;
+        }
+.map_con .city_box .tip tip_a:hover
+        {
+            text-decoration: underline;
+        }
+
+
+
+
+
+/* 土地分布图 */
+.map_con{ position:relative}
+.map_con .city_pro_con{ position: absolute; z-index:10px; top:10px; left:10px;}
+.map_con .city_box a{ display:block; padding-left:10px; line-height:16px; background-image:url(../../../images/style/city_dot_small.gif); background-repeat:no-repeat; background-color:transparent; height:16px; color:#404040; position:absolute; display:inline-block;}
+.map_con .city_box a{ z-index:1000;position:relative;}
+.map_con .city_box a.city01{ left:270px;top:160px; background-position:left center;}/* 常州 */
+.map_con .city_box a.city02{ left:340px;top:210px;background-position:right center;}/* 上海 */
+.map_con .city_box a.city03{ left:65px;top:155px; background-position:left center;}/* 南京 */
+.map_con .city_box a.city04{ left:140px;top:310px; background-position:right center;}/* 杭州 */
+.map_con .city_box a.city05{ left:20px;top:110px; background-position:left center;}/* 扬州 */
+.map_con .city_box a.city06{ left:80px;top:200px; background-position:right center;}/* 苏州 */
+.map_con .city_box a.city07{ left:90px;top:195px; background-position:left center;}/* 昆山 */
+
+
+
+.city_pro_con_tip{border: #febe8f 1px solid;background-color: #fff8d9; padding: 5px 8px 8px 8px;line-height: 21px;overflow: hidden;white-space: nowrap;
+            display: inline; width: 180px;word-wrap: break-word;}
+.map_con .city_pro_con_tip{ position: absolute; z-index:11px; top:10px; right:10px;}
+
+.land_search{ margin-top:10px}
+.land_search .td_tit_w{width:90px;}
+.land_search select{width:146px;}
+.landBaseInfo_Edit select{width:194px;}
+.landBaseInfo_Edit textarea{width:634px;height:48px;}
+.landBaseInfo_Edit .inputborder{width:188px;}
+.landBaseInfo_Edit .inputgreenbgCursor{width:188px;}

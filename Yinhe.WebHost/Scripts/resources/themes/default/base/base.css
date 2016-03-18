@@ -1,0 +1,19 @@
+/* base.css for common use */
+.m-clear{
+    overflow:hidden;
+    clear:both;
+    font-size:0;
+    width:0;
+    height:0;
+}
+.m-hidden-display{
+    display:none;
+}
+.m-hidden-visibility{
+    visibility:hidden;
+}
+.m-hidden-offset{
+    position:absolute;
+    left:-10000px;
+    top:-10000px;
+}

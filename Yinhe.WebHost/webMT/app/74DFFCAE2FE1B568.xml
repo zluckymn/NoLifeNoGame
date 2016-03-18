@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>   
+<!-- update.xml -->  
+<update xmlns="http://ns.adobe.com/air/framework/update/description/1.0">   
+	<version>1.6.25</version>   
+	<url>/webMT/app/MTShield.exe</url>  
+	<description>   
+		<text xml:lang="zh_CN"><br/>修改了下载时无法更改文件名的BUG</text>  
+	</description>   
+</update> 

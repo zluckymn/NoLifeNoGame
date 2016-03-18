@@ -1,0 +1,32 @@
+﻿<Chart ImageLocation="..\..\TempImages\ChartPic_#SEQ(200,30)" BackColor="248,248,248" BackSecondaryColor="White"  BorderlineDashStyle="Solid" BorderColor="226, 226, 226" BorderWidth="1" BorderlineColor="226,226,226" BorderlineWidth="0" >
+  <Series>
+    <Series Name="全部" Legend="DefaultLegend" ChartArea="DefaultArea" CustomProperties="DrawingStyle=Default,PixelPointWidth=15" LabelFormat="#,###" BorderWidth="2" BorderColor="Transparent" Color="68, 114, 173">
+	</Series>
+    <Series Name="洋房" Legend="DefaultLegend" ChartArea="DefaultArea" CustomProperties="DrawingStyle=Default,PixelPointWidth=15" LabelFormat="#,###" BorderWidth="2" BorderColor="Transparent" Color="171, 69, 82"  >
+    </Series>
+	<Series Name="别墅" Legend="DefaultLegend" ChartArea="DefaultArea" CustomProperties="DrawingStyle=Default,PixelPointWidth=15" LabelFormat="#,###" BorderWidth="2" BorderColor="Transparent" Color="133, 168, 78"   >
+	</Series>
+  </Series>
+  <ChartAreas>
+    <ChartArea BackColor="248,248,248" BackSecondaryColor="White" ShadowColor="Transparent" Position="0,5,95,93" Name="DefaultArea">
+      <AxisY LineWidth="0" TitleForeColor="80,125,158" TitleFont="Trebuchet MS,9.5,style=bold">
+        <MajorGrid LineColor="192, 192, 192" />
+        <LabelStyle Font="宋体" Format="N0" ForeColor="100,100,100"/>
+		<MajorTickMark Enabled="False"/>
+      </AxisY>
+      <AxisX LineColor="192, 192, 192" LineWidth="1" Interval="1" IsLabelAutoFit="True" LabelAutoFitStyle="WordWrap"> 
+        <MajorGrid LineColor="0, 64, 64, 64" />
+        <LabelStyle Font="宋体,9" ForeColor="100,100,100"/>
+		<MajorTickMark LineColor="120, 64, 64, 64"/>
+      </AxisX>
+   </ChartArea>
+  </ChartAreas>
+  <Legends>
+    <Legend Name="DefaultLegend" Enabled="False">
+    </Legend>
+  </Legends>
+  <Titles>
+    <Title  Font="Trebuchet MS" ForeColor="26, 59, 105" Alignment="TopLeft" Name="Title1">
+    </Title>
+  </Titles>
+</Chart>

@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
+.three_point{ margin:0px; padding:0px; width:990px; overflow:hidden}
+.three_point ul{list-style:none}
+.three_point ul li{ list-style:none; float:left; width:313px; margin-right:10px; margin-bottom:10px;}

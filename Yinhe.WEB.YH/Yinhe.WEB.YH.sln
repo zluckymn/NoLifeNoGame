@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin_TaskManage_YH", "..\Plugin_TaskManager_YH\Plugin_TaskManage_YH.csproj", "{ACDC46C7-EE61-4864-B071-BE5BCB78B3A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yinhe.ProcessingCenter", "..\Yinhe.ProcessingCenter\Yinhe.ProcessingCenter.csproj", "{09B5BB08-C041-466F-8AAA-0E4C49747B6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yinhe.WebHost", "..\Yinhe.WebHost\Yinhe.WebHost.csproj", "{9DE7BB17-01BB-4BCD-8227-D3819CC3E786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACDC46C7-EE61-4864-B071-BE5BCB78B3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDC46C7-EE61-4864-B071-BE5BCB78B3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDC46C7-EE61-4864-B071-BE5BCB78B3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDC46C7-EE61-4864-B071-BE5BCB78B3A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B5BB08-C041-466F-8AAA-0E4C49747B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B5BB08-C041-466F-8AAA-0E4C49747B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B5BB08-C041-466F-8AAA-0E4C49747B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B5BB08-C041-466F-8AAA-0E4C49747B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE7BB17-01BB-4BCD-8227-D3819CC3E786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE7BB17-01BB-4BCD-8227-D3819CC3E786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE7BB17-01BB-4BCD-8227-D3819CC3E786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE7BB17-01BB-4BCD-8227-D3819CC3E786}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

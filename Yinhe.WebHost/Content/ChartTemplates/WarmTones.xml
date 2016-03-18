@@ -1,0 +1,26 @@
+﻿<Chart ImageLocation="..\..\TempImages\ChartPic_#SEQ(200,30)" BackColor="243, 223, 193"  BackGradientStyle="TopBottom"    BorderlineDashStyle="Solid" BorderColor="181, 64, 1" BorderWidth="2" >
+  <Series>
+    <Series Name="DefaultSeries" Legend="DefaultLegend" ChartArea="DefaultArea" IsValueShownAsLabel="True">
+    </Series>
+  </Series>
+  <ChartAreas>
+    <ChartArea BackColor="OldLace" BackGradientStyle="TopBottom" BackSecondaryColor="White" ShadowColor="Transparent" Name="DefaultArea" BorderColor="64, 64, 64, 64"  >
+      <AxisY LineColor="64, 64, 64, 64">
+        <MajorGrid LineColor="64, 64, 64, 64" />
+        <LabelStyle Font="Trebuchet MS, 8.25pt, style=Bold" />
+      </AxisY>
+      <AxisX LineColor="64, 64, 64, 64">
+        <MajorGrid LineColor="64, 64, 64, 64" />
+        <LabelStyle Font="Trebuchet MS, 8.25pt, style=Bold" />
+      </AxisX>
+    </ChartArea>
+  </ChartAreas>
+  <Legends>
+    <Legend Name="DefaultLegend" BackColor="Transparent" Font="Trebuchet MS, 8.25pt, style=Bold">
+    </Legend>
+  </Legends>
+  <Titles>
+    <Title   ShadowOffset="3" Font="Trebuchet MS, 14.25pt, style=Bold" ForeColor="26, 59, 105" Alignment="TopLeft" Name="Title1">
+    </Title>
+  </Titles>
+</Chart>

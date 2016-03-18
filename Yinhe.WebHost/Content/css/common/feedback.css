@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  margin: 0;
+  font-family:Arial,宋体,sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+
+
+.container{width:940px; min-height:200px; margin:10px auto 0px auto; padding:10px;background:url(../../images/common/container_bg.jpg); background-repeat:no-repeat;}
+.path_nav{background-image:url(../../images/icon/house.png); background-repeat:no-repeat; padding-left:20px; height:28px;}
+
+.table-feedback{background-color: transparent;border-collapse: collapse;border-spacing: 0; margin:0px}
+.table-feedback .tr-head  th{ border:1px solid #ddd;background-color:#f3f2f2; height:28px; line-height:28px; color:#717171; font-size:12px;
+                               padding:0px 5px;white-space:nowrap; text-align:center; font-style:normal; font-weight:normal}
+.table-feedback td{border:1px solid #ddd;background-color: #FFF;font-size:12px; color:#686868;padding:2px 5px; height:25px;text-align:center}
+.table-feedback td.td-l{ text-align:left}
+
+.noborder td{ height:30px;}
+
+.feedback-main{ clear:both;}
+.feedback-left{ width:220px; float:left; margin-right:20px}
+.feedback-right{ overflow:hidden; margin-left:0px;}
+
+
+.feedback-main .title{ height:36px; line-height:36px; margin:0px; padding:0px 5px 0px 10px; background-color:#fff;background-image:url(../../images/common/title-bg.png);
+background-repeat:repeat-x; border:1px solid #ddd;  border-bottom:none;margin-bottom:0px; font-weight:bold;font-size:14px; color:#333}
+
+a{color:#1e50a2; color:#0d86c8; text-decoration:none}
+a:link,a:visited{color:#1e50a2; text-decoration:none}
+a:hover{ color:#FF0000; text-decoration:underline}
+
+.input200{ width:200px;}
+.input150{ width:150px;}
+.input100{ width:100px;}
+.textarea200{ width:200px; height:60px}
+
+a.fb-btn{ display:inline-block; height:22px; line-height:24px; text-align:center; padding:0px 12px; min-width:24px; 
+           border:1px solid #aaaaaa; color:#333!important;filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff',endColorstr='#d9d8d8',GradientType=0); background-color:#f3f3f3}
+a.fb-btn:active{ outline-style:none; border:1px solid #7e7e7e;filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebebeb',endColorstr='#F3F3F3',GradientType=0 ); background-color:#f3f3f3}
+
+
+.leftMenu-classify{width:220px;}
+.fr{ float:right}
+.fl{ float:left}
+.leftMenu-classify ul{ display:block; list-style:none; border:1px solid #d5d5d5; background:#f5f5f5; overflow:hidden; padding:0px; margin:0px }
+.leftMenu-classify ul li{ height:35px;margin:0px; padding:0px;background-image:url../../images/common/leftMenu-classify-bg.png); background-position:bottom center; background-repeat:no-repeat}
+.leftMenu-classify ul li span{ font-weight:normal; margin-right:15px;}
+.leftMenu-classify ul li a{ display:block; color:#888787; display:block; height:35px; line-height:35px; padding:0px 5px 0px 8px;font-weight:bold; cursor:pointer }
+.leftMenu-classify ul li.on{ background-color:#fff;background-image:url(../../images/common/leftMenu-classify-bg.png); background-position:bottom center; background-repeat:no-repeat}
+.leftMenu-classify ul li.on a{ color:#000; cursor:default; text-decoration:none}
+.leftMenu-classify ul li i{width:8px; height:8px; display:block;background-image:url(../../images/common/spot.png); background-position:0px 0px; background-repeat:no-repeat; margin:14px 10px 0px 14px; float:left}
+.leftMenu-classify ul li.on i{background-image:url(../../images/common/spot.png); background-position:0px -8px}
+*+html .leftMenu-classify ul li a{ padding-left:0px}
+*+html .leftMenu-classify ul li span{ margin-top:-35px;}
+
+
+.ep-crumb{ line-height:35px; text-align:left; color:#252525; border-bottom:1px solid #dddddd}
+.ep-crumb a,.ep-crumb a:visited{ color:#252525}
+.ep-crumb a:hover{color:#FF0000; text-decoration:underline}
+.ep-h3{ font-size:16px; font-weight:bold; line-height:28px;}
+
+
+
+
+
+
+
+
+
+
+
+

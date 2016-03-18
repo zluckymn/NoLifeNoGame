@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rGraphModel>
+	<Workflow label="旭辉集团产品决策流程" id="0">
+		<rCell />
+	</Workflow>
+	<Swimlane label="投资决策阶段" id="h1">
+		<rCell style="swimlane;stroke-dasharray=-;stroke=#000000">
+			<rGeometry x="0" y="220" width="1650" height="0" />
+		</rCell>
+	</Swimlane>
+	<Swimlane label="战略规划阶段" id="h2">
+		<rCell style="swimlane;stroke-dasharray=-;stroke=#000000">
+			<rGeometry x="0" y="530" width="1650" height="0" />
+		</rCell>
+	</Swimlane>
+	<Swimlane label="方案设计阶段" id="h3">
+		<rCell style="swimlane;stroke-dasharray=-;stroke=#000000">
+			<rGeometry x="0" y="1200" width="1650" height="0" />
+		</rCell>
+	</Swimlane>
+	<Swimlane label="扩初、施工图阶段" id="h4">
+		<rCell style="swimlane;stroke-dasharray=-;stroke=#000000">
+			<rGeometry x="0" y="1382" width="1650" height="0" />
+		</rCell>
+	</Swimlane>
+	<Swimlane label="竣工阶段" id="h5">
+		<rCell style="swimlane;stroke-dasharray=-;stroke=#000000">
+			<rGeometry x="0" y="1640" width="1650" height="0" />
+		</rCell>
+	</Swimlane>
+	<Swimlane label="拓展" id="v1">
+		<rCell style="swimlane">
+			<rGeometry x="104" y="0" width="0" height="2200" />
+		</rCell>
+	</Swimlane>
+	<Swimlane label="营销" id="v2">
+		<rCell style="swimlane">
+			<rGeometry x="208" y="0" width="0" height="2200" />
+		</rCell>
+	</Swimlane>
+	<Swimlane label="成本" id="v4">
+		<rCell style="swimlane">
+			<rGeometry x="652" y="0" width="0" height="2200" />
+		</rCell>
+	</Swimlane>
+	<Swimlane label="运营" id="v6">
+		<rCell style="swimlane">
+			<rGeometry x="745" y="0" width="0" height="2200" />
+		</rCell>
+	</Swimlane>
+	<Swimlane label="集团总裁" id="v7">
+		<rCell style="swimlane">
+			<rGeometry x="836" y="0" width="0" height="2200" />
+		</rCell>
+	</Swimlane>
+	<!-- row1开始 -->
+	<Shape label="土地出让&#xa;文件" pdp="0|0|0" points="1" lstyle="font-size=11" id="1">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="10" y="60" width="70" height="34" />
+		</rCell>
+	</Shape>
+	<Shape label="土地拓展&#xa;报告" pdp="0|0|0" points="1" lstyle="font-size=11" id="2">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="10" y="112" width="70" height="34" />
+		</rCell>
+	</Shape>
+	<Shape label="初步定位报告" pdp="0|0|0" points="1" lstyle="" id="3">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="120" y="90" width="70" height="34" radius="5" />
+		</rCell>
+	</Shape>
+	<Shape label="土地强排方案" pdp="0|0|0" points="1" lstyle="font-size=11" id="4">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="391" y="90" width="70" height="34" />
+		</rCell>
+	</Shape>
+	<Shape label="项目费用测&#xa;算报告" pdp="0|0|0" points="1" lstyle="font-size=11" id="5">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="664" y="87" width="70" height="40" />
+		</rCell>
+	</Shape>
+	<Shape label="1、土地投资&#xa;分析报告" pdp="0|0|0" points="1" lstyle="font-size=11" id="6">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="756" y="87" width="70" height="40" />
+		</rCell>
+	</Shape>
+	<Shape label="关卡（1）&#xa;土地投资决&#xa;策评审" pdp="0|0|1" points="p-1" lstyle="font-size=11" id="7">
+		<rCell style="rhombus;gradient=135-#b7c9e3-#dee6f3;stroke-width=2">
+			<rGeometry x="888" y="63" width="84" height="88" />
+		</rCell>
+	</Shape>
+	<Shape label="取得土地&#xa;竞标通知" pdp="0|0|0" points="1" lstyle="font-size=11" id="8">
+		<rCell style="rhombus;gradient=90-#ffbd89-#f2b27f">
+			<rGeometry x="50" y="180" width="80" height="50" />
+		</rCell>
+	</Shape>
+	<!-- row2  -->
+	<Shape label="2、产品定&#xa;位策划报告" pdp="0|0|0" points="2" lstyle="" id="9">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="120" y="273" width="70" height="34" radius="5" />
+		</rCell>
+	</Shape>
+	<Shape label="" pdp="0|0|0" points="2" lstyle="" id="10">
+		<rCell style="rounded;stroke-width=2;fill=#b8c9e3">
+			<rGeometry x="220" y="240" width="412" height="100" radius="5" />
+		</rCell>
+	</Shape>
+	<Label label="3、价值树与概念版产品配置标准" id="lb10">
+		<rCell style="font-size=11">
+			<rGeometry x="445" y="250" />
+		</rCell>
+	</Label>
+	<Shape label="规划&#xa;配置&#xa;标准&#xa;初稿" pdp="10|0|0" points="2" lstyle="font-size=11" id="11">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="225" y="262" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="户型&#xa;配置&#xa;标准&#xa;初稿" pdp="10|0|0" points="2" lstyle="font-size=11" id="12">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="262" y="262" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="立面&#xa;配置&#xa;标准&#xa;初稿" pdp="10|0|0" points="2" lstyle="font-size=11" id="13">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="299" y="262" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="商业&#xa;配套&#xa;配置&#xa;标准&#xa;初选" pdp="10|0|0" points="2" lstyle="font-size=11" id="14">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="336" y="262" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="设备&#xa;技术&#xa;配置&#xa;标准&#xa;初选" pdp="10|0|0" points="2" lstyle="font-size=11" id="15">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="373" y="262" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="景观&#xa;分级&#xa;配置&#xa;标准" pdp="10|0|0" points="2" lstyle="font-size=11" id="16">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="410" y="262" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="批量&#xa;精装&#xa;分级&#xa;配置&#xa;标准" pdp="10|0|0" points="2" lstyle="font-size=11" id="17">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="447" y="262" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="公共&#xa;部位&#xa;配置&#xa;标准&#xa;初稿" pdp="10|0|0" points="2" lstyle="font-size=11" id="18">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="484" y="262" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="结构&#xa;初装&#xa;修配&#xa;置初&#xa;稿" pdp="10|0|0" points="2" lstyle="font-size=11" id="19">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="521" y="262" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="售楼&#xa;处精&#xa;装配&#xa;置初&#xa;稿" pdp="10|0|0" points="2" lstyle="font-size=11" id="20">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="558" y="262" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="样板&#xa;房精&#xa;装配&#xa;置初&#xa;稿" pdp="10|0|0" points="2" lstyle="font-size=11" id="21">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="595" y="262" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="整盘建筑方案&#xa;设计任务书" pdp="0|0|0" points="2" lstyle="font-size=11" id="22">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="460" y="360" width="80" height="32" />
+		</rCell>
+	</Shape>
+	<Shape label="" pdp="0|0|0" points="2" lstyle="" id="23">
+		<rCell style="rounded;stroke-width=2;fill=#b8c9e3">
+			<rGeometry x="220" y="420" width="412" height="100" radius="5" />
+		</rCell>
+	</Shape>
+	<Label label="4、整盘建筑方案概念设计成果" id="lb23">
+		<rCell style="font-size=11">
+			<rGeometry x="435" y="430" />
+		</rCell>
+	</Label>
+	<Shape label="规划总&#xa;图（示&#xa;范区、&#xa;首批销&#xa;售）" pdp="23|0|0" points="2" lstyle="font-size=11" id="24">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="225" y="442" width="38" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="户型&#xa;选型" pdp="23|0|0" points="2" lstyle="font-size=11" id="25">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="270" y="442" width="28" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="立面&#xa;意向" pdp="23|0|0" points="2" lstyle="font-size=11" id="26">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="304" y="442" width="28" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="商业&#xa;配套&#xa;初稿" pdp="23|0|0" points="2" lstyle="font-size=11" id="27">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="336" y="442" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="设备&#xa;技术&#xa;提案" pdp="23|0|0" points="2" lstyle="font-size=11" id="28">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="373" y="442" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="景观&#xa;风格&#xa;提案" pdp="23|0|0" points="2" lstyle="font-size=11" id="29">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="410" y="442" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="批量&#xa;精装&#xa;风格&#xa;提案" pdp="23|0|0" points="2" lstyle="font-size=11" id="30">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="447" y="442" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="公共&#xa;部位&#xa;提案" pdp="23|0|0" points="2" lstyle="font-size=11" id="31">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="484" y="442" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="结构&#xa;初装&#xa;修提&#xa;案" pdp="23|0|0" points="2" lstyle="font-size=11" id="32">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="521" y="442" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="售楼&#xa;处精&#xa;装提&#xa;案" pdp="23|0|0" points="2" lstyle="font-size=11" id="33">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="558" y="442" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="样板&#xa;房精&#xa;装提&#xa;案" pdp="23|0|0" points="2" lstyle="font-size=11" id="34">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="595" y="442" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="5、项目定&#xa;位版目标&#xa;成本" pdp="0|0|0" points="2" lstyle="font-size=11" id="35">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="664" y="450" width="70" height="40" />
+		</rCell>
+	</Shape>
+	<Shape label="6、项目战略&#xa;规划报告" pdp="0|0|0" points="2" lstyle="font-size=11" id="36">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="756" y="450" width="70" height="40" />
+		</rCell>
+	</Shape>
+	<Shape label="关卡（2）&#xa;项目战略规&#xa;划评审" pdp="0|0|1" points="p-2" lstyle="font-size=11" id="37">
+		<rCell style="rhombus;gradient=135-#b7c9e3-#dee6f3;stroke-width=2">
+			<rGeometry x="888" y="426" width="84" height="88" />
+		</rCell>
+	</Shape>
+	<!-- row3 -->
+	<Shape label="7、整盘策划&#xa;包装及示范区&#xa;策划" pdp="0|0|0" points="3" lstyle="" id="38">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="120" y="604" width="70" height="40" radius="5" />
+		</rCell>
+	</Shape>
+	<Shape label="" pdp="0|0|0" points="3" lstyle="" id="39">
+		<rCell style="rounded;stroke-width=2;fill=#d8dfeb">
+			<rGeometry x="220" y="570" width="355" height="108" radius="5" />
+		</rCell>
+	</Shape>
+	<Label label="8、方案版产品配置标准" id="lb39">
+		<rCell style="font-size=11">
+			<rGeometry x="410" y="580" />
+		</rCell>
+	</Label>
+	<Shape label="" pdp="0|0|0" points="3" lstyle="" id="39x">
+		<rCell style="rounded;stroke-width=1;fill=#b8c9e3;stroke-dasharray=--">
+			<rGeometry x="225" y="595" width="264" height="76" radius="5" />
+		</rCell>
+	</Shape>
+	<Shape label="规划&#xa;配置&#xa;标准&#xa;定稿" pdp="39|0|0" points="3" lstyle="font-size=11" id="40">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="230" y="600" width="32" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="户型&#xa;配置&#xa;标准&#xa;定稿" pdp="39|0|0" points="3" lstyle="font-size=11" id="41">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="266" y="600" width="32" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="立面&#xa;配置&#xa;标准&#xa;定稿" pdp="39|0|0" points="3" lstyle="font-size=11" id="42">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="303" y="600" width="32" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="商业&#xa;配套&#xa;配置&#xa;标准&#xa;初稿" pdp="39|0|0" points="3" lstyle="font-size=11" id="43">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="340" y="600" width="32" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="设备&#xa;技术&#xa;标准&#xa;初稿" pdp="39|0|0" points="3" lstyle="font-size=11" id="44">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="377" y="600" width="32" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="结构&#xa;初装&#xa;修配&#xa;置定&#xa;稿" pdp="39|0|0" points="3" lstyle="font-size=11" id="45">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="414" y="600" width="32" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="公共&#xa;部位&#xa;配置&#xa;定稿" pdp="39|0|0" points="3" lstyle="font-size=11" id="46">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="451" y="600" width="32" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="整盘&#xa;景观&#xa;配置&#xa;标准&#xa;定稿" pdp="39|0|0" points="3" lstyle="font-size=11" id="47">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="498" y="600" width="32" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="批量&#xa;精装&#xa;配置&#xa;标准&#xa;定稿" pdp="39|0|0" points="3" lstyle="font-size=11" id="48">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="536" y="600" width="32" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="整盘及示范&#xa;区景观方案&#xa;设计任务书" pdp="0|0|0" lstyle="font-size=11" points="3" id="49">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="482" y="690" width="65" height="46" />
+		</rCell>
+	</Shape>
+	<Shape label="批量精装&#xa;方案设计&#xa;任务书" pdp="0|0|0" lstyle="font-size=11" points="3" id="50">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="556" y="690" width="44" height="46" />
+		</rCell>
+	</Shape>
+	<Shape label="" pdp="0|0|0" points="3" lstyle="" id="51">
+		<rCell style="rounded;stroke-width=2;fill=#d8dfeb">
+			<rGeometry x="220" y="750" width="392" height="108" radius="5" />
+		</rCell>
+	</Shape>
+	<Label label="9、整盘建筑方案设计成果" id="lb51">
+		<rCell style="font-size=11">
+			<rGeometry x="405" y="760" />
+		</rCell>
+	</Label>
+	<Shape label="" pdp="0|0|0" points="3" lstyle="" id="51x">
+		<rCell style="rounded;stroke-width=1;fill=#b8c9e3;stroke-dasharray=--">
+			<rGeometry x="225" y="775" width="280" height="78" radius="5" />
+		</rCell>
+	</Shape>
+	<Shape label="规划&#xa;总图&#xa;确认" pdp="51|0|0" points="3" lstyle="font-size=11" id="52">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="230" y="782" width="32" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="户型&#xa;评审" pdp="51|0|0" points="3" lstyle="font-size=11" id="53">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="267" y="782" width="32" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="立面&#xa;方案&#xa;确定" pdp="51|0|0" points="3" lstyle="font-size=11" id="54">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="304" y="782" width="32" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="商业&#xa;配套&#xa;定稿" pdp="51|0|0" points="3" lstyle="font-size=11" id="55">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="340" y="782" width="32" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="设备&#xa;技术&#xa;应用&#xa;初稿" pdp="51|0|0" points="3" lstyle="font-size=11" id="56">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="376" y="782" width="32" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="结构&#xa;初装&#xa;修方&#xa;案" pdp="51|0|0" points="3" lstyle="font-size=11" id="57">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="413" y="782" width="32" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="整盘公共&#xa;部位精装&#xa;概念方案&#xa;设计成果" pdp="51|0|0" points="3" lstyle="font-size=11" id="58">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="450" y="782" width="50" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="整盘景&#xa;观概念&#xa;方案设&#xa;计成果" pdp="0|0|0" points="3" lstyle="font-size=11" id="59">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="512" y="782" width="44" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="批量精&#xa;装概念&#xa;方案设&#xa;计成果" pdp="0|0|0" points="3" lstyle="font-size=11" id="60">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="562" y="782" width="44" height="66" />
+		</rCell>
+	</Shape>
+	<Shape label="10、项目方&#xa;案版目标&#xa;成本" pdp="0|0|0" points="3" lstyle="font-size=11" id="61">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="664" y="784" width="70" height="40" />
+		</rCell>
+	</Shape>
+	<Shape label="11、项目启&#xa;动会报告" pdp="0|0|0" points="3" lstyle="font-size=11" id="62">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="756" y="784" width="70" height="40" />
+		</rCell>
+	</Shape>
+	<Shape label="关卡（3）&#xa;项目启动会&#xa;评审" pdp="0|0|1" points="p-3" lstyle="font-size=11" id="63">
+		<rCell style="rhombus;gradient=135-#b7c9e3-#dee6f3;stroke-width=2">
+			<rGeometry x="888" y="760" width="84" height="88" />
+		</rCell>
+	</Shape>
+	<Shape label="" pdp="0|0|0" points="4" lstyle="" id="64">
+		<rCell style="rounded;stroke-width=2;fill=#b8c9e3">
+			<rGeometry x="415" y="900" width="227" height="114" radius="5" />
+		</rCell>
+	</Shape>
+	<Label label="12、示范区产品配置标准" id="lb64">
+		<rCell style="font-size=11">
+			<rGeometry x="540" y="910" />
+		</rCell>
+	</Label>
+	<Shape label="售楼&#xa;处平&#xa;面配&#xa;置标&#xa;准" pdp="64|0|0" points="4" lstyle="font-size=11" id="65">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="422" y="920" width="32" height="86" />
+		</rCell>
+	</Shape>
+	<Shape label="立面&#xa;配置&#xa;标准" pdp="64|0|0" points="4" lstyle="font-size=11" id="66">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="459" y="920" width="32" height="86" />
+		</rCell>
+	</Shape>
+	<Shape label="示范&#xa;区景&#xa;观配&#xa;置标&#xa;准" pdp="64|0|0" points="4" lstyle="font-size=11" id="67">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="496" y="920" width="32" height="86" />
+		</rCell>
+	</Shape>
+	<Shape label="售楼&#xa;处精&#xa;装配&#xa;置标&#xa;准" pdp="64|0|0" points="4" lstyle="font-size=11" id="68">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="532" y="920" width="32" height="86" />
+		</rCell>
+	</Shape>
+	<Shape label="样板&#xa;房精&#xa;装配&#xa;置标&#xa;准" pdp="64|0|0" points="4" lstyle="font-size=11" id="69">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="568" y="920" width="32" height="86" />
+		</rCell>
+	</Shape>
+	<Shape label="技术&#xa;设备&#xa;配置&#xa;标准" pdp="64|0|0" points="4" lstyle="font-size=11" id="70">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="604" y="920" width="32" height="86" />
+		</rCell>
+	</Shape>
+
+	<Shape label="" pdp="0|0|0" points="4" lstyle="" id="71">
+		<rCell style="rounded;stroke-width=2;fill=#b8c9e3">
+			<rGeometry x="428" y="1040" width="200" height="135" radius="5" />
+		</rCell>
+	</Shape>
+	<Label label="13、示范区方案设计成果" id="lb71">
+		<rCell style="font-size=11">
+			<rGeometry x="535" y="1050" />
+		</rCell>
+	</Label>
+	<Shape label="示范&#xa;区售&#xa;楼处&#xa;建筑&#xa;方案" pdp="71|0|0" points="4" lstyle="font-size=11" id="72">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="435" y="1065" width="32" height="100" />
+		</rCell>
+	</Shape>
+	<Shape label="示范&#xa;区景&#xa;观概&#xa;念方&#xa;案设&#xa;计成&#xa;果" pdp="71|0|0" points="4" lstyle="font-size=11" id="73">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="473" y="1065" width="32" height="100" />
+		</rCell>
+	</Shape>
+	<Shape label="示范&#xa;区售&#xa;楼处&#xa;室内&#xa;概念&#xa;设计&#xa;成果" pdp="71|0|0" points="4" lstyle="font-size=11" id="74">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="511" y="1065" width="32" height="100" />
+		</rCell>
+	</Shape>
+	<Shape label="示范&#xa;区样&#xa;板房&#xa;室内&#xa;概念&#xa;设计&#xa;成果" pdp="71|0|0" points="4" lstyle="font-size=11" id="75">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="549" y="1065" width="32" height="100" />
+		</rCell>
+	</Shape>
+	<Shape label="示范&#xa;区技&#xa;术设&#xa;备应&#xa;用方&#xa;案" pdp="71|0|0" points="4" lstyle="font-size=11" id="76">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="587" y="1065" width="32" height="100" />
+		</rCell>
+	</Shape>
+	<Shape label="14、项目示范&#xa;区目标成本" pdp="0|0|0" points="4" lstyle="font-size=11" id="77">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="664" y="1087" width="70" height="40" />
+		</rCell>
+	</Shape>
+	<Shape label="15、示范&#xa;区专项成&#xa;果报告" pdp="0|0|0" points="4" lstyle="font-size=11" id="78">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="756" y="1087" width="70" height="40" />
+		</rCell>
+	</Shape>
+	<Shape label="关卡（4）&#xa;示范区专项&#xa;评审" pdp="0|0|1" points="p-4" lstyle="font-size=11" id="79">
+		<rCell style="rhombus;gradient=135-#b7c9e3-#dee6f3;stroke-width=2">
+			<rGeometry x="888" y="1063" width="84" height="88" />
+		</rCell>
+	</Shape>
+	<!-- row4 -->
+	<Shape label="整盘公&#xa;共部位&#xa;精装方&#xa;案设计&#xa;成果" pdp="0|0|0" points="4" lstyle="font-size=11" id="80">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="250" y="1265" width="42" height="80" />
+		</rCell>
+	</Shape>
+	<Shape label="整盘景&#xa;观方案&#xa;设计成&#xa;果" pdp="0|0|0" points="4" lstyle="font-size=11" id="81">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="298" y="1265" width="42" height="80" />
+		</rCell>
+	</Shape>
+	<Shape label="批量精&#xa;装方案&#xa;设计成&#xa;果" pdp="0|0|0" points="4" lstyle="font-size=11" id="82">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="346" y="1265" width="42" height="80" />
+		</rCell>
+	</Shape>
+	<Shape label="" pdp="0|0|0" points="4" lstyle="" id="83x">
+		<rCell style="rounded;stroke-width=2;fill=#b8c9e3">
+			<rGeometry x="428" y="1235" width="200" height="115" radius="5" />
+		</rCell>
+	</Shape>
+	<Shape label="示范&#xa;区售&#xa;楼处&#xa;建筑&#xa;施工&#xa;图" pdp="71|0|0" points="4" lstyle="font-size=11" id="83">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="435" y="1245" width="32" height="100" />
+		</rCell>
+	</Shape>
+	<Shape label="示范&#xa;区景&#xa;观方&#xa;案设&#xa;计成&#xa;果" pdp="71|0|0" points="4" lstyle="font-size=11" id="84">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="473" y="1245" width="32" height="100" />
+		</rCell>
+	</Shape>
+	<Shape label="示范&#xa;区售&#xa;楼处&#xa;室内&#xa;方案&#xa;设计&#xa;成果" pdp="71|0|0" points="4" lstyle="font-size=11" id="85">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="511" y="1245" width="32" height="100" />
+		</rCell>
+	</Shape>
+	<Shape label="示范&#xa;区样&#xa;板房&#xa;室内&#xa;方案&#xa;设计&#xa;成果" pdp="71|0|0" points="4" lstyle="font-size=11" id="86">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="549" y="1245" width="32" height="100" />
+		</rCell>
+	</Shape>
+	<Shape label="示范&#xa;区技&#xa;术设&#xa;备应&#xa;用方&#xa;案定&#xa;稿" pdp="71|0|0" points="4" lstyle="font-size=11" id="87">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="587" y="1245" width="32" height="100" />
+		</rCell>
+	</Shape>
+	<!-- row5 -->
+	<Shape label="" pdp="0|0|0" points="4" lstyle="" id="88">
+		<rCell style="rounded;stroke-width=2;fill=#b8c9e3">
+			<rGeometry x="220" y="1410" width="412" height="100" radius="5" />
+		</rCell>
+	</Shape>
+	<Label label="16、竣工版产品配置标准终稿" id="lb88">
+		<rCell style="font-size=11">
+			<rGeometry x="445" y="1420" />
+		</rCell>
+	</Label>
+	<Shape label="规划&#xa;配置&#xa;标准&#xa;终稿" pdp="88|0|0" points="4" lstyle="font-size=11" id="89">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="225" y="1430" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="户型&#xa;配置&#xa;标准&#xa;终稿" pdp="88|0|0" points="4" lstyle="font-size=11" id="90">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="262" y="1430" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="立面&#xa;配置&#xa;标准&#xa;终稿" pdp="88|0|0" points="4" lstyle="font-size=11" id="91">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="299" y="1430" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="商业&#xa;配套&#xa;配置&#xa;标准&#xa;终稿" pdp="88|0|0" points="4" lstyle="font-size=11" id="92">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="336" y="1430" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="设备&#xa;技术&#xa;配置&#xa;标准&#xa;终稿" pdp="88|0|0" points="4" lstyle="font-size=11" id="93">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="373" y="1430" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="景观&#xa;配置&#xa;标准&#xa;终稿" pdp="88|0|0" points="4" lstyle="font-size=11" id="94">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="410" y="1430" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="批量&#xa;精装&#xa;配置&#xa;标准&#xa;终稿" pdp="88|0|0" points="4" lstyle="font-size=11" id="95">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="447" y="1430" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="公共&#xa;部位&#xa;配置&#xa;标准&#xa;终稿" pdp="88|0|0" points="4" lstyle="font-size=11" id="96">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="484" y="1430" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="结构&#xa;初装&#xa;修配&#xa;置终&#xa;稿" pdp="88|0|0" points="4" lstyle="font-size=11" id="97">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="521" y="1430" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="售楼&#xa;处精&#xa;装配&#xa;置终&#xa;稿" pdp="88|0|0" points="4" lstyle="font-size=11" id="98">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="558" y="1430" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="样板&#xa;房精&#xa;装配&#xa;置终&#xa;稿" pdp="88|0|0" points="4" lstyle="font-size=11" id="99">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="595" y="1430" width="32" height="70" />
+		</rCell>
+	</Shape>
+	<Shape label="整盘各专业竣工图" pdp="0|0|0" points="4" lstyle="font-size=11" id="100">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="250" y="1560" width="110" height="50" />
+		</rCell>
+	</Shape>
+	<Shape label="示范区各专业竣工图" pdp="0|0|0" points="4" lstyle="font-size=11" id="101">
+		<rCell style="rect;fill=#bcccee">
+			<rGeometry x="490" y="1560" width="110" height="50" />
+		</rCell>
+	</Shape>
+	<!-- edge -->
+	<Edge id="eg1">
+		<rCell style="noway;stroke=#7a98ce" source="1|e" target="3|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg2">
+		<rCell style=";stroke=#7a98ce" source="2|e" target="3|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg3">
+		<rCell style=";stroke=#7a98ce" source="3|e" target="4|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg4">
+		<rCell style=";stroke=#7a98ce" source="4|e" target="5|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg5">
+		<rCell style=";stroke=#7a98ce" source="5|e" target="6|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg6">
+		<rCell style=";stroke=#7a98ce" source="6|e" target="7|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg7">
+		<rCell style=";stroke=#7a98ce" source="4|s" target="10|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg8">
+		<rCell style=";stroke=#7a98ce" source="8|s" target="9|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg9">
+		<rCell style=";stroke=#7a98ce" source="9|e" target="10|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg10">
+		<rCell style=";stroke=#7a98ce" source="7|s" target="8|n" path='L,888,160,L795,160,a4,4 90 0,0 -8,0,L,430,160,a4,4 90 0,0 -8,0, L50,160'>
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg11">
+		<rCell style=";stroke=#7a98ce" source="10|s" target="22|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg12">
+		<rCell style=";stroke=#7a98ce" source="10|s" target="23|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg13">
+		<rCell style=";stroke=#7a98ce" source="23|e" target="35|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg14">
+		<rCell style=";stroke=#7a98ce" source="35|e" target="36|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg15">
+		<rCell style=";stroke=#7a98ce" source="36|e" target="37|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg16">
+		<rCell style=";stroke=#7a98ce" source="6|s" target="36|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg17">
+		<rCell style=";stroke=#7a98ce" source="7|s" target="37|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg18">
+		<rCell style=";stroke=#7a98ce" source="64|s" target="71|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg19">
+		<rCell style=";stroke=#7a98ce" source="9|s" target="38|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg20">
+		<rCell style=";stroke=#7a98ce" source="38|e" target="39|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg21">
+		<rCell style=";stroke=#7a98ce" source="23|s" target="39|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg22">
+		<rCell style=";stroke=#7a98ce" source="x|e" target="x|n" path="M426,545,630,545,630,900">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg23">
+		<rCell style=";stroke=#7a98ce" source="35|s" target="61|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg24">
+		<rCell style=";stroke=#7a98ce" source="36|s" target="62|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg25">
+		<rCell style=";stroke=#7a98ce" source="37|s" target="63|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg26">
+		<rCell style=";stroke=#7a98ce" source="39|s" target="51|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg27">
+		<rCell style=";stroke=#7a98ce" source="46|s" target="58|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg28">
+		<rCell style=";stroke=#7a98ce" source="47|s" target="49|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg29">
+		<rCell style=";stroke=#7a98ce" source="48|s" target="50|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg30">
+		<rCell style=";stroke=#7a98ce" source="49|s" target="59|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg31">
+		<rCell style=";stroke=#7a98ce" source="50|s" target="60|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg32">
+		<rCell style=";stroke=#7a98ce" source="51|e" target="61|w" path="L626,804,a4,4 90 0,1 8,0">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg33">
+		<rCell style=";stroke=#7a98ce" source="61|e" target="62|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg34">
+		<rCell style=";stroke=#7a98ce" source="62|e" target="63|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg35">
+		<rCell style=";stroke=#7a98ce" source="61|s" target="77|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg36">
+		<rCell style=";stroke=#7a98ce" source="62|s" target="78|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg37">
+		<rCell style=";stroke=#7a98ce" source="63|s" target="79|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg38">
+		<rCell style=";stroke=#7a98ce" source="71|e" target="77|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg39">
+		<rCell style=";stroke=#7a98ce" source="77|e" target="78|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg40">
+		<rCell style=";stroke=#7a98ce" source="78|e" target="79|w">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg41">
+		<rCell style=";stroke=#7a98ce" source="71|s" target="83x|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg42">
+		<rCell style=";stroke=#7a98ce" source="83x|s" target="88|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg43">
+		<rCell style=";stroke=#7a98ce" source="88|s" target="100|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg44">
+		<rCell style=";stroke=#7a98ce" source="88|s" target="101|n">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg45">
+		<rCell style=";stroke=#7a98ce" source="x|s" target="x|n" path="M230,858,230,1410">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg46">
+		<rCell style=";stroke=#7a98ce" source="58|s" target="80|n" path="L475,868,270,868">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg47">
+		<rCell style=";stroke=#7a98ce" source="59|s" target="81|n" path="L534,878,318,878">
+			<rGeometry />
+		</rCell>
+	</Edge>
+	<Edge id="eg48">
+		<rCell style=";stroke=#7a98ce" source="60|s" target="82|n" path="L584,888,366,888">
+			<rGeometry />
+		</rCell>
+	</Edge>
+</rGraphModel>

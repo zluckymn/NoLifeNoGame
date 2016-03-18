@@ -1,0 +1,341 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*tab开始*/
+.tab01{ height:27px; background-position-y:26px; padding-left:10px;}
+.tab01 li h3{ margin-right:0px;}
+.tab01 li h3 a{ padding-left:0; display: inline-block; float:none; font-weight:normal; height:26px; line-height:26px; }
+.tab01 li h3 img{ margin-left:6px;}
+.tab01 li.this{ border-bottom:1px solid #fff;}
+/*tab结束*/
+
+
+
+/*******页面主体开始********/
+.padding_left20{ padding-left: 20px;line-height:23px; }
+
+
+.projitem{float: left;width:140px; line-height:25px; background-color:#efefef; margin:0px 15px 5px 0px; padding:0px 5px 0 10px}
+.projitem a{color:#434343}
+.earth_info{ border-bottom:1px dashed #ddd; margin-top:20px; padding-bottom:20px;}
+.earth_info a{cursor:pointer}
+.earth_info ul li{ margin:0px 0px 7px 0px}
+.earth_info ul li.earth_name{ margin-bottom:15px;}
+.earth_name a{ font-size:18px; font-weight:bold; color:#404040; text-decoration:underline; }
+.earth_name a:hover{ color:#7b5129}
+
+.rela_pack{padding:30px 0 70px 50px;}
+
+.surface{width:120px; height:110px; line-height:100px; vertical-align:middle; text-align:center;}
+.surface img{line-height:100px; vertical-align:middle; text-align:center;}
+
+.engInfo_Sim{float:left; background-color:#f4f4f4; margin-left:10px; width:725px; height:118px; border:1px solid #ccc;}
+.engInfo_Simcon{ padding:10px; padding-top:8px;}
+.engInfo_Simcon .surface{ width:100px; height:100px; float:left; margin-right:10px; overflow:hidden; border:1px solid #ccc;}
+
+
+
+.engpr_title .engpr_a{ font-size:18px; color:#404040;}
+.engpr_title .engpr_a:hover{ color:#7b5129}
+.engpr_title span{ margin-left:20px;}
+
+.mainContent
+{
+    float: left;
+    width: 680px;
+    overflow: hidden;
+}
+.rightContent
+{
+    float: right;
+    width: 280px;
+    overflow: hidden;
+}
+        
+.projsupcontainer
+{
+    min-height: 50px;
+    overflow: hidden;
+}
+.projsupcontainer a
+{
+    display: block;
+    padding: 3px 5px;
+    border: 1px solid #DCDCDC;
+    background-color: #f5f5f5;
+    float: left;
+    margin: 10px 10px 10px 20px;
+    text-decoration: none;
+}
+div.projsupcontainer a:hover
+{
+    text-decoration: underline;
+}
+        
+.mainContent h2
+{
+    border-bottom: 1px solid #DEDEDE;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+.mainContent > div
+{
+    padding-left: 10px;
+}
+#projectIntro
+{
+    margin-bottom: 20px;
+}
+a.supplier
+{
+    display: block;
+    padding: 5px 5px 5px 10px;
+    background-color: #F2F1EF;
+    float: left;
+    margin:5px 0;
+}
+
+*+html .con_top .btnright{ margin-top:5px;}
+
+/*三级目录开始*/
+ul.infolist li{ float:left; display:block;white-space: nowrap; line-height:20px; width:103px; padding:2px 0 2px 5px; margin-right:2px; position:relative;border:1px solid #ffffff;}
+ul.infolist li a{color:#808080}
+ul.infolist li.second:hover{ border:1px solid #d7d7d7;}
+ul.infolist li.second a{BACKGROUND: url(../../../images/client/QX/ico-arro.png) no-repeat right center; display:block; padding-right:8px; float:left}
+ul.infolist li.second .second_info{ position: absolute; background-color:#ffffff;border:1px solid #d7d7d7; left:70px; top:-1px; z-index:1000000; display:none;}
+ul.infolist li.second:hover .second_info{display: inline}
+ul.infolist li.second .second_info ul li{ float:none; overflow:hidden}
+ul.infolist li.second .second_info ul li a{ padding-left:20px; background-image:none}
+ul.infolist li.second .second_info div.second_line{ width:1px; background-color:#fff; height:24px; position:absolute; left:-1px;}
+/*三级目录结束*/
+
+
+.supp_title{ font-weight:bold; color:#7d7d7d; border-bottom:1px solid #dedede; padding:5px 0 8px 0; margin-top:10px; margin-bottom:10px}
+.supp_con{ border:0px; margin:0px;}
+
+.supplierItem{background-color:#FBFBFB;border:1px solid #E1E1E1;overflow:hidden;position:relative;margin:10px 0;padding-bottom:10px}
+.supplierItem .left{float:left;width:230px;overflow:hidden;padding:15px;}
+.supplierItem .right{float:right;width:680px;overflow:hidden; padding-right:20px;}
+.supplierName{ color:#404040; font-weight:bold; font-size:14px; text-decoration:underline;margin-bottom:8px; display:inline-block} 
+.supplierName:hover{ color:#7b5129}
+.toggleTip{position:absolute;right:0;bottom:0;display:block;color:#896744;background-color:#DDD4CD;padding:3px 4px;cursor:pointer;}
+ul.evaluateList{list-style:none;padding:0;margin:0;overflow:hidden;float:left}
+ul.evaluateList li{float:left;padding:2px 10px 2px 12px;white-space:nowrap; background-color:#e0e0e0; border:1px solid #bdbdbd; margin:0 10px 5px 0;cursor:pointer;}
+ul.evaluateList li.select{ border:1px solid #b5826f; background-color:rgb(221, 212, 203); color:#896744}
+ul.evaluateList li:hover{ text-decoration:underline; color:#7b5129}
+.evaluateListdiv{margin: 20px 0 0 0; padding-bottom: 20px}
+ 
+.subContainer{display:none; margin-bottom:30px}   
+.relBaseInfo{margin-top:15px}
+
+
+.materbar_list{ height:25px; line-height:25px;}
+
+.materlist_title{ padding:5px;border:1px solid #e8e0c6; margin-bottom:5px; background-color:#faf6e8}
+.marter_new{ padding:30px;}
+.mareva_box{ padding:10px;}
+.mareva_none{ line-height:25px;}
+.creatright{ float:right; margin-top:5px;overflow:hidden;}
+
+.packup_item{ margin:20px 0;}
+.packup_con{padding: 30px 0 70px 50px;}
+
+.search-result{ padding-left:10px; padding-bottom:10px;}
+.designContracts ul li{ float:left; min-width:320px; margin-right:15px; height:25px; line-height:25px; }
+
+.assbox_tree{width:240px; height:400px;float: left; margin:10px; border:1px solid #ddd; background-color:#fff;}
+.assbox_list{width:270px; height:400px; overflow: auto;float: right; padding:10px 10px 10px 0;}
+
+.subtitle{padding-bottom: 10px;border-bottom: 1px solid #dedede;margin: 15px 0 10px 0;}
+
+.imageblock{ width:120px; height:140px;}
+.shortcut{ width:120px; height:80px; line-height:80px;}
+.shortcut img{ vertical-align:middle;}
+
+.evaedit_title{ font-size:14px; font-weight:bold;}
+
+.photo_gallery{ border:0px;}
+.photo_gallery .pt_con{ padding:0px 10px 10px 10px}
+.photo_gallery .pt_con .img_con{ border-color:#ddd;}
+/*******页面主体结束********/
+
+
+div.container ul.category-tree>li>ul>li>span{color:#80662d; font-size:12px; font-weight:normal}
+
+
+
+
+.tip-a{ display:block;}
+.tip-a a{ display:block;}
+.tip-a .tip{border: #febe8f 1px solid;background-color: #fff8d9; padding: 5px;line-height: 21px;overflow: hidden;white-space: nowrap;
+           word-wrap: break-word; right:0px; top:16px; z-index:10}
+.noborder{}
+.noborder td{ border:none; color:#404040; padding:1px}
+.noborder tr:hover{ background:none}
+
+
+ .myFocus-wrap{ position: relative;}
+.myFocus-wrap .pendant{ position:absolute; left:0px; top:-20px;}
+.pendant ul{ list-style:none; display:inline-block;  margin-top:-1px;}
+.pendant ul li{ list-style:none; float:left; display:inline-block; margin-right:10px; height:20px; line-height:20px; background:#f5f5f5; border:1px solid #d7d7d7;  padding:0px 5px; cursor:pointer; position:relative}
+.pendant ul li.select,.pendant ul li:hover{background-color:#7b5129; color:#ffffff; border:1px solid #d7d7d7; }
+.pendant ul li.select .arrow,.pendant ul li:hover .arrow{overflow:hidden;width:0px;height:0px;margin:0;padding:0;font-size:0;
+                                                         border-top:6px dashed transparent;border-right:6px dashed transparent;
+                                                         border-bottom:6px solid  rgb(246, 110, 8);border-left:6px dashed transparent;
+                                                         position:absolute; top:-13px; left:40%;}
+
+
+.bgcolor{ background:#f2f2f2;}
+.EvaluationEdit_file li{ height:20px; line-height:20px;}
+
+.otherinput{ line-height:25px;}
+.infotype_table{ width:800px}
+.infotype_ul li{ float:left; min-width:130px; height:25px; line-height:25px; display:block; margin-right:3px;}
+
+.move_btn01 
+{
+    background-image:url("/Content/images/common/workbg.png");
+    background-repeat:repeat-x;
+    height:26px;
+    }
+.move_btn01 a{margin-top:5px;}
+.levl2 img{vertical-align:middle;}
+.levl3 img{vertical-align:middle;}
+.engList li{height:22px; padding:0px 0px;}
+.engList li a{color:#465059; display: inline; padding:3px 5px; text-decoration:none}
+.engList li a:hover{ color: #7b5129; text-decoration:underline}
+.engList li a.select{  color:#465059; font-weight:bold}
+.engList li a.engList_a{ color:#465059; font-weight:bold}
+.engList li a.engList_a:hover{ text-decoration:none; cursor: default}
+
+
+
+/*-----------设计变更模块开始-----------*/
+.table01 tr td.field{ background-color:#f2f2f2; }
+
+.psdiv{ margin:10px 0;}
+.psdiv .info{  padding-right:30px; text-align:right;}
+.psdiv .psimg{}
+#designChangeInfoTable .subtitle{padding-bottom:10px; border-bottom:1px solid #bebebe; margin:15px 0 10px 0}
+
+.changeday{ margin-bottom:15px;}
+.changeday span{font-size: 18px; margin: 0px 5px; font-weight:bold;}
+/*-----------设计变更模块结束-----------*/
+
+
+
+
+/*-----------工作台模块开始-----------*/
+.todolist{ margin-top:20px;}
+.todolist a{ height:25px; line-height:25px;}
+
+.workleft .container ul.category-tree a:hover{ text-decoration:underline}
+/*.workleft .container ul.category-tree a{border:1px dotted #fff;padding:2px 3px; text-decoration:none;}
+.workleft .container ul.category-tree a.select{color:#7b5129;background-color:#f5f5f5;border:1px dotted #999;padding:2px 3px;}*/
+.workleft .container ul.category-tree li img{ cursor:pointer;}
+
+.todotd{ width:150px; *width:153px;}
+/*-----------工作台模块结束-----------*/
+
+
+
+.ullist_pro{ overflow:hidden;}
+.ullist_pro li{ display:block; float:left; padding-bottom:10px;}
+.ullist_pro li a{ display:block; float:left;white-space:nowrap; padding:5px 5px; background-color:#f2f1ef;  margin:0 15px 0px 0; width:140px;}
+.ullist_pro li a.del img{ visibility: hidden}
+.ullist_pro li:hover a.del img{ visibility:inherit}
+.ullist_pro li a:hover{ color:#7b5129}
+
+
+.ullist{ overflow:hidden;}
+.ullist li{ display:block; float:left;white-space:nowrap; padding:2px 5px 2px 10px; background-color:#e0e0e0; border:1px solid #bdbdbd; margin:0 10px 5px 0; cursor:pointer}
+.ullist li a{}
+.ullist li a.del img{ visibility: hidden}
+.ullist li:hover a.del img{ visibility:inherit}
+.ullist li a:hover{ color:#7b5129}
+.ullist li.select{ border:1px solid #b5826f; background-color:rgb(221, 212, 203); color:#896744}
+
+
+.Epsnode{ padding:2px; margin-right:10px; margin-left:20px}
+.Epsnode .node{height:25px; color:#896744; line-height:25px; width:230px;text-align:center; float:left; cursor:hand;  margin-top:5px;padding:5px; position:relative}
+.Epsnode .arro{background:url(/Content/images/client/ZHHY/general/arro.png) no-repeat left center; width:60px; height:30px; float:left}
+.Epsnode .nodefirst{ background:#f9f5e8; border:1px solid #e2cf97; text-align:left;border-radius:5px; padding:5px;}
+.Epsnode .nodenomal{background:#f8f8f8; border:1px solid #d7d7d7; color:#333;
+                    text-align:left;border-radius:5px; padding:5px;}
+.Epsnode .nodepro{text-align:left;background:#ececec; border:1px solid #777777; color:#333;
+                    text-align:left;border-radius:5px; padding:5px; }
+.Epsnode .node a{display:inline-block; word-break:break-all;}
+.Epsnode .node a:hover{ text-decoration:none}
+.Epsnode .lev1{ clear:both; padding-left:41px; background:url(/Content/images/client/ZHHY/general/arroline.png) repeat-y 40px top; overflow:hidden}
+*html .Epsnode .lev1{ margin-top:-5px;  background:url(/Content/images/common/arroline.png) repeat-y -10px top; }
+.Epsnode .lev2{  clear:both;padding-left:100px; overflow:hidden;background:url(/Content/images/client/ZHHY/general/arroline.png)  repeat-y 99px top; overflow:hidden}
+.Epsnode .lev3{clear:both;padding-left:100px; overflow:hidden;background:url(/Content/images/client/ZHHY/general/arroline.png)  repeat-y 99px top; overflow:hidden}
+.Epsnode .node span.oper{ position: absolute; right:0px; display:none}
+.Epsnode .node:hover span.oper{ display: inline}
+.notice{
+border: #febe8f 1px solid;
+background-color: #fff8d9; 
+color:#333333;
+width:250px;
+}
+.notice .title {
+	line-height: 35px;
+	height:35px;
+	font-weight: bold;
+	text-indent: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #bbbbbb;
+}
+.notice .oper{text-align:right; height:22px; margin-right:5px;}
+.notice .main ul {
+	list-style-type: disc;
+}
+.notice .main {
+	padding: 15px 10px 15px 25px;
+}
+.notice .main li {
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+.node nodepro
+    {
+        width: 130px;
+    }
+
+td.noborder_b{border-bottom:0px none}
+.inf_dashed{ border-bottom:1px dashed #dcdcdc}
+
+.con_material{ max-height:300px; overflow:auto;}
+
+.launchbox{margin:0 0 5px 5px; height:450px; overflow:auto; overflow-x:hidden}
+
+.search-result-nav{height:25px; display:inline-block;}
+.search-result-nav li{ display: inline-block; list-style:none;list-style-position:outside; float:left;
+                        height:25px; line-height:25px;padding:0px 10px;}
+.search-result-nav li a{display: inline-block;}
+.search-result-nav li.select{ color:#fff; background-color:#7d5227; }
+.search-result-nav li.select a{ color:#fff}
+
+.bottom_x td{ border-bottom:1px dotted #c2c2c2}
+
+
+.proland_pic{ border: #bbb 1px solid;}
+.anchorTR{position:absolute; z-index:10000; margin:5px 5px 0 580px; border:1px solid #808080; padding:2px; background-color:#ffffff; cursor:pointer}
+.anchorTR img{ border:1px solid #808080}
+.anchorTR span.lay1{top: 30px; width: 45px; height: 18px; filter: Alpha(opacity=50);; position: absolute; background-color: rgb(128, 128, 128);}
+.anchorTR span.lay2{top: 32px; width: 45px; text-align: center; color: white; line-height: 15px; position: absolute;}
+.anchorTR:hover span.lay1{filter: Alpha(opacity=100);;background-color:#83a1ff;}
+.anchorTR:hover img{border:1px solid #83a1ff}
+
+
+.img_upload .con{ border-bottom:0px;}
+.width130{ width:130px; height:32px; line-height:32px}
+
+.aorder{ color:#979797;}
+.aorder:hover{ color:#7b5129}
+
+.collection{ float:right; margin-right:7px;line-height:30px}
+.collects{ float:left; *vertical-align:middle;}
+.collectlist{ background-color:#f8f8f8; border:1px solid #ddd;}
+

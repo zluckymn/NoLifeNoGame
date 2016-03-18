@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+#category-list{ border-bottom:1px solid #cbcbcb;}
+
+#category-list div h4{ margin:3px 0;font-size:16px; padding:0 3px;color:#333;word-wrap: break-word; line-height:20px; font-weight: bold}
+#category-list .itme .itmename{background-color:#efefef;padding:10px 9px 10px 10px;border-right:1px solid #dcdcdc;}
+#category-list .itmename-hover{background:#efefef;color:#f50; padding:10px;}
+#category-list .itme-hover{ border:1px solid #FE8802; background-color:#FFFAE7;border:1px solid #999; background-color:#efefef;}
+.info-border{border:1px solid #d9d9d9;margin-left:10px;line-height: 21px;margin-bottom:10px;}
+.info-border img{margin-bottom:5px;}
+.info-title {line-height: 21px;font-weight: bold;background-color: #F2F5FA;padding-left: 10px;margin-bottom: 4px;}
+#category-list .itme .item-tr dl dt {font-size: 15px;font-weight: bold;color: #333;line-height: 25px;display: block;}
+#category-list .itme .item-tr dl dt a{text-decoration:none; color:#333}
+#category-list .itme .item-tr dl dt a:hover{ text-decoration:underline;color:#dc3d35}
+#category-list .itme .item-tr dl {margin-top: 10px;margin-left: 10px;float: left;margin-right: 10px;display: block;width: 180px;min-height: 40px; /*height:150px;  AIII-2022*/}
+#category-list .itme .item-tr {margin: 0px;padding: 0px;clear: both;}
+#category-list .itme .item-tr dl dd {float: left;display: block;white-space: nowrap;line-height: 20px;font-size:12px;}
+#category-list .itme .item-tr dl dd a {color: #666; text-decoration: none;display: block;padding-right: 10px;}
+#category-list .itme .item-tr dl dd a:hover {color:#dc3d35;text-decoration: underline;}
+.itme{background-color:#fcfcfc;border:1px solid #cbcbcb;border-bottom:0px;}
+.itme .itme-table{}
+
+.module{ overflow:hidden;  padding:0px; margin:0px;}
+.module .module-hd{border-bottom:1px solid #cbcbcb; border-bottom:1px solid #333; padding:5px; margin:0px;background-color:#dc3d35; background-color: #E6E6E6}
+.module .module-hd h3{ font-weight:bold; font-size:14px; line-height:25px;padding-left:5px; display:inline; color:#333}
+.module .module-bd{ margin:0px; padding:10px; background-color:#f7f7f7;border:1px solid #f7f7f7;}
+.listpicZone{ overflow:hidden}
+.listpicZone dl{ display: block; list-style:none;border-bottom:1px dotted #ccc; padding-bottom:10px; margin:0px 0px 10px 0px; overflow:hidden}
+.listpicZone dl dd{float:left;border:1px solid #cbcbcb; height:100px; width:100px;}
+.listpicZone dl dd img{ max-height:98px; max-width:98px; margin:1px;}
+.listpicZone dl dt{margin:0px; padding:0px;word-break:break-all; padding-left:110px;}
+.listpicZone dl dt p{ padding:2px 0px; line-height:20px; margin:0px;}
+.listpicZone dl dt p.title{ font-size:14px; font-weight:bold}
+
+.resultList{overflow:hidden}
+.resultList ul{ list-style:none; }
+.resultList li{list-style:none; border-bottom:1px dotted #ddd; display:block;overflow:hidden; padding:10px 0px;}
+.resultList li .workListBox{ float:left}
+
+
+.pro_detail{padding:0px; margin:0px;list-style:none; float:left; margin-left:20px;}
+.pro_detail dt { padding-top:3px; }
+.pro_detail dt a{ font-size:16px; font-weight: bold; text-decoration:none; color:#333; color:#08c;display:inline;}
+.pro_detail dt a:hover{ text-decoration:underline}
+.pro_detail dd{padding:0px; margin:0px; margin-top:10px; }
+
+.single_detail{list-style:none; float:left; padding:0px; margin:0px; width:250px;}
+.single_detail dl{display:block; overflow:hidden;padding:0px; margin:0px; height:25px;}
+.single_detail dl dt{ font-size:12px; color:#999; display:inline; float:left;padding:0px; margin:0px;}
+.single_detail dl dd{ font-size:12px; color:#333; display:inline; float:left; padding:0px; margin:0px;}
+
+
+
+
+.frame_view{ margin-top:-25px; margin-right:4px;}
+.view span{ line-height:15px;#line-height:15px; height:18px;}

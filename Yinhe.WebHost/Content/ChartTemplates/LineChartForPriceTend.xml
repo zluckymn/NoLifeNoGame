@@ -1,0 +1,32 @@
+﻿<Chart ImageLocation="..\..\TempImages\ChartPic_#SEQ(200,30)" BackColor="248,248,248" BackSecondaryColor="White"  BorderlineDashStyle="Solid" BorderColor="226, 226, 226" BorderWidth="1" BorderlineColor="226,226,226" BorderlineWidth="0" >
+  <Series>
+    <Series Name="全部"  MarkerStyle="Circle" MarkerSize="2" MarkerColor="100,100,100" MarkerBorderColor="120,120,120" BorderWidth="1" Legend="DefaultLegend" ChartArea="DefaultArea" IsValueShownAsLabel="False"   CustomProperties="DrawingStyle=Wedge,PixelPointGapDepth=10, PixelPointDepth=70, PixelPointWidth=24" LabelFormat="#,###" BorderColor="65, 140, 240"  Color="68, 114, 173">	
+	</Series>
+    <Series Name="洋房" MarkerStyle="Circle" MarkerSize="2" MarkerColor="100,100,100" MarkerBorderColor="120,120,120" BorderWidth="1"  Legend="DefaultLegend" ChartArea="DefaultArea" IsValueShownAsLabel="False"   CustomProperties="DrawingStyle=Wedge,PixelPointGapDepth=10, PixelPointDepth=70, PixelPointWidth=24" LabelFormat="#,###" BorderColor="252, 180, 65"   Color="171, 69, 82"  >
+    </Series>
+	<Series Name="别墅" MarkerStyle="Circle" MarkerSize="2" MarkerColor="100,100,100" MarkerBorderColor="120,120,120" BorderWidth="1"  Legend="DefaultLegend" ChartArea="DefaultArea" IsValueShownAsLabel="False"   CustomProperties="DrawingStyle=Wedge,PixelPointGapDepth=10, PixelPointDepth=70, PixelPointWidth=24" LabelFormat="#,###"  BorderColor="244, 152, 139" Color="133, 168, 78"   >
+	</Series>
+  </Series>
+  <ChartAreas>
+   <ChartArea BackColor="248,248,248" BackSecondaryColor="White" ShadowColor="Transparent" Position="0,5,98,95" Name="DefaultArea">
+      <AxisY LineWidth="0" TitleForeColor="80,125,158" TitleFont="Trebuchet MS,9.5,style=bold">
+        <MajorGrid LineColor="192, 192, 192" />
+        <LabelStyle Font="宋体" Format="N0" ForeColor="100,100,100"/>
+		<MajorTickMark Enabled="False" />
+      </AxisY>
+      <AxisX LineColor="192, 192, 192" LineWidth="1" Interval="1" IsLabelAutoFit="True" LabelAutoFitStyle="WordWrap"> 
+        <MajorGrid LineColor="0, 64, 64, 64" />
+        <LabelStyle Font="宋体,9" ForeColor="100,100,100"/>
+		<MajorTickMark LineColor="120, 64, 64, 64"/>
+      </AxisX>
+   </ChartArea>
+  </ChartAreas>
+  <Legends>
+    <Legend Enabled="False" Name="DefaultLegend">
+    </Legend>
+  </Legends>
+  <Titles>
+    <Title   Font="Trebuchet MS, 13pt, style=Bold" ForeColor="26, 59, 105" Alignment="TopLeft" Name="Title1">
+    </Title>
+  </Titles>
+</Chart>

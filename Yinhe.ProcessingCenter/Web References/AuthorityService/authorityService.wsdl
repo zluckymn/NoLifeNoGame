@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns="http://impl.services.v3x.seeyon.com" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ax237="http://services.v3x.seeyon.com/xsd" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:axis2="www.seeyon.com" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="www.seeyon.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>This is the test webservice for Spring/Axis2 Integration</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema xmlns:ax239="http://services.v3x.seeyon.com/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://impl.services.v3x.seeyon.com">
+      <xs:import namespace="http://services.v3x.seeyon.com/xsd" />
+      <xs:complexType name="Exception">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:anyType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ServiceException">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ServiceException" nillable="true" type="ax239:ServiceException" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="authenticate">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="authenticateResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax239:UserToken" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema xmlns:ax238="http://impl.services.v3x.seeyon.com" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://services.v3x.seeyon.com/xsd">
+      <xs:import namespace="http://impl.services.v3x.seeyon.com" />
+      <xs:complexType name="ServiceException">
+        <xs:complexContent mixed="false">
+          <xs:extension base="ax238:Exception">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="errorNumber" type="xs:long" />
+              <xs:element minOccurs="0" name="message" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="UserToken">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="id" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="nullToken" nillable="true" type="ax237:UserToken" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="authenticateRequest">
+    <wsdl:part name="parameters" element="ns:authenticate" />
+  </wsdl:message>
+  <wsdl:message name="authenticateResponse">
+    <wsdl:part name="parameters" element="ns:authenticateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ServiceException">
+    <wsdl:part name="parameters" element="ns:ServiceException" />
+  </wsdl:message>
+  <wsdl:portType name="authorityServicePortType">
+    <wsdl:operation name="authenticate">
+      <wsdl:input wsaw:Action="urn:authenticate" message="axis2:authenticateRequest" />
+      <wsdl:output wsaw:Action="urn:authenticateResponse" message="axis2:authenticateResponse" />
+      <wsdl:fault wsaw:Action="urn:authenticateServiceException" name="ServiceException" message="axis2:ServiceException" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="authorityServiceSoap11Binding" type="axis2:authorityServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="authenticate">
+      <soap:operation soapAction="urn:authenticate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ServiceException">
+        <soap:fault use="literal" name="ServiceException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="authorityServiceSoap12Binding" type="axis2:authorityServicePortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="authenticate">
+      <soap12:operation soapAction="urn:authenticate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ServiceException">
+        <soap12:fault use="literal" name="ServiceException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="authorityServiceHttpBinding" type="axis2:authorityServicePortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="authenticate">
+      <http:operation location="authorityService/authenticate" />
+      <wsdl:input>
+        <mime:content part="authenticate" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="authenticate" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="authorityService">
+    <wsdl:port name="authorityServiceHttpSoap11Endpoint" binding="axis2:authorityServiceSoap11Binding">
+      <soap:address location="http://27.151.122.65:80/seeyon/services/authorityService.authorityServiceHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="authorityServiceHttpSoap12Endpoint" binding="axis2:authorityServiceSoap12Binding">
+      <soap12:address location="http://27.151.122.65:80/seeyon/services/authorityService.authorityServiceHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="authorityServiceHttpEndpoint" binding="axis2:authorityServiceHttpBinding">
+      <http:address location="http://27.151.122.65:80/seeyon/services/authorityService.authorityServiceHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

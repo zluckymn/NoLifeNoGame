@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWord">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="html" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HelloWordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWordResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSysMessage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="group" type="tns:Group" />
+            <s:element minOccurs="0" maxOccurs="1" name="jobName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sendTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="tns:SystemMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="Group">
+        <s:restriction base="s:string">
+          <s:enumeration value="Msg_Persistent" />
+          <s:enumeration value="Msg_CRM_Customer_UpdateStage" />
+          <s:enumeration value="Msg_CRM_Customer_LeaveMsg" />
+          <s:enumeration value="Msg_CRM_Customer_PopActivity" />
+          <s:enumeration value="Msg_Contract_Mgr_ReceiptMileStone" />
+          <s:enumeration value="Msg_Engineer_ProjectMgr_StartPlan" />
+          <s:enumeration value="Msg_WF_Action_Normal" />
+          <s:enumeration value="Msg_Result_ResultJudge" />
+          <s:enumeration value="Msg_PlaningWorkTask" />
+          <s:enumeration value="Msg_SubmitDocumentBill" />
+          <s:enumeration value="Msg_ReplyPostil" />
+          <s:enumeration value="Msg_ProjectResultComment" />
+          <s:enumeration value="Msg_MobileSMS" />
+          <s:enumeration value="Msg_StandardResult" />
+          <s:enumeration value="Msg_DepartmentBudget" />
+          <s:enumeration value="Msg_ZHTZ_DeleteDesignSupplier" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="SystemMsg">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SenderId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="CreateDate" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="TypeId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Title" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Content" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ContentHead" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VerificationCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SMSContent" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ToUserIds" type="tns:ArrayOfInt" />
+          <s:element minOccurs="0" maxOccurs="1" name="CCUserIds" type="tns:ArrayOfInt" />
+          <s:element minOccurs="1" maxOccurs="1" name="SendEmail" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="SendMobileSMS" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Host" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="srcTypeId" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="isImportant" nillable="true" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfInt">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="int" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SendSysMessageResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="SendMobileSMS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="group" type="tns:Group" />
+            <s:element minOccurs="1" maxOccurs="1" name="sendTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="sms" type="tns:MobileSMS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="MobileSMS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Content" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="verificationCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PhoneNumbers" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserIds" type="tns:ArrayOfInt" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SendMobileSMSResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="RemoveJob">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="group" type="tns:Group" />
+            <s:element minOccurs="0" maxOccurs="1" name="jobName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RemoveJobResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RemoveJobResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendTaskNoticeOnce">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="group" type="tns:Group" />
+            <s:element minOccurs="0" maxOccurs="1" name="jobName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cronEx" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendTaskNoticeOnceResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="DeleteDesignSupplier">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="group" type="tns:Group" />
+            <s:element minOccurs="0" maxOccurs="1" name="jobName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cronEx" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteDesignSupplierResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="SendInstanceApproverNotice">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="group" type="tns:Group" />
+            <s:element minOccurs="0" maxOccurs="1" name="jobName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cronEx" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendInstanceApproverNoticeResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWordSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWord" />
+  </wsdl:message>
+  <wsdl:message name="HelloWordSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWordResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendSysMessageSoapIn">
+    <wsdl:part name="parameters" element="tns:SendSysMessage" />
+  </wsdl:message>
+  <wsdl:message name="SendSysMessageSoapOut">
+    <wsdl:part name="parameters" element="tns:SendSysMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendMobileSMSSoapIn">
+    <wsdl:part name="parameters" element="tns:SendMobileSMS" />
+  </wsdl:message>
+  <wsdl:message name="SendMobileSMSSoapOut">
+    <wsdl:part name="parameters" element="tns:SendMobileSMSResponse" />
+  </wsdl:message>
+  <wsdl:message name="RemoveJobSoapIn">
+    <wsdl:part name="parameters" element="tns:RemoveJob" />
+  </wsdl:message>
+  <wsdl:message name="RemoveJobSoapOut">
+    <wsdl:part name="parameters" element="tns:RemoveJobResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendTaskNoticeOnceSoapIn">
+    <wsdl:part name="parameters" element="tns:SendTaskNoticeOnce" />
+  </wsdl:message>
+  <wsdl:message name="SendTaskNoticeOnceSoapOut">
+    <wsdl:part name="parameters" element="tns:SendTaskNoticeOnceResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDesignSupplierSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteDesignSupplier" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDesignSupplierSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteDesignSupplierResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendInstanceApproverNoticeSoapIn">
+    <wsdl:part name="parameters" element="tns:SendInstanceApproverNotice" />
+  </wsdl:message>
+  <wsdl:message name="SendInstanceApproverNoticeSoapOut">
+    <wsdl:part name="parameters" element="tns:SendInstanceApproverNoticeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="JobRegisterSoap">
+    <wsdl:operation name="HelloWord">
+      <wsdl:input message="tns:HelloWordSoapIn" />
+      <wsdl:output message="tns:HelloWordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSysMessage">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">发送系统消息. group：所属的组，sendTime：发送时间，msg：消息详细信息</wsdl:documentation>
+      <wsdl:input message="tns:SendSysMessageSoapIn" />
+      <wsdl:output message="tns:SendSysMessageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMobileSMS">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">发送短信. group：所属的组，sendTime：发送时间，msg：消息详细信息</wsdl:documentation>
+      <wsdl:input message="tns:SendMobileSMSSoapIn" />
+      <wsdl:output message="tns:SendMobileSMSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveJob">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">删除已注册的job</wsdl:documentation>
+      <wsdl:input message="tns:RemoveJobSoapIn" />
+      <wsdl:output message="tns:RemoveJobSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendTaskNoticeOnce">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">任务即将超期发送邮件提醒.group：所属的组，jobName：作业名称，cromEx：发送消息间隔</wsdl:documentation>
+      <wsdl:input message="tns:SendTaskNoticeOnceSoapIn" />
+      <wsdl:output message="tns:SendTaskNoticeOnceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDesignSupplier">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">删除长时间未审批的设计供方.group：所属的组，jobName：作业名称，cromEx：检查时间间隔</wsdl:documentation>
+      <wsdl:input message="tns:DeleteDesignSupplierSoapIn" />
+      <wsdl:output message="tns:DeleteDesignSupplierSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendInstanceApproverNotice">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">定时发送邮件给超过时间未审批的人.group：所属的组，jobName：作业名称，cromEx：检查时间间隔</wsdl:documentation>
+      <wsdl:input message="tns:SendInstanceApproverNoticeSoapIn" />
+      <wsdl:output message="tns:SendInstanceApproverNoticeSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="JobRegisterSoap" type="tns:JobRegisterSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWord">
+      <soap:operation soapAction="http://tempuri.org/HelloWord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSysMessage">
+      <soap:operation soapAction="http://tempuri.org/SendSysMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMobileSMS">
+      <soap:operation soapAction="http://tempuri.org/SendMobileSMS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveJob">
+      <soap:operation soapAction="http://tempuri.org/RemoveJob" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendTaskNoticeOnce">
+      <soap:operation soapAction="http://tempuri.org/SendTaskNoticeOnce" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDesignSupplier">
+      <soap:operation soapAction="http://tempuri.org/DeleteDesignSupplier" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendInstanceApproverNotice">
+      <soap:operation soapAction="http://tempuri.org/SendInstanceApproverNotice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="JobRegisterSoap12" type="tns:JobRegisterSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWord">
+      <soap12:operation soapAction="http://tempuri.org/HelloWord" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSysMessage">
+      <soap12:operation soapAction="http://tempuri.org/SendSysMessage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMobileSMS">
+      <soap12:operation soapAction="http://tempuri.org/SendMobileSMS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveJob">
+      <soap12:operation soapAction="http://tempuri.org/RemoveJob" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendTaskNoticeOnce">
+      <soap12:operation soapAction="http://tempuri.org/SendTaskNoticeOnce" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDesignSupplier">
+      <soap12:operation soapAction="http://tempuri.org/DeleteDesignSupplier" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendInstanceApproverNotice">
+      <soap12:operation soapAction="http://tempuri.org/SendInstanceApproverNotice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="JobRegister">
+    <wsdl:port name="JobRegisterSoap" binding="tns:JobRegisterSoap">
+      <soap:address location="http://localhost:4065/JobRegister.asmx" />
+    </wsdl:port>
+    <wsdl:port name="JobRegisterSoap12" binding="tns:JobRegisterSoap12">
+      <soap12:address location="http://localhost:4065/JobRegister.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,30 @@
+﻿<Chart ImageLocation="..\..\TempImages\ChartPic_#SEQ(200,30)" BackColor="WhiteSmoke" BackGradientStyle="TopBottom" BackSecondaryColor="White"  BorderlineDashStyle="Solid" BorderColor="226, 226, 226" BorderWidth="1" BorderlineColor="226,226,226" BorderlineWidth="1" >
+  <Series>
+    <Series Name="全部" Legend="DefaultLegend" ChartArea="DefaultArea" IsValueShownAsLabel="True" CustomProperties="LabelStyle=Top,DrawingStyle=Cylinder,PixelPointWidth=10" LabelFormat="{0:0.0}" BorderWidth="0" Color="158, 189, 225">
+	</Series>
+    <Series Name="洋房" Legend="DefaultLegend" ChartArea="DefaultArea" IsValueShownAsLabel="True" CustomProperties="LabelStyle=Top,DrawingStyle=Cylinder,PixelPointWidth=10" LabelFormat="{0:0.0}" BorderWidth="0" Color="222, 194, 150"  >		
+   </Series>
+	<Series Name="别墅" Legend="DefaultLegend" ChartArea="DefaultArea" IsValueShownAsLabel="True" CustomProperties="LabelStyle=Top,DrawingStyle=Cylinder,PixelPointWidth=10" LabelFormat="{0:0.0}" BorderWidth="0" Color="232, 124, 124"   >
+	</Series>
+  </Series>
+  <ChartAreas>
+    <ChartArea BackColor="WhiteSmoke" BackGradientStyle="TopBottom" BackSecondaryColor="White" ShadowColor="Transparent" Name="DefaultArea" BorderWidth="0" BorderColor="64, 64, 64, 64" >
+      <AxisY LineColor="120, 64, 64, 64" >
+        <MajorGrid LineColor="15, 64, 64, 64" />
+        <LabelStyle Font="Verdana, 8.25pt" Format="#,###"/>
+      </AxisY>
+      <AxisX LineColor="120, 64, 64, 64" Interval="1"> 
+        <MajorGrid LineColor="0, 64, 64, 64" />
+        <LabelStyle Font="Verdana,8.25pt" />
+      </AxisX>
+   </ChartArea>
+  </ChartAreas>
+  <Legends>
+    <Legend Enabled="True" Name="DefaultLegend" BackColor="Transparent" Alignment="Center" Docking="Bottom">
+    </Legend>
+  </Legends>
+  <Titles>
+    <Title  Font="Trebuchet MS, 13pt, style=Bold" ForeColor="26, 59, 105" Alignment="TopLeft" Name="Title1">
+    </Title>
+  </Titles>
+</Chart>

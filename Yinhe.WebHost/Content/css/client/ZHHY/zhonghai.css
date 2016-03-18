@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,ul,ol,li,button,img,input,tr,td{ margin:0px; padding:0px; }
+dl,dt,dd,ul,ol,li,em{list-style-image:none; list-style-type:none; list-style-position:outside}
+a{text-decoration:none}
+img{ border: currentcolor medium none}
+/*-----头部-----*/
+.title_box{ height:75px; background:url(../../../images/client/ZHHY/page_top_bg.gif) no-repeat 50% bottom;}
+a.logo{ display:block;width:310px; height:75px; background:url(../../../images/client/ZHHY/zhonghai/logo.gif) no-repeat; background-position:5px 15px}
+.q_entry{ text-align:right; float:right; margin-top:-60px; margin-right:20px;}
+.q_entry span{ margin:0 4px; line-height:24px;}
+
+
+/*-----中海导航-----*/
+ul.nav_lev1{ width:1060px; margin:0 auto;}
+ul.nav_lev2{ width:1035px; margin:0 auto;}
+ul.nav_lev1 li,ul.nav_lev2 li{ float:left;}
+
+.nav_lev1_box{ height:35px; background:url(../../../images/client/ZHHY/zhonghai/nav_bg.png); _background:url(../../../images/client/ZHHY/zhonghai/nav_bg.png); background-repeat:repeat-x;}
+ul.nav_lev1 li{ background:url(../../../images/client/ZHHY/zhonghai/nav_bg_menu.png); _background:url(../../../images/client/ZHHY/zhonghai/nav_bg_menu.png); background-repeat:repeat-x; background-position:right top;}
+ul.nav_lev1 li a{font-family:"微软雅黑","黑体","宋体";  display:block; height:35px; padding:0 24px; font-size:14px; font-weight:bold; line-height:37px; _line-height:37px; color:#fff; _display:inline-block; text-decoration:none}
+ul.nav_lev1 li.this{ margin:0px 2px;font-weight:bold;font-size:14px; background:url(../../../images/client/ZHHY/zhonghai/nav_bg_selected.png); background-repeat:repeat-x;height:35px; line-height:39px  }
+ul.nav_lev1 li.this a,ul.nav_lev1 li a:hover{margin:0px; background:url(../../../images/client/ZHHY/zhonghai/nav_bg_selected.png); background-repeat:repeat-x;color:#000;font-size:14px; height:35px; line-height:39px }
+
+.nav_lev2_box{clear:both; height:27px;border:1px solid #c7cacf; border-top:none; background-color:#f8f9fa}
+ul.nav_lev2 li{ height:22px; margin-top:3px; background: url(../../../images/client/ZHHY/zhonghai/nav_bg_line.png); background-repeat:no-repeat; background-position:right top;}
+ul.nav_lev2 li a{ display:block; height:22px; line-height:24px; padding:0 9px; color:#4d4d4d; _display:inline-block}
+ul.nav_lev2 li a:hover{ color:#cf2214; text-decoration:none}
+ul.nav_lev2 li.this{height:22px; line-height:22px;display:inline-block;  border-bottom:2px solid #811709;border-bottom:2px solid #cf2214}
+ul.nav_lev2 li.this a{color:#4d4d4d; font-weight:bold}
+
+/*-----中海导航结束-----*/
+
+.vertical_menu{ margin-left:100px; display:block; display:inline-block;}
+.vertical_menu ul.v_menu{ float:left; padding:3px 0; border:1px solid #b34c42; background:#efe9e8;}
+.vertical_menu ul.v_menu li{ padding:5px 24px 5px 12px; border-bottom:1px solid #dddddd;}
+.vertical_menu ul.v_menu li.have_child{ background-image:url(../../../images/client/ZHHY/zhonghai/vertical_menu_bg.gif); background-position:right center; background-repeat:no-repeat;}
+.vertical_menu ul.v_menu li:hover{ background-color:#ea9991;}
+.vertical_menu ul.v_menu li a{ color:#404040;}
+.vertical_menu ul.v_menu li a:hover{ text-decoration:none;}
+.vertical_menu ul.v_menu li.selected{ background-color:#b34c42;}
+.vertical_menu ul.v_menu li.selected a{ color:#fff;}
+
+.vertical_menu ul.v_menu_child{ float:left; padding:3px 0; border:1px solid #b34c42; background:#efe9e8;}
+.vertical_menu ul.v_menu_child li{ padding:5px 24px 5px 12px; border-bottom:1px solid #dddddd;}
+.vertical_menu ul.v_menu_child li.have_child{ background-image:url(../../../images/client/ZHHY/zhonghai/vertical_menu_bg.gif); background-position:right center; background-repeat:no-repeat;}
+.vertical_menu ul.v_menu_child li:hover{ background-color:#ea9991;}
+.vertical_menu ul.v_menu_child li a{ color:#404040;}
+.vertical_menu ul.v_menu_child li a:hover{ text-decoration:none;}
+.vertical_menu ul.v_menu_child li.selected{ background-color:#b34c42;}
+.vertical_menu ul.v_menu_child li.selected a{ color:#fff;}
+/*-----头部结束-----*/
+/*-----登录页-----*/
+.body_sign{ background:#eaeaea;}
+.body_bg01{ height:563px; background:url(../../../images/client/ZHHY/zhonghai/body_bg01.png) -20% top no-repeat; position:absolute; width:100%; z-index:10;}
+.body_bg02{ height:563px; background:url(../../../images/client/ZHHY/zhonghai/body_bg02.png) right top no-repeat;}
+.body_bg03{ height:800px; background:url(../../../images/client/ZHHY/zhonghai/body_bg03.png) right bottom no-repeat; position:absolute; bottom:0; width:100%;}
+
+.sign_in_box{ width:840px; margin:0 auto;/* border:1px solid #000;*/ padding:220px 60px 60px 60px; background:url(../../../images/client/ZHHY/zhonghai/sign_in_box.png) left top no-repeat;}
+.sign_left{ width:370px; float:left;/* border:1px solid #000;*/}
+.sign_left .sign_logo{ margin-top:28px; width:357px; height:94px; background:url(../../../images/client/ZHHY/zhonghai/sign_logo.gif) no-repeat;}
+.sign_right{ width:400px; padding-left:20px; float:left;/* border:1px solid #000;*/ background:url(../../../images/client/ZHHY/zhonghai/sign_right_line_bg.png) left center no-repeat;}
+.sign_right table{ font-size:14px;}
+.sign_right table td{ padding:3px 2px;}
+
+.sign_in_box .user_name,.sign_in_box .user_name1,.sign_in_box .user_name2,.sign_in_box .user_key,.sign_in_box .user_key1,.sign_in_box .user_key2
+{ width:186px; height:41px; background:url(../../../images/client/ZHHY/zhonghai/user_info_bg.png) no-repeat;}
+input.sign_in_inp{ margin:12px 0 0 38px; border:none; background:none;}
+.sign_in_box .user_key{ background-position:left -41px;}
+.sign_in_box .user_name1{ background-position:left -82px;}
+.sign_in_box .user_name2{ background-position:left -164px;}
+.sign_in_box .user_key1{ background-position:left -123px;}
+.sign_in_box .user_key2{ background-position:left -205px;}
+.ts_keep_txt{ font-size:12px; margin-left:6px; color:#777777;}
+.sign_in_button{ width:70px; height:33px; background:url(../../../images/client/ZHHY/zhonghai/sign_in_button.png) no-repeat; display:inline-block; vertical-align:middle;}
+a.fet_key{ font-size:12px; margin-left:6px; color:#d23723;}
+.ts_box_txt{ font-size:12px; color:#d23723; background:url(../images/icon/12.png) no-repeat left top; padding-left:20px;}
+
+.sign_footer{ text-align:center; color:#999999;}
+
+/*-----登录页结束-----*/
+
+
+/*-----中海首页-----*/
+
+.content { width:980px; margin:0 auto; padding:8px}
+.content_left{ float:left; width:250px}
+.content_right{ float:left; margin-left:10px; width:720px}
+.personcenter{ width:240px; margin:8px;}
+.personcenter_top{  background:url(../../../images/client/ZHHY/personcenter_top.png); background-repeat:no-repeat;background::#f8f9fb; height:35px; font-size:14px; font-weight:bold; color:#a1a3a8; padding-left:5px; line-height:35px;}
+.personcenter_main{ padding:8px; overflow:hidden; border-top:1px solid #c5c9cc;border-left:1px solid #c5c9cc;border-right:1px solid #c5c9cc;}
+.personcenter_left{ float:left; width:50px; padding-bottom:10px; }
+.personcenter_left .img{ width:50px; height:50px; background:url(../../../images/client/ZHHY/personcenter_person.png); background-repeat:no-repeat;}
+.personcenter_left p{ font-weight:bold; margin-top:8px; text-align: center}
+.personcenter_left a{ display:block; margin-top:8px; text-align:center; color:#cf3c32; text-decoration:none;}
+.personcenter_left a:hover{ text-decoration:underline}
+.personcenter_right{ float:left; margin-left:12px;margin-right:8px; margin-bottom:15px; border:1px solid #c5c9cc; border-bottom:none; background:#e5e6ea;-webkit-border-radius:5px;-moz-border-radius:5px; border-radius:5px; overflow:hidden; width:150px}
+*+html .personcenter_right{ width:155px}
+.personcenter_right a{ display:block;border-bottom:1px solid #c5c9cc; padding:5px 5px 5px 10px;  height:30px; line-height:27px; color:#404040; text-decoration:none}
+.personcenter_right a:hover{ text-decoration:underline;}
+.personcenter_right span{ color:#b11111;}
+.personcenter_bottom{ width:240px; height:8px; background:url(../../../images/client/ZHHY/personcenter_foot.png); background-repeat:no-repeat;}
+
+
+.persontab{ margin-top:8px; height:28px; border-bottom:1px solid #cccccc;}
+.persontab ul{ display:block;list-style:none;}
+.persontab ul li{ float:left;}
+.persontab ul li a{ float:left; display:inline; border:1px solid #cccccc; border-bottom:none; border-right:none; background:#e9e9e9; padding:2px 8px; height:23px; line-height:26px; width:80px; text-align:center; color:#404040; text-decoration:none;}
+.persontab ul li a.select{ background:#fff; border-bottom:1px solid #fff; font-weight:bold;}
+.persontab ul li a:hover{ font-weight:bold;}
+
+
+
+
+.searchForm{ height:32px; position:relative; z-index:1000}
+.search_tips_result_new{ left:0px; top:32px; position:absolute; z-index:1000; background-image:none; background-repeat:repeat; background-color:#fff; background-clip:border-box; background-origin:padding-box;background-attachment:scroll; border:1px solid #ccc;}
+.searchForm label{ color:#bbb; position:absolute; z-index:1; left:28px; top:10px}
+.searchForm input{ float:left; padding:0px 6px 0px 32px;border:2px solid #860000; background:url(../../../images/client/ZHHY/general/searchBtn.png) no-repeat; background-position:left bottom;width:320px; height:28px;  vertical-align:middle; line-height:30px;color:#333; }
+.searchBtn{ float:left; cursor:pointer; width:70px; height:32px; background:url(../../../images/client/ZHHY/general/searchBtn.png) no-repeat; background-position:left top;; background-color:transparent; border:none;text-align:center; font-size:12px; font-weight:bold; line-height:30px; vertical-align:middle;color:#fff;}
+
+
+
+.indexlist1{}
+.indexlist{float:left;border:1px solid #dddddd; overflow:hidden; margin-right:10px; margin-bottom:10px}
+.indexlist_child{ height:25px; border-bottom:1px dashed #dddddd;border-top:1px dashed #dddddd; background: #F4F4F4}
+.indexlist h3{height:28px; border-bottom:1px solid #dddddd; background: #F4F4F4; color:#333; font-size:12px; padding-left:8px; line-height:28px}
+.indexlist h4{ height:25px;color:#333; padding-left:8px; line-height:25px;border-bottom:1px solid #dddddd;background: #f8f8f8}
+.indexlist .main{background: #f8f8f8; overflow:hidden; line-height:25px; padding-left:5px}
+
+
+.newhome_table{ overflow:hidden}
+.newhome_table .trDark{ background:#e6e6e6}
+.newhome_table table{ overflow:hidden; border-collapse:collapse; }
+.newhome_table .tr_first{ height:23px; line-height:23px;border-bottom:1px dashed #dddddd}
+.newhome_table .tr_first td{padding:2px 0px 2px 8px; color:#000 }
+.newhome_table  td{ border-right:1px dashed #dddddd;border-bottom:1px dashed #ededed; height:21px; line-height:21px;padding:2px 2px 2px 8px; word-wrap: break-word; }
+.newhome_table  tr:hover{ background:#e6e6e6}
+.newhome_table a.right{text-decoration:none}
+.newhome_table a.projname{ color:#3758d3 }
+.newhome_table a.textname{ color:#666}
+.newhome_table a:hover{ text-decoration:underline}

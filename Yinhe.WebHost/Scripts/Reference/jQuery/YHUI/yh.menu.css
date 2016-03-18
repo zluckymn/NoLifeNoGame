@@ -1,0 +1,7 @@
+﻿.gmenu{position:absolute;background:#f0f0f0 url('images/menu.gif') repeat-y;margin:0;padding:2px;border:1px solid #ccc;	overflow:hidden}
+.menu-item{position:relative;margin:0;padding:0;height:22px;line-height:20px;overflow:hidden;font-size:12px;cursor:pointer;border:1px solid transparent;_border:1px solid #f0f0f0}
+.m-item-text{position:absolute;left:28px;top:0px}
+.m-item-icon{position:absolute;width:20px;height:20px;}
+.menu-rightarrow{position: absolute;width:4px;height:7px;top:7px;right:5px;background:url('images/menu_rightarrow.png') no-repeat}
+.m-item-sep{margin:3px 0px 3px 24px;line-height:2px;font-size:2px;background:url('images/menu_sep.png') repeat-x}
+.m-item-sel{border:1px solid #7eabcd;background:#fafafa;-moz-border-radius:3px;-webkit-border-radius: 3px}

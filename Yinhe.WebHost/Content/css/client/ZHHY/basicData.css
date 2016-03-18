@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{ margin-top:16px;}
+.p_left{ float:left; width:245px;}
+.p_right{ float:left; width:685px; margin-left:10px;}
+.p_left01{ float:left; width:685px;}
+.p_right01{ float:left; width:245px; margin-left:10px;}
+
+ul.newcg_ul{ margin:10px 0 10px 30px;}
+ul.newcg_ul li{ float:left; margin:6px 10px;}
+ul.newcg_ul li img{ border:1px solid #c4c4c4; padding:2px;}
+ul.newcg_ul li p{ text-align:center; color:#999999; margin-top:6px;}
+ul.newcg_ul li p a{ color:#006aa0;}
+
+.content_box03{}
+.content_box03 .box_top{ background:#e8f3ff; padding:4px 10px; border:1px solid #c8dff7;}
+.content_box03 .box_top .left{ float:left; width:245px;}
+.content_box03 .box_top .left .kumin_h{ font-size:12px; color:#193b5f; margin-top:5px;}
+.content_box03 .box_top .right{ float:left; width:670px; text-align:right;}
+.content_box03 .box_container{ margin-top:6px; background:#fff;}
+.content_box03 .box_container .left{ float:left; width:245px;}
+.content_box03 .box_container .right{ float:left; width:685px; height:600px; margin-left:10px;}
+
+.cgk_con{ width:670px;}
+.cgk_con h3{ margin-top:5px; font-size:12px; border-bottom:2px solid #4096eb; background:url(../../../images/icon/paste_plain.png) no-repeat left center; padding:6px 0 4px 18px;}

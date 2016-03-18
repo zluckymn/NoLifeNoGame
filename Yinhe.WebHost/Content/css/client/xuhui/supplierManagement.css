@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{ margin-top:16px;}
+.p_left{ float:left; width:245px;}
+.p_right{ float:left; width:685px; margin-left:10px;}
+.p_left01{ float:left; width:685px;}
+.p_right01{ float:left; width:245px; margin-left:10px;}
+
+.bs_sel{}
+.bs_sel table{}
+.bs_sel table td{ padding:5px 12px 5px 6px; color:#404040; line-height:25px;}
+
+.ullist{ overflow:hidden; padding-bottom:8px;}
+.ullist li{ display:block; float:left;white-space:nowrap; padding:3px 7px 3px 0; margin-right:30px; color:#0368a8}

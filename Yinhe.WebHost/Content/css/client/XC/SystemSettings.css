@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*UserManage*/
+.userListTop{height:36px; padding:7px 0 0 0;}
+.userListTop .left{float:left;}
+.userListTop .right{float:right;padding:10px 0 0 0;}
+.userListTop a.N-btn0002{ vertical-align:middle;}
+.userList{}
+*+html .con_top{margin-top:16px;}
+.useradd{padding:16px 0 0 0;}
+
+.op .edit, .op .add, .op .delete{color:#565e57;}
+.op .edit{}
+.op .edit:hover{color:green;}
+.op .add{}
+.op .add:hover{color:#0066cb;}
+.op .delete{}
+.op .delete:hover{color:#cf3c32;}
+
+/*SystemSettingsPage*/
+.sidebar-l .side-tabs li {background:url(../../../images/icon/ico0025.png) no-repeat 20px center; background-color:#eeeeed; display:block; margin-bottom:1px; }
+.sidebar-l .side-tabs li a{ display:block;cursor:pointer; color:#465059; text-decoration:none;background:url(../../../images/icon/join.gif) no-repeat 50px center;padding:13px 0 14px 75px; }
+.sidebar-l .side-tabs li.title{background:url(../../../images/icon/ico0026.png) no-repeat 20px center; background-color:#eeeeed}
+.sidebar-l .side-tabs li.title a{ font-size:14px; font-weight:bold; color:#465059;padding:13px 0 14px 55px; background-image:none; }
+.sidebar-l .side-tabs li:hover,.sidebar-l .side-tabs li.active{ background-color:#cde7c2;}
+.sidebar-l .side-tabs li.second_item{ background-image:none;}
+.sidebar-l .side-tabs li.second_item a{ background-position: 70px center;padding:13px 0 14px 95px;}
+.sidebar-l .side-tabs li.active {background:url(../../../images/icon/ico0027.png) no-repeat 20px center;background-color:#cde7c2;}
+
+.btnarea ul li{ float:left;padding-right:5px; padding-left:5px; padding-top:7px;padding-top:0px}
+
+.work-select{display: block;height: 26px; background-color:#FF9900;margin:0px 2px 0px 2px;border-bottom:1px solid #E6EDF5;}
+.work-select dt,.work dt {float: left;padding-left: 5px; line-height:25px; color:#464D53;}
+.work-select dd,.work dd {float: right;display: block;margin: 5px 5px 0 0;}
+
+.work {display: block;height: 26px;margin:0px 2px 0px 2px;border-bottom:1px solid #E6EDF5;}
+.work:hover{ background-color:#FFF7D2}
+.work dd img{ margin-right:5px}
+
+.Tlist{overflow:hidden; background-color:#FFFFFF; width:720px;}
+.Tbody {border-left:1px solid #ddd;}
+.Theader td{ border-right:#dddddd 1px solid;}
+.Theader-name{ padding:6px 3px; line-height:18px;}
+.Trow td{ border-right:#dddddd 1px solid; }
+.Trow{ border-bottom:#dddddd 1px solid; }
+.Trow-inner{padding:6px 3px; line-height:18px; }
+.Trow-body{ border-bottom:#dddddd 1px solid; }
+
+.Trow-main{padding:30px 20px 0 20px;}
+.yellowfont{ color:#aa7f54;}
+
+.Tlist .Theader .tableborder td{ padding:0px;}
+.Tlist .Theader .tableborder .tableborder-title td{ padding:0px;}

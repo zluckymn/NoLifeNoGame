@@ -1,0 +1,31 @@
+
+.raredrop{
+        height:110px;
+        width:106px;
+        z-index:-1;
+        overflow:hidden;
+        display:inline-block;
+     
+        text-align:center;
+        line-height:110px;
+     
+        background:url(../flat-ui/img/customerPic/ssdropsmall.png) no-repeat 0 0;
+        -webkit-animation:run 2.6s steps(11) infinite;
+  
+}
+
+@-webkit-keyframes run {	
+	0% {
+	 visibility:visible;
+       	background-position:0 0px;
+     
+    }
+ 	100% 
+	{
+	 
+       background-position:-1100px 0 ;
+    }
+    
+}
+
+

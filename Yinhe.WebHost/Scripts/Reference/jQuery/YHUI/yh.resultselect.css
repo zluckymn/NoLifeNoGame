@@ -1,0 +1,61 @@
+﻿/* perc.css */
+ul,ol{list-style:none;padding:0;margin:0}dl,dt,dd{margin:0;padding:0}
+#perc .prev,#perc .next,.perc-container li.parent span,.perc-container .quick-find input,.g-path li,.dotL li,.dotR li{background:transparent url(images/perc.png) no-repeat scroll 500px 500px;}
+#perc{font-size:12px}#perc .bd{padding:5px 20px}
+.hfix{visibility:hidden;}
+.perc-container{position:relative;overflow:hidden;height:303px;border:1px solid #C7DEFF;background-color:#E5F0FF;font-size:12px;}
+.perc-container ol{*zoom:1;}
+.perc-container ol{position:absolute;overflow:hidden;width:2250px;height:281px;margin:24px 0 0 -1px;}
+.perc-container ol.rs{width:260px;margin-left:-4px}
+.perc-container ol.tt{height:32px;margin:-1px 0 0 -1px;}
+.perc-container ol.tt li{width:248px;padding:5px;float:left;margin-left:3px;border:none;background-color:#E5F0FF;}
+.perc-container ol .root{margin-left:0;}
+.perc-container ol li.pnew{position:relative;float:left;height:279px;margin-left:3px;padding:0;border:1px solid #B2D1FF;background-color:#fff;}
+.perc-container ul.sul{overflow:auto;width:245px;height:269px;padding:5px;}
+.perc-container ul.no-scroll{overflow:hidden;}
+.perc-container li li.sli{height:22px;padding:0;}
+.perc-container li span.lispan{display:block;overflow:hidden;height:20px;padding-left:3px;border:1px solid #fff;cursor:pointer;color:#404040;line-height:20px;}
+.perc-container li span em{color:#F50;}
+.root li.title,.root .quick-find{display:none;}
+.perc-container li.title{visibility:hidden;height:22px;padding:0;}
+.perc-container li.parent span{background-repeat:no-repeat;background-position:-157px -56px;}
+.perc-container li.selected span{border:1px solid #98BBD2;background-color:#D6EDF4;color:#1B4D91;}
+.perc-container li.sticky span{color:#F50;}
+.perc-container .quick-find{position:absolute;top:0;left:0;padding:5px 5px 1px 5px;*padding-top:3px;background-color:#fff;z-index:999}
+.perc-container .quick-find input{width:220px;margin:0;padding-left:20px;border:1px solid #99BAD0;background-position:0 -88px;color:#808080;}
+.perc-container .quick-find input.short{width:205px;}
+#perc .prev,#perc .next{display:block;position:absolute;top:166px;height:45px;width:20px;}
+#perc .prev{left:1px;}
+#perc .next{right:1px;}
+#perc span.prev{background-position:-64px 0;}
+#perc span.next{background-position:-1px 0;}
+#perc a.prev,#perc a.next{outline:none;}
+#perc a.prev:link,#perc a.prev:visited{background-position:-84px -1px;}
+#perc a.prev:hover,#perc a.prev:active{background-position:-105px -1px;}
+#perc a.next:link,#perc a.next:visited{background-position:-22px -1px;}
+#perc a.next:hover,#perc a.next:active{background-position:-43px -1px;}
+#perc .prev span,#perc .next span{display:none;}
+.g-path{*zoom:1;}
+.g-path:after{display:block;visibility:hidden;clear:both;height:0;content:"\0020";}
+.g-path{border:1px solid #fff;color:#404040;}
+li.selected .g-path{border:1px solid #98BBD2;background-color:#D6EDF4;color:#1B4D91;}
+.g-path li{float:left;height:20px;margin-right:6px;padding:0 0 0 11px;background-position:-392px -154px;line-height:20px;}
+.g-path li.root{padding-left:5px;background-position:500px 500px;}
+.g-path li span{margin-left:5px;color:#06f;}
+.g-path li em{color:#F50;}.g-path li a{text-decoration:none}
+.g-extra{position:relative;margin-bottom:5px;color:#444;margin-top:10px}
+.g-extra dl{padding:5px;border:1px solid #FEDBAB;background-color:#FFFAF2;}
+.g-extra dl div{*zoom:1;}
+.g-extra dl div:after{display:block;visibility:hidden;clear:both;height:0;content:"\0020";}
+.g-extra dl dt,.g-extra dl dd{float:left;line-height:15px;}
+.g-extra ol{width:auto;height:15px;}
+.g-extra .g-path{border:0;}
+.g-extra .g-path li{height:15px;background-position:-392px -154px;line-height:normal;white-space:nowrap;}
+.g-extra .g-path li.root{padding-left:0;background-position:500px 500px;}
+.perc-container li{_position:relative;_float:left;_height:279px;_margin-left:3px;_padding:0;_border:1px solid #B2D1FF;_background-color:#fff;}
+.perc-container li li{_position:static!important;_float:none!important;_height:22px!important;_margin:0!important;_padding:0!important;_border:0!important;}
+input.text{margin:0 0 0 5px;padding:3px 2px 0 3px;height:16px;border:1px solid #a7a6aa;}
+#perc .dotL,#perc .dotR{font-size:0;position:absolute;top:248px;width:12px}
+#perc .dotL{left:4px;}
+#perc .dotR{right:4px;}
+.dotL li,.dotR li{background-position:-388px 0;height:12px;width:12px;margin-bottom:3px}

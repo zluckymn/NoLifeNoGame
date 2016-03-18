@@ -1,0 +1,62 @@
+生成启动时间为 2016/2/19 16:20:47。
+__________________________________________________
+项目“F:\115Box\Autolink3.0\FLKLSite\Plugin_LifeDayGame\Plugin_LifeDayGame\Plugin_LifeDayGame.csproj”(默认目标):
+
+目标 ResolveProjectReferences:
+    __________________________________________________
+    项目“F:\115Box\Autolink3.0\FLKLSite\Plugin_LifeDayGame\Plugin_LifeDayGame\Plugin_LifeDayGame.csproj”正在生成“F:\115Box\A3\Yinhe.ProcessingCenter\Yinhe.ProcessingCenter.csproj”(默认目标):
+
+    目标 ResolveProjectReferences:
+        __________________________________________________
+        项目“F:\115Box\A3\Yinhe.ProcessingCenter\Yinhe.ProcessingCenter.csproj”正在生成“F:\115Box\A3\Yinhe.WebReference\Yinhe.WebReference.csproj”(默认目标):
+
+        目标 GenerateTargetFrameworkMonikerAttribute:
+          正在跳过目标“GenerateTargetFrameworkMonikerAttribute”，因为所有输出文件相对于输入文件而言都是最新的。
+        目标 CoreCompile:
+          正在跳过目标“CoreCompile”，因为所有输出文件相对于输入文件而言都是最新的。
+        目标 GenerateSerializationAssemblies:
+          正在跳过目标“GenerateSerializationAssemblies”，因为所有输出文件相对于输入文件而言都是最新的。
+        目标 _CopyAppConfigFile:
+          正在跳过目标“_CopyAppConfigFile”，因为所有输出文件相对于输入文件而言都是最新的。
+        目标 CopyFilesToOutputDirectory:
+            Yinhe.WebReference -> F:\115Box\A3\Yinhe.WebReference\bin\Release\Yinhe.WebReference.dll
+        __________________________________________________
+        项目“F:\115Box\A3\Yinhe.ProcessingCenter\Yinhe.ProcessingCenter.csproj”正在生成“F:\115Box\A3\Yinhe.WebReference\Yinhe.WebReference.csproj”(GetNativeManifest 目标):
+
+    目标 GenerateTargetFrameworkMonikerAttribute:
+      正在跳过目标“GenerateTargetFrameworkMonikerAttribute”，因为所有输出文件相对于输入文件而言都是最新的。
+    目标 CoreCompile:
+      正在跳过目标“CoreCompile”，因为所有输出文件相对于输入文件而言都是最新的。
+    目标 GenerateSerializationAssemblies:
+      正在跳过目标“GenerateSerializationAssemblies”，因为所有输出文件相对于输入文件而言都是最新的。
+    目标 GetCopyToOutputDirectoryItems:
+        __________________________________________________
+        项目“F:\115Box\A3\Yinhe.ProcessingCenter\Yinhe.ProcessingCenter.csproj”正在生成“F:\115Box\A3\Yinhe.WebReference\Yinhe.WebReference.csproj”(GetCopyToOutputDirectoryItems 目标):
+
+    目标 _CopyOutOfDateSourceItemsToOutputDirectoryAlways:
+        正在将文件从“F:\115Box\A3\Yinhe.ProcessingCenter\nlog.dll.nlog”复制到“bin\Release\nlog.dll.nlog”。
+    目标 _CopyAppConfigFile:
+      正在跳过目标“_CopyAppConfigFile”，因为所有输出文件相对于输入文件而言都是最新的。
+    目标 CopyFilesToOutputDirectory:
+        Yinhe.ProcessingCenter -> F:\115Box\A3\Yinhe.ProcessingCenter\bin\Release\Yinhe.ProcessingCenter.dll
+    __________________________________________________
+    项目“F:\115Box\Autolink3.0\FLKLSite\Plugin_LifeDayGame\Plugin_LifeDayGame\Plugin_LifeDayGame.csproj”正在生成“F:\115Box\A3\Yinhe.ProcessingCenter\Yinhe.ProcessingCenter.csproj”(GetNativeManifest 目标):
+
+目标 GenerateTargetFrameworkMonikerAttribute:
+  正在跳过目标“GenerateTargetFrameworkMonikerAttribute”，因为所有输出文件相对于输入文件而言都是最新的。
+目标 CoreCompile:
+  正在跳过目标“CoreCompile”，因为所有输出文件相对于输入文件而言都是最新的。
+目标 GetCopyToOutputDirectoryItems:
+    __________________________________________________
+    项目“F:\115Box\Autolink3.0\FLKLSite\Plugin_LifeDayGame\Plugin_LifeDayGame\Plugin_LifeDayGame.csproj”正在生成“F:\115Box\A3\Yinhe.ProcessingCenter\Yinhe.ProcessingCenter.csproj”(GetCopyToOutputDirectoryItems 目标):
+
+目标 _CopyOutOfDateSourceItemsToOutputDirectoryAlways:
+    正在将文件从“F:\115Box\A3\Yinhe.ProcessingCenter\nlog.dll.nlog”复制到“bin\nlog.dll.nlog”。
+目标 CopyFilesToOutputDirectory:
+    Plugin_LifeDayGame -> F:\115Box\Autolink3.0\FLKLSite\Plugin_LifeDayGame\Plugin_LifeDayGame\bin\Plugin_LifeDayGame.dll
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.19

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Yinhe.ProcessingCenter.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Yinhe_ProcessingCenter_AuthorityService_authorityService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://27.151.122.65:80/seeyon/services/authorityService.authorityServiceHttpSoap11Endpoint/</Value>
+    </Setting>
+    <Setting Name="Yinhe_ProcessingCenter_MessageService_messageService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://27.151.122.65:80/seeyon/services/messageService.messageServiceHttpSoap11Endpoint/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

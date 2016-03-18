@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*ProjLandIndex*/
+div.container ul.category-tree{list-style:none;margin-left:0px;margin-top:0px;margin-bottom:0px}
+div.container ul.category-tree li{list-style-type:none;margin-bottom:0px;padding-left:0px;padding:5px 0px; font-size:14px; font-weight:bold}
+div.container ul.category-tree li a{color:#465059}
+div.container ul.category-tree li a:hover{ color:#377640}
+div.container ul.category-tree li a.select{ text-decoration:underline;}
+div.container ul.category-tree li ul{border-left:1px solid #999;list-style:none;margin-bottom:0px;margin-left:13px;margin-top:7px}
+div.container ul.category-tree li ul li{line-height:15px;padding-left:17px;background:url(../../../images/client/XC/liline.jpg) no-repeat left 12px;}
+div.container ul.category-tree li ul li a{color:#465059;font-size:12px; font-weight:normal}
+div.container ul.category-tree li ul li ul li a{color:#465059}
+div.container ul.category-tree li ul li a.select{ font-weight:bold; text-decoration:underline}
+
+.container ul.category-tree a:hover{ text-decoration:underline}
+.container ul.category-tree li img{ cursor:pointer;}
+
+div.container ul.category-tree>li>ul>li>span{color:#80662d; font-size:12px; font-weight:normal}
+
+
+.ablock:hover .float_layer{position:absolute; display: inline; left:0px; top:34px; z-index:1000;}
+.float_layer{display:none;}
+.float_layer .float_layer_content{width: 100%;background: #fff9e3;color: #743e04;font-family: tahoma;font-size: 12px;border: 1px solid #fadc80;box-shadow: none;-moz-box-shadow: none;-webkit-box-shadow: none;padding: 6px 10px 6px 10px;border-radius: 6px;-moz-border-radius: 6px;-webkit-border-radius: 6px;}
+.float_layer .float_layer_arrow{position: absolute;bottom: 0;left: 20px;width: 15px;height: 15px;z-index: 5001;}
+.float_layer .arrowtop{top: -8px;}
+.float_layer .float_layer_arrow div{border-left: 2px solid #fadc80;border-right: 2px solid #fadc80;box-shadow: none;-moz-box-shadow: none;-webkit-box-shadow: none;font-size: 0px;height: 1px;background: #FFF2F2;margin: 0 auto;line-height: 0px;font-size: 0px;display: block;}
+.float_layer .float_layer_arrow .line1{width: 1px;border: none;background: #fadc80;}
+.float_layer .float_layer_arrow .line2{width: 3px;border: none;background: #fadc80;}
+.float_layer .float_layer_arrow .line3{width: 1px;border-left: 2px solid #fadc80;border-right: 2px solid #fadc80;border-bottom: 0px solid #fadc80;}
+.float_layer .float_layer_arrow .line4{width: 3px;}
+.float_layer .float_layer_arrow .line5{width: 5px;}
+.float_layer .float_layer_arrow .line6{width: 7px;}
+.float_layer .float_layer_arrow .line7{width: 9px;}
+.float_layer .float_layer_arrow .line8{width: 11px;}
+.float_layer .float_layer_arrow .line9{width: 13px; border:none;}
+.float_layer .float_layer_arrow .line10{width: 15px; border:none;}
+
+#landContainer .structlistmain{ padding:0; position:relative; z-index:1;}
+#landContainer .structlistmain .land_title td{border-bottom:1px dashed #dbe7d9;border-top:1px solid #dbe7d9;}
+#landContainer .structlistmain .land_title td h2{font-size:14px;padding-left:20px;height:30px;line-height:30px;}
+#landContainer .structlistmain .land_title td h2 a{color:#296f32;}
+#landContainer .structlistmain .land_info{padding:0 20px;}
+#landContainer .structlistmain .land_info .land_info_tit{padding:0 0 8px 0;}
+#landContainer .structlistmain .base_info{ background:#fbfbfb;}
+#landContainer .structlistmain .base_info tr:first-child td{padding-top:10px;}
+#landContainer .structlistmain .base_info tr:last-child td{padding-bottom:10px;}
+#landContainer .structlistmain .base_info_tit{color: #808080;padding: 6px 10px;width:80px;}
+#landContainer .structlistmain .land_des{background:#fbfbfb;padding: 8px 10px;}
+#landContainer .structlistmain .listline {margin: 50px 0 0 0;}
+#landContainer .structlistmain table{}
+
+.add_land{border:1px solid #dddddd; padding:13px 0; background:#fdfdfd; text-align:center;}
+.add_land .add_land_btn a.N-btn0001 {font-size:13px;}
+.add_land .add_land_btn{margin:0 auto; width:122px;}
+.add_land .add_land_welcome{}
+.add_land .add_land_welcome p{ text-align:center;padding:0 0 5px 0;color:#808080;line-height:20px;}
+
+.inputborder, .inputgreenbgCursor{width: 250px;}
+
+*+html div.container ul.category-tree li ul {margin-top: 2px;}
+*+html .formError .formErrorContent{ min-width:50px;}
+
+.ullist li{ float:left; min-width:90px; margin-right:3px; height:22px; line-height:22px;white-space:nowrap;}
+.ullist li:hover{ background-color:#ececec}
+
+
+
+/* 取自/XC/StandardResult.css */
+.search_block{margin:3px 0 0 0;border-top:1px solid #dadada;border-left:1px solid #dadada;border-right:1px solid #dadada;}
+.search_block a{cursor:pointer;}
+.search_block .search_field{border-bottom: 1px solid #dadada; padding:0 0 0 25px; background-color:#f7f9f7;}
+.search_block .search_field div{display:inline-block;}
+*+html .search_block .search_field div{display:inline;}
+.search_block .search_field a{display:inline-block;padding:2px 9px 4px 10px;}
+.search_block .search_field .select {background-color: #81a973; color:#ffffff;}
+.search_block .search_field .search_field_title{width: 120px; color: #808080;margin:7px 0 9px 0; vertical-align:top;}
+.search_block .search_field .search_field_title.sup{margin-top:4px;}
+.search_block .search_field .search_field_title.middle{padding-left:50px;width: 80px;}
+.search_block .search_field .search_field_title.fdi{width:70px;}
+.search_block .search_field .search_field_all{width: 60px; vertical-align:top;margin:5px 0 4px 0;}
+.search_block .search_field .search_field_items{margin:5px 0 4px 0;width:750px;}
+.search_block .search_field .search_field_items.fdi{width:800px;}
+.search_block .search_field .search_field_items .search_field_item{padding-right:20px; text-overflow: ellipsis;}
+.search_block .search_field .search_field_items .square{margin-top:2px;width:70px;}
+.search_block .search_field .search_field_items select{margin:1px 0 0 0;width:76px;}
+.search_block .search_field .search_btn{padding:0 0 0 50px;}
+.search_block .search_field .search_btn .N-btn0004{padding: 0 20px; vertical-align:middle;}
+
+.page_tab ul{ display:block; clear:both; overflow:hidden; padding-bottom:15px; margin-top:15px;}
+.page_tab ul li{ margin-right:20px;display:block; float:left; }
+.page_tab ul li a{ display:block; float:left; padding:0px 30px; font-size:14px;color:#6e6e6e;  height:31px; line-height:31px;border:1px solid #cccccc;}
+.page_tab ul li a:hover{ background-color:#f1f1f1}
+.page_tab ul li a.select{ border:1px solid #a8a8a8; background:url(../../../images/client/XC/page_tab.png) repeat-x; color:#465059; font-weight:bold; }
+
+/* 取自/XC/StandardResult.css  end*/
+
+.proinfo-title{ border-bottom:2px solid #8db684;margin-bottom: 10px; line-height:20px}

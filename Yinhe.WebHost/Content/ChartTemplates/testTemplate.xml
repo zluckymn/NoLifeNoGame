@@ -1,0 +1,18 @@
+﻿<Chart ImageLocation="..\..\TempImages\ChartPic_#SEQ(200,30)" BackColor="211, 223, 240" Width="400" BackGradientStyle="TopBottom" BackSecondaryColor="White" BorderlineColor="Transparent" BorderlineDashStyle="Solid">
+  <Series>
+    <Series Name="" Legend="DefaultLegend" ChartArea="DefaultArea" IsValueShownAsLabel="false"   >
+    </Series>
+  </Series>
+  <ChartAreas>
+    <ChartArea BackColor="64, 165, 191, 228" BackGradientStyle="TopBottom" BackSecondaryColor="White" ShadowColor="Transparent" Name="DefaultArea">
+    </ChartArea>
+  </ChartAreas>
+  <Legends>
+    <Legend Name="DefaultLegend" BackColor="Transparent">
+    </Legend>
+  </Legends>
+  <Titles>
+    <Title Text="各片区接洽项目数" Font="Trebuchet MS, 13pt, style=Bold" ForeColor="26, 59, 105" Alignment="TopLeft" Name="Title1">
+    </Title>
+  </Titles>
+</Chart>

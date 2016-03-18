@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server" />银禾中国
+    </title>
+    <script language="javascript" type="text/javascript">
+             var New_Master_Server_Address = "<%=SysAppConfig.MasterServerAddress %>|<%=SysAppConfig.CustomerCode %>";
+     </script>
+     <script src="<%=SysAppConfig.HostDomain %>/Scripts/Reference/jquery-1.7.2.min.js"
+        type="text/javascript"></script>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+    
+</head>
+<body>
+    <!--页面头部-->
+     
+    <!--页面头部结束-->
+
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+
+    <!--页面尾部-->
+    <div id="footer">
+        <div class="p_block_l"></div>
+<div class="page_foot">
+  <div class="content_width">
+        <div class="page_foot_content">
+          <div class="Link_logo"></div>
+          <div class="Link_block Link_info">
+            <div class="name">快速跳转</div>
+            <ul>
+              <li><a href="/CompanySite/Client">合作客户</a></li>
+              <li><a href="/CompanySite/Recruitment">招聘信息</a></li>
+              <li><a href="/CompanySite/SiteManage" target=_blank>管理入口</a></li>
+            </ul>
+          </div>
+          <div class="Link_block Link_us">
+            <div class="name">关于我们</div>
+            <ul>
+              <li><a href="/CompanySite/About">公司简介</a></li>
+              <li><a href="/CompanySite/About#product">我们的产品</a></li>
+              <li><a href="/CompanySite/About#culture">技术特长</a></li>
+              <li><a href="/CompanySite/About#honor">银禾荣誉</a></li>
+            </ul>
+          </div>
+          <div class="Link_block Link_addr">
+            <div class="name">联系我们</div>
+            <ul>
+              <li>厦门市五缘湾泗水道619号湖里大厦12层0304单元</li>
+              <li>电话：0592-3385501， 0592-3385502 </li>
+              <li>邮件：ling.yan@yinhootech.com </li>
+              <li>银禾荣誉</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--页面尾部结束-->
+</body>
+</html>

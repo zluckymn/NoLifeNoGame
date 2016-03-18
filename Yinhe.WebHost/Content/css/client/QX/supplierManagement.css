@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{ margin-top:16px;}
+.p_left{ float:left; width:245px;}
+.p_right{ float:left; width:685px; margin-left:10px;}
+.p_left01{ float:left; width:685px;}
+.p_right01{ float:left; width:245px; margin-left:10px;}
+
+.bs_sel{}
+.bs_sel table{}
+.bs_sel table td{ padding:5px 12px 5px 6px; color:#404040; line-height:25px;}
+
+.ullist{ overflow:hidden; padding-bottom:8px;}
+.ullist li{ display:block; float:left;white-space:nowrap; padding:3px 7px 3px 0; margin-right:30px; color:#0368a8}
+
+.supp_name{}
+.supp_title{ font-weight:bold; color:#7d7d7d; border-bottom:1px solid #dedede; padding:5px 0 8px 0;}
+.supp_con{ border:0px;}
+
+
+/*表格开始*/
+.table05 tr th,
+.table05 tr td{ color:#404040;}
+#designsupplierDesignerList.table05 tr td{  border-right:0px; border-left:0px;}
+.table05 a:hover{ color:#1358d6}
+.table05 .thead03 tr th{ color:Gray;}
+.thead03 tr th{ font-weight:normal;}
+
+.tab01{ height:27px; background-position-y:26px; padding-left:10px;}
+.tab01 li h3{ margin-right:0px;}
+.tab01 li h3 a{ padding-left:0; display: inline-block; float:none; font-weight:normal; height:26px; line-height:26px; }
+.tab01 li h3 img{ margin-left:6px;}
+.tab01 li.this{ border-bottom:1px solid #fff;}
+
+.deser_tab{ width:225px; margin-left:5px;}
+.deser_tab .N-info-name{ padding:10px 0 2px 0;}
+
+.photoFrame{padding:8px;border:1px solid #989898;background-color:White; float:left; width:460px;}
+
+.other_inf{ padding-left:10px;margin-top:7px; overflow:hidden; height:258px;text-align:justify;text-justify:inter-ideograph; 
+            line-height:20px; }
+.other_inf h3{ font-size:12px;border-bottom:1px solid #aaa;}
+.inf_dashed td{ border-bottom:1px dashed #dcdcdc;}
+
+.suppman_tab tr td{ padding:10px; border:1px solid #d7d7d7;}
+.suppman_tabtd{ text-align:center; background-color:#f2f2f2}
+/*表格结束*/
+
+
+#designSupplierShow .tableborder{ border-top:0px;}
+#designSupplierShow{overflow:hidden;clear:both;}
+#designSupplierShow h2{font-size:1.5em;padding:0;padding-bottom:15px;border-bottom:1px solid #EEEEEE;margin-top:20px;margin-bottom:10px;}
+#designSupplierShow h5,#designSupplierShow h4{background-color:#434343;color:White;padding:5px;font-size:1.2em;}
+#designSupplierShow table caption{font-size:1.3em;font-weight:700;color:#818;padding-left:5px;}
+#designSupplierShow .none{height:35px;line-height:35px;color:#445157;font-size:12px;font-weight:normal;}
+#designSupplierShow #files_table{display:none;}
+#designSupplierShow .photoView{ overflow:hidden; padding-bottom:13px;}
+#designSupplierShow .photoView .img{border:1px solid #d7d7d7; float:left; margin:13px ;width:150px; height:120px;
+                                     text-align:center; vertical-align:middle; line-height:120px; }
+#designSupplierShow .photoView .img img{text-align:center; vertical-align:middle; line-height:120px; }
+*+html #designSupplierShow .photoView .img img{ font-size:50px}
+#designSupplierShow .photoView img:hover{cursor:pointer;}
+
+
+
+.screening01{background-image:none; border:1px solid #dadada; border-bottom:0px; padding:0px; background-color:#f4f4f4}
+.screening01 table th{padding-left:25px; width:80px;}
+.screening01 table th,
+.screening01 table td{ border-bottom:1px solid #dadada;}
+.screening01 a.this{ background-color:#78593a; padding:3px 10px}
+.screen_bottom{ margin-top:-20px; margin-left:400px;}
+#supplierListDiv .thead01 tr th{ font-weight:normal; padding:3px;}
+
+
+
+.table-supplier{table-layout:fixed; background-color:#fff; border-collapse:collapse;}
+.table-supplier tr{}
+.table-supplier tr.odd{ background-color:#f5f5f5;}
+.table-supplier tbody td{ border:1px solid #dddddd;}
+.table-supplier thead th{border:1px solid #aeaeae; font-weight:normal  }
+.table-supplier .table-supplier-thead{  color:#444444; background:#f5f5f5; font-weight:normal;border:1px solid #aeaeae; }
+.table-supplier thead .th_con{  padding:5px 4px;}
+.table-supplier tbody .tb_con{ padding:8px 4px;}
+
+
+.N-info-name-1{ color:#808080; padding:3px 0px;}
+.fontbrown-1{padding:3px 0px; color:#465059; line-height:20px;}
+.designertable{margin-left: 70px; width:150px}
+.designer_inf .fontbrown,
+.designertable .fontbrown{ padding-left:0px;}
+
+.serchbar_link_b{ margin-bottom:0px; border-bottom:0px none}
+
+/*项目列表弹窗开始*/
+.supplierProjectSelectbox
+{
+    overflow: hidden;
+}
+.supplierProjectSelectbox .left
+{
+    float: left;
+    padding: 5px 10px;
+    overflow: hidden;   
+     width: 95%;
+}
+.supplierProjectSelectbox .left > ul
+{
+    height: 450px;
+    margin: 10px 0;
+    overflow-y: auto;
+}
+.supplierProjectSelectbox .right
+{
+    float: left;
+    width: 45%;
+    padding: 5px 10px;
+}
+#selectedProject
+{
+    margin: 10px 0;
+    height: 400px;
+    border: 1px solid Black;
+    overflow-y: auto;
+}
+#selectedProject > div
+{
+    padding: 2px;
+}
+span.engName
+{
+    padding-left:15px;display:block;
+    margin:5px 0;
+}
+span.engName:hover
+{
+    cursor:pointer;    
+}
+span.collapsed
+{
+    background:url('<%=SysAppConfig.HostDomain%>/Content/images/icon/ico0006.jpg') no-repeat left center;
+}
+span.expanded
+{
+    background:url('<%=SysAppConfig.HostDomain%>/Content/images/icon/ico0007.jpg') no-repeat left center;
+}
+/*项目列表弹窗结束*/
+
+
+.sidebar-l .side-tabs li.title .supplist_right{ float:right; margin-top:-28px; margin-right:5px}
+.sidebar-l .side-tabs li.title .supplist_right a{ font-size:12px; font-weight:normal; color:#465059;padding:0px; background-image:none; display:inline-block}
+.sidebar-l .side-tabs li.title .supplist_right a.blue:hover{ color:#0066cb}
+
+

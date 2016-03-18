@@ -1,0 +1,32 @@
+/* linkbutton */
+a.l-btn{color:#444;background:url('images/button_a_bg.gif') no-repeat top right;font-size:12px;text-decoration:none;display:inline-block;zoom:1;height:24px;padding-right:18px;cursor:pointer;outline:none;}
+a.l-btn-plain{background:transparent;padding-right:5px;border:1px solid transparent;_border:0px solid #efefef;_padding:1px 6px 1px 1px;}
+a.l-btn-disabled{color:#ccc;opacity:0.5;filter:alpha(opacity=50);cursor:default;}
+a.l-btn span.l-btn-left{display:block;background:url('images/button_span_bg.gif') no-repeat top left;padding:4px 0px 4px 18px;line-height:16px;}
+a.l-btn-plain span.l-btn-left{background:transparent;padding-left:5px;}
+a.l-btn span span.l-btn-text{display:inline-block;height:16px;line-height:16px;padding:0px;}
+a.l-btn span span span.l-btn-empty{display:inline-block;padding:0px;width:16px;}
+a:hover.l-btn{background-position: bottom right;outline:none;}
+a:hover.l-btn span.l-btn-left{background-position: bottom left;}
+a:hover.l-btn-plain{border:1px solid #7eabcd;background:url('images/button_plain_hover.png') repeat-x left bottom;_padding:0px 5px 0px 0px;}
+a:hover.l-btn-disabled{background-position:top right;}
+a:hover.l-btn-disabled span.l-btn-left{background-position:top left;}
+
+/* pagination */
+.pagination{zoom:1;}
+.pagination table{float:left;height:30px;}
+.pagination-btn-separator{float:left;height:24px;border-left:1px solid #ccc;border-right:1px solid #fff;margin:3px 1px;}
+.pagination-num{border:1px solid #ccc;margin:0 2px;}
+.pagination-page-list{margin:0px 6px;}
+.pagination-info{float:right;padding-right:6px;padding-top:8px;font-size:12px;}
+.pagination span{font-size:12px;}
+.pagination-first{background:url('images/pagination_first.gif') no-repeat;}
+.pagination-prev{background:url('images/pagination_prev.gif') no-repeat;}
+.pagination-next{background:url('images/pagination_next.gif') no-repeat;}
+.pagination-last{background:url('images/pagination_last.gif') no-repeat;}
+.pagination-load{background:url('images/pagination_load.png') no-repeat;}
+.pagination-loading{background:url('images/pagination_loading.gif') no-repeat;}
+.pagination-n{font-size:12px;padding-left:3px}
+.pagination-n a{text-decoration:none;border:solid 1px #AAE;color:#15B;}
+.pagination-n a, .pagination-n span{display:block;float:left;padding:0.2em 0.5em;margin-right:5px;*margin-top:1px;text-align:center;}
+.pagination-n .current{background:#26B;color:#fff;border:solid 1px #AAE;}

@@ -1,0 +1,27 @@
+﻿<Chart ImageLocation="..\..\TempImages\ChartPic_#SEQ(200,30)" Palette="BrightPastel" BackColor="211, 223, 240" BackGradientStyle="TopBottom" BackSecondaryColor="White" BorderColor="26, 59, 105" BorderWidth="2"   BorderlineColor="Transparent" BorderlineDashStyle="Solid">
+  <Series>
+    <Series Name="DefaultSeries" Legend="DefaultLegend" ChartArea="DefaultArea" IsValueShownAsLabel="True" LegendText="#VALX" Label="#PERCENT{P}" >
+    </Series>
+  </Series>
+  <ChartAreas>
+    <ChartArea Name="DefaultArea" BackColor="180, 26, 59, 105" BackGradientStyle="TopBottom" BackSecondaryColor="White" ShadowColor="Transparent" BorderColor="64, 64, 64, 64" BorderDashStyle="Solid">
+      <AxisY LineColor="64, 64, 64, 64">
+        <MajorGrid LineColor="64, 64, 64, 64" />
+        <LabelStyle Font="Trebuchet MS, 8.25pt, style=Bold" />
+      </AxisY>
+      <AxisX LineColor="64, 64, 64, 64">
+        <MajorGrid LineColor="64, 64, 64, 64" />
+        <LabelStyle Font="Trebuchet MS, 8.25pt, style=Bold" />
+      </AxisX>
+
+    </ChartArea>
+  </ChartAreas>
+  <Legends>
+    <Legend Name="DefaultLegend"  BackColor="Transparent" Font="Trebuchet MS, 8.25pt, style=Bold">
+    </Legend>
+  </Legends>
+  <Titles>
+    <Title   Font="Trebuchet MS, 14.25pt, style=Bold" ForeColor="26, 59, 105" ShadowOffset="3" ShadowColor="32, 0, 0, 0" Alignment="TopLeft" Name="Title1">
+    </Title>
+  </Titles>
+</Chart>

@@ -1,0 +1,155 @@
+#category-list .itmename-hover{background:#fffae7;color:#f50; padding:10px;}
+
+#category-list div h4{ margin:3px 0;font-size:14px; padding:0 3px;color:#465059}
+#category-list .itme .itmename{
+	background-color:#f2f2f2;
+    padding:10px 9px 10px 10px;
+    border-right:1px dotted #bbb;
+
+    
+}
+.itme{
+	background-color:#fff;
+	border:1px solid #bbbbbb;
+    border-bottom:0px;
+}
+
+#category-list{ border-bottom:1px solid #B6CAE3;}
+#category-list .itme-hover{ border:1px solid #FE8802; background-color:#FFFAE7;}
+#category-list .itme .item-tr dl dt {
+	font-size: 14px;
+	font-weight: bold;
+	color: #0041D9;
+	line-height: 25px;
+	display: block;
+	
+}
+#category-list .itme .item-tr dl dt a{text-decoration:underline; color:#3b3734}
+#category-list .itme .item-tr dl {
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	margin-right: 10px;
+	width: 285px;
+	min-height:90px;
+	z-index:100;
+	overflow:hidden;
+	display: inline-table;
+     /*height:150px;  AIII-2022*/
+    background-color:White;
+    
+    
+}
+#category-list .itme .item-tr dl:hover{ background-color:#f8f8f8}
+#category-list .itme .item-tr dl .more_btn{background:url(../images/Sys_pic/scroll_down_yellow.gif) no-repeat center center; position:absolute; width:20px; height:20px; cursor:pointer; margin-left:260px; margin-top:140px;}
+#category-list .itme .item-tr {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	position:relative;
+}
+#category-list .itme dl.item-tr_dl_more{height: 300px; z-index: 200; border:1px solid #d8d8d8; padding:5px; background-color:#f8f8f8; display:inline}
+
+#category-list .itme .item-tr dl dd {
+	float: left;
+	display: block;
+	white-space: nowrap;
+	line-height: 25px;
+}
+#category-list .itme .item-tr dl dd a {
+	COLOR: #465059;
+	TEXT-DECORATION: none;
+	display: block;
+	padding-right: 15px;
+}
+#category-list .itme .item-tr dl dd a span.blue{color:#fb2800; font-size:14px; font-weight:550;}
+#category-list .itme .item-tr dl dd a:hover {
+	/*color: #FF5500;*/
+	color: #bc4127;
+	text-decoration: underline;
+}
+
+.search_content{ border:1px solid #bcbcbc; background-color:#FFF}
+.search-item {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+    padding:10px 15px 10px 15px;
+	margin-bottom: 13px;
+	color: #333333;
+	width:948px;
+}
+.search-title {
+	font-weight: bold; padding:0px; line-height: 30px; float:left; margin-top:5px; margin-bottom:10px
+}
+.search-title a{ text-decoration:underline; font-size:14px;}
+
+
+.Editcontent{padding: 20px 50px 30px 50px;}
+.tablepadding6 tr td{ padding:6px;}
+
+
+.setting_item .add_ml{ display:block; background:url(../images/Sys_pic/ico0028.png) no-repeat left center; margin:0 4px; color:#7b5129; padding-left:16px; display:inline-block;}
+.setting_item .lev01{}
+.setting_item .lev02{ margin-left:10px; padding-left:12px;}
+.setting_item .lev03{ margin-left:26px; padding-left:12px;}
+.setting_item .lev04{ margin-left:42px; padding-left:12px;}
+
+.addname_left{ float:left;}
+
+
+
+
+
+
+
+
+.new-plate-name {line-height: 21px;background: url(../images/Sys_pic/pic.gif) no-repeat;padding-left: 45px;float: left; margin-left:10px}
+.new-plate-name input{
+	margin-left: -10px;
+}
+.new-plate-name4 {line-height: 21px;background: url(../images/Sys_pic/pic5.gif) no-repeat;padding-left: 152px;float: left; margin-left:10px}
+
+.new-plate-name5 {line-height: 21px;background: url(../images/Sys_pic/pic6.gif) no-repeat;padding-left: 206px;float: left; margin-left:10px}
+.new-plate-name5 input{
+	margin-left: -10px;
+}
+.inheritance-last {background: url(../images/Sys_pic/pic4.gif) no-repeat;line-height: 21px;padding-left: 99px; margin-left:10px}
+*html .inheritance-last {background: url(../images/Sys_pic/pic4.gif) no-repeat;line-height: 21px;padding-left: 89px; margin-left:10px}
+
+
+.new-plate-name-end {line-height: 21px;background: url(../images/Sys_pic/pic-1.gif) no-repeat;padding-left: 45px;float: left; margin-left:10px}
+.new-plate-name-end input{
+	margin-left: -10px;
+}
+.new-plate-name4-end {line-height: 21px;background: url(../images/Sys_pic/pic5-1.gif) no-repeat;padding-left: 152px;float: left; margin-left:10px}
+
+.new-plate-name5-end {line-height: 21px;background: url(../images/Sys_pic/pic6-1.gif) no-repeat;padding-left: 206px;float: left; margin-left:10px}
+.new-plate-name5-end input{
+	margin-left: -10px;
+}
+.inheritance-last-end {background: url(../images/Sys_pic/pic4-1.gif) no-repeat;line-height: 21px;padding-left: 99px; margin-left:10px}
+*html .inheritance-last-end {background: url(../images/Sys_pic/pic4-1.gif) no-repeat;line-height: 21px;padding-left: 89px; margin-left:10px}
+
+.search-result {
+	height: 350px;
+	margin-right: 8px;
+	margin-left: 8px;
+	overflow:auto;
+	overflow-x:hidden;
+
+}
+
+
+.con_col1{ width:130px; height:250px; overflow:auto; background-color:#fff; border:1px solid #ddd; padding:15px; margin:5px; float:left;}
+.con_col2{ width:200px; height:250px; overflow:auto; background-color:#fff; border:1px solid #ddd; padding:15px; margin:5px; float:left;}
+.con_col3{ width: auto; height:250px; overflow:auto; background-color:#fff; border:1px solid #ddd; padding:15px; margin:5px; float:left; margin-right:0px;}
+.directory_setting{ margin: 5px;}
+.directory_setting .ul_text_sel li{ cursor:pointer; line-height:25px; height:25px; border:1px dotted transparent; list-style-type:none}
+.directory_setting .ul_text_sel li:hover{ background-color:#f5f5f5;}
+.directory_setting .ul_text_sel li.select{ color:#7b5129; background-color:#f5f5f5; border:1px dotted #999}
+.directory_setting .ul_text_sel li span{ display:block; width:10px; height:10px; background:url(../../../images/common/openOrclose.gif) no-repeat left -20px; 
+                                         float:right; margin-top:7px;*margin-top:-18px;}
+
+.con_icon1{ float:left; height:250px;}
+.con_icon1 table tr td{ height:250px}

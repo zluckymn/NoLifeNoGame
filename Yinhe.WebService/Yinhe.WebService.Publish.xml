@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="E:\Publish" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/libeay32.dll" publishTime="03/06/2013 09:13:46" />
+    <file relUrl="bin/Yinhe.ProcessingCenter.dll" publishTime="03/13/2013 17:45:20" />
+    <file relUrl="bin/Yinhoo.Framework.dll" publishTime="03/06/2013 09:13:48" />
+    <file relUrl="bin/mingwm10.dll" publishTime="03/06/2013 09:13:45" />
+    <file relUrl="bin/libgcc_s_dw2-1.dll" publishTime="03/06/2013 09:13:45" />
+    <file relUrl="bin/MongoDB.Driver.dll" publishTime="03/06/2013 09:13:47" />
+    <file relUrl="bin/Yinhe.ProcessingCenter.pdb" publishTime="03/13/2013 17:45:20" />
+    <file relUrl="bin/HtmlAgilityPack.dll" publishTime="03/06/2013 09:13:48" />
+    <file relUrl="bin/Yinhe.WebReference.pdb" publishTime="03/13/2013 17:45:19" />
+    <file relUrl="bin/wkhtmltox0.dll" publishTime="03/06/2013 09:13:45" />
+    <file relUrl="bin/Common.Logging.dll" publishTime="03/06/2013 09:13:44" />
+    <file relUrl="Web.config" publishTime="03/13/2013 17:46:04" />
+    <file relUrl="PeddingToDo.asmx" publishTime="03/06/2013 09:13:54" />
+    <file relUrl="bin/Yinhe.WebService.dll" publishTime="03/13/2013 17:45:21" />
+    <file relUrl="bin/NLog.dll" publishTime="03/06/2013 09:13:47" />
+    <file relUrl="bin/MongoDB.Driver.xml" publishTime="03/06/2013 09:13:47" />
+    <file relUrl="bin/MongoDB.Bson.dll" publishTime="03/06/2013 09:13:47" />
+    <file relUrl="Global.asax" publishTime="03/06/2013 09:13:54" />
+    <file relUrl="bin/MongoDB.Driver.pdb" publishTime="03/06/2013 09:13:47" />
+    <file relUrl="bin/MongoDB.Bson.xml" publishTime="03/06/2013 09:13:47" />
+    <file relUrl="bin/ssleay32.dll" publishTime="03/06/2013 09:13:46" />
+    <file relUrl="bin/Yinhe.WebService.pdb" publishTime="03/13/2013 17:45:21" />
+    <file relUrl="bin/ABCpdf.dll" publishTime="03/06/2013 09:13:47" />
+    <file relUrl="bin/Yinhe.WebReference.dll" publishTime="03/13/2013 17:45:19" />
+    <file relUrl="bin/MongoDB.Bson.pdb" publishTime="03/06/2013 09:13:47" />
+  </publishProfile>
+</publishData>

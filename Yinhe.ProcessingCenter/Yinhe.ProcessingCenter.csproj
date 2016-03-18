@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{09B5BB08-C041-466F-8AAA-0E4C49747B6B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Yinhe.ProcessingCenter</RootNamespace>
+    <AssemblyName>Yinhe.ProcessingCenter</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DocumentationFile>bin\Release\Yinhe.ProcessingCenter.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Yinhe.ProcessingCenter.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Yinhe.ProcessingCenter.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ABCpdf, Version=7.0.0.8, Culture=neutral, PublicKeyToken=a7a0b3f5184f2169, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\ABCpdf.DLL</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\packages\HtmlAgilityPack\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson, Version=1.3.1.4349, Culture=neutral, PublicKeyToken=f686731cfb9cc103, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MongoDriver\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver, Version=1.3.1.4349, Culture=neutral, PublicKeyToken=f686731cfb9cc103, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MongoDriver\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MyXls.SL2, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\XlsUtil\MyXls.SL2.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>..\packages\NLog\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\packages\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="QiaoxingWebService">
+      <HintPath>..\packages\QiaoxingWebService.dll</HintPath>
+    </Reference>
+    <Reference Include="QXWebSrvPending">
+      <HintPath>..\packages\QXWebSrvPending.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DataVisualization.Design" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Yinhe.MessageSender, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Yinhe.MessageSender.dll</HintPath>
+    </Reference>
+    <Reference Include="Yinhoo.Framework">
+      <HintPath>..\packages\NLog\Yinhoo.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Yinhoo.Utilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\XlsUtil\Yinhoo.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing, Version=1.0.5000.31779, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\zxing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\ControllerBase\AdministrationBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ControllerBase\DesignManageBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ControllerBase\EquipmentBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ControllerBase\LuxuriousHouseBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ControllerBase\MailCenterBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ControllerBase\MainBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ControllerBase\MaterialSupplierBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ControllerBase\MatMainBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ControllerBase\MissionStatementBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ControllerBase\MonthlyPlanManageBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ControllerBase\PolicyDecisionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ControllerBase\ProductDevelopBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ControllerBase\ProgrammeEvaluationBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ControllerBase\ProjectDocLibraryBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ControllerBase\ProjectManageBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ControllerBase\StandardResultBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ControllerBase\ZHHYADBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ViewPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Base\ViewUserControlBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Base\ViewFreePageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Business\BusinessFlow\FlowInstanceHelper.cs" />
+    <Compile Include="Business\BusinessFlow\BusFlowTraceBll.cs" />
+    <Compile Include="Business\BusinessFlow\BusFlowStepBll.cs" />
+    <Compile Include="Business\BusinessFlow\FlowUserHelper.cs" />
+    <Compile Include="Business\BusinessFlow\BusinessFlowTurnRightBll.cs" />
+    <Compile Include="Business\BusinessFlow\TranClass\IExecuteTran.cs" />
+    <Compile Include="Business\BusinessFlow\TranClass\SendApprovalMailNotice.cs" />
+    <Compile Include="Business\BusinessFlow\TranClass\UpdateOAToDoList.cs" />
+    <Compile Include="Business\BusinessFlow\TranClass\SendCirculateMail.cs" />
+    <Compile Include="Business\BusinessFlow\TranClass\SendFinishMsg.cs" />
+    <Compile Include="Business\BusinessFlow\TranClass\SendNextMsg.cs" />
+    <Compile Include="Business\BusinessFlow\TranClass\UpdateTaskStatus.cs" />
+    <Compile Include="Business\BusinessFlow\BusinessFlowCirculationBll.cs" />
+    <Compile Include="Business\BusinessFlow\TranClass\CompleteInstanceStatus.cs" />
+    <Compile Include="Business\BusinessFlow\TranClass\ApprovaedAmountReDirect.cs" />
+    <Compile Include="Business\BusinessFlow\BusinessFlowUserGrantBll.cs" />
+    <Compile Include="Business\BusinessFlow\TranClass\GenerateDesignChangeFileNum.cs" />
+    <Compile Include="Business\BusinessFlow\BusFlowFileNumberBll.cs" />
+    <Compile Include="Business\BusinessFlow\TranClass\UpdatePlanStatus.cs" />
+    <Compile Include="Business\CopyBsonHandle.cs" />
+    <Compile Include="Business\DesignManage\ContextDiagramBll.cs" />
+    <Compile Include="Business\DesignManage\DesignChangeBll.cs" />
+    <Compile Include="Business\DesignManage\DesignManage_PlanBll.cs" />
+    <Compile Include="Business\DesignManage\DesignPayBll.cs" />
+    <Compile Include="Business\DesignManage\ProjDocLibBll.cs" />
+    <Compile Include="Business\DesignManage\GetRecentBll.cs" />
+    <Compile Include="Business\DesignManage\SysUserBll.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\DesignManage\TaskFormula\ITaskFormula.cs" />
+    <Compile Include="Business\DesignManage\TaskFormula\SEDateSyncFormula.cs" />
+    <Compile Include="Business\DesignManage\TaskFormula\TaskFormulaBll.cs" />
+    <Compile Include="Business\DesignManage\DecisionPointBll.cs" />
+    <Compile Include="Business\DesignManage\MonthlyPlanBll.cs" />
+    <Compile Include="Business\Device\AttrTypeBll.cs" />
+    <Compile Include="Business\Device\BrandBll.cs" />
+    <Compile Include="Business\Material\MaterialBll.cs" />
+    <Compile Include="Business\ProductDevelop\ProductSegmentFeatureBll.cs" />
+    <Compile Include="Business\PushToSeeyon.cs" />
+    <Compile Include="Business\Reports\ReportChartExtension.cs" />
+    <Compile Include="Business\Reports\ReportingSerie.cs" />
+    <Compile Include="Common\ExcelWriter.cs" />
+    <Compile Include="Business\Device\ProjectBll.cs" />
+    <Compile Include="Business\Device\DeviceCommonBll.cs" />
+    <Compile Include="Business\Device\LuxuriousHouseBll.cs" />
+    <Compile Include="Business\MissionStatement\BookPageBll.cs" />
+    <Compile Include="Business\MissionStatement\BookTaskBll.cs" />
+    <Compile Include="Business\MissionStatement\EpsSummaryBll.cs" />
+    <Compile Include="Business\MissionStatement\FileCheckManageBll.cs" />
+    <Compile Include="Business\MissionStatement\PageBodyBll.cs" />
+    <Compile Include="Business\MissionStatement\PageBodyVersionBll.cs" />
+    <Compile Include="Business\MissionStatement\PageMarkBll.cs" />
+    <Compile Include="Business\MissionStatement\PageRefObjectBll.cs" />
+    <Compile Include="Business\MissionStatement\PageRefResultBll.cs" />
+    <Compile Include="Business\MissionStatement\PageTempBodyBll.cs" />
+    <Compile Include="Business\MissionStatement\ProjectBookTaskBll.cs" />
+    <Compile Include="Business\PolicyDecision\CashFlowBll.cs" />
+    <Compile Include="Business\PolicyDecision\CEOPolicyDesignBll.cs" />
+    <Compile Include="Business\PolicyDecision\ConflictFeedbackBll.cs" />
+    <Compile Include="Business\PolicyDecision\CostBll.cs" />
+    <Compile Include="Business\Device\DeviceBll.cs" />
+    <Compile Include="Business\PolicyDecision\LandProjectDirBll.cs" />
+    <Compile Include="Business\PolicyDecision\PolicyLogBll.cs" />
+    <Compile Include="Business\PolicyDecision\PolicyTemplateBll.cs" />
+    <Compile Include="Business\PolicyDecision\PolicyVersion.cs" />
+    <Compile Include="Business\PolicyDecision\TemplateDirBll.cs" />
+    <Compile Include="Business\Reports\IReportingDisplay.cs" />
+    <Compile Include="Business\Reports\ReportingChart.cs" />
+    <Compile Include="Business\Reports\ReportingData.cs" />
+    <Compile Include="Business\Reports\ReportingDisplay.cs" />
+    <Compile Include="Business\Reports\ReportingFactory.cs" />
+    <Compile Include="Business\Reports\ReportType\PieChart.cs" />
+    <Compile Include="Business\TreeHandle.cs" />
+    <Compile Include="Common\CommonLog.cs" />
+    <Compile Include="Common\DynamicMember.cs" />
+    <Compile Include="Common\Encryption.cs" />
+    <Compile Include="Common\HtmlRender.cs" />
+    <Compile Include="Common\Item.cs" />
+    <Compile Include="Common\SerializerXml.cs" />
+    <Compile Include="Common\StandarLibEnum.cs" />
+    <Compile Include="Common\RightCodeEnum.cs" />
+    <Compile Include="Common\SysModuleFunction.cs" />
+    <Compile Include="Common\Tree.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\TreeNode.cs" />
+    <Compile Include="Common\TreeView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\UserTypeEnum.cs" />
+    <Compile Include="Common\CustomerCode.cs" />
+    <Compile Include="Common\FlowInstanceInfo.cs" />
+    <Compile Include="Extensions\AuthExtensions.cs" />
+    <Compile Include="Extensions\HtmlExtensions.cs" />
+    <Compile Include="Extensions\TypeExtensions.cs" />
+    <Compile Include="Helper\CalculateHelper.cs" />
+    <Compile Include="Helper\DateTimeHelper.cs" />
+    <Compile Include="Helper\QREncodeHepler.cs" />
+    <Compile Include="Helper\StdLibInfo.cs" />
+    <Compile Include="MvcFilters\AuthFiler.cs" />
+    <Compile Include="Permissions\Authentication.cs" />
+    <Compile Include="Permissions\AuthFilter.cs" />
+    <Compile Include="Permissions\AuthManage.cs" />
+    <Compile Include="Permissions\DataScopeEntity.cs" />
+    <Compile Include="Permissions\IRightScope.cs" />
+    <Compile Include="Permissions\ResponseAuthFilter.cs" />
+    <Compile Include="Permissions\RightScopeEnum.cs" />
+    <Compile Include="Permissions\RightScope\ProjectRightScope.cs" />
+    <Compile Include="Permissions\RoleRightEntity.cs" />
+    <Compile Include="Permissions\UserRight.cs" />
+    <Compile Include="Common\XmlTree.cs" />
+    <Compile Include="Document\FileCommonOperation.cs" />
+    <Compile Include="Document\FileDeleteOperation.cs" />
+    <Compile Include="Document\FileOperationHelper.cs" />
+    <Compile Include="Document\IFileDeleteInderface.cs" />
+    <Compile Include="Document\IObjectOperation.cs" />
+    <Compile Include="Document\TreeOperation.cs" />
+    <Compile Include="Helper\AssemblyHelper.cs" />
+    <Compile Include="Helper\CacheHelper.cs" />
+    <Compile Include="Common\EnumCollection.cs" />
+    <Compile Include="Common\EnumDescription.cs" />
+    <Compile Include="Common\InvokeResult.cs" />
+    <Compile Include="Permissions\FreezeStrategy.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Search\CommonSearch.cs" />
+    <Compile Include="StatusInfo.cs" />
+    <Compile Include="SynAD\ADToDB.cs" />
+    <Compile Include="SynAD\Department.cs" />
+    <Compile Include="SynAD\ADSynchronization.cs" />
+    <Compile Include="SynAD\IGetDataList.cs" />
+    <Compile Include="SynAD\IPathAnalyse.cs" />
+    <Compile Include="SynAD\OrganizationAD.cs" />
+    <Compile Include="SynAD\PathAnalyseXH.cs" />
+    <Compile Include="SynAD\PathAnalyseSN.cs" />
+    <Compile Include="SynAD\PathAnalyseHQC.cs" />
+    <Compile Include="SynAD\PathAnalyseZHTZ.cs" />
+    <Compile Include="SynAD\SQLGetDataList.cs" />
+    <Compile Include="SynAD\SqlHelper.cs" />
+    <Compile Include="SynAD\PathAnalyseZHHY.cs" />
+    <Compile Include="SynAD\XHMobileSynchronization.cs" />
+    <Compile Include="Utils\Pagination.cs" />
+    <Compile Include="Web References\AuthorityService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\MessageService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Page\PageJson.cs" />
+    <Compile Include="Web\Page\PageReq.cs" />
+    <Compile Include="Common\PluginAttribute.cs" />
+    <Compile Include="Common\SysAppConfig.cs" />
+    <Compile Include="Helper\TreeHelper.cs" />
+    <Compile Include="Common\TypeConvert.cs" />
+    <Compile Include="DataOperation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataRule\CascadeRule.cs" />
+    <Compile Include="DataRule\ColumnRule.cs" />
+    <Compile Include="DataRule\ConditionRule.cs" />
+    <Compile Include="DataRule\DataEnum.cs" />
+    <Compile Include="DataRule\DataObject.cs" />
+    <Compile Include="DataRule\ForeachRule.cs" />
+    <Compile Include="DataRule\IfRule.cs" />
+    <Compile Include="DataRule\OperateRule.cs" />
+    <Compile Include="DataRule\StorageData.cs" />
+    <Compile Include="DataRule\StorageRlue.cs" />
+    <Compile Include="DataRule\TableRule.cs" />
+    <Compile Include="DataRule\VarRule.cs" />
+    <Compile Include="Extensions\BsonDocumentExtension.cs" />
+    <Compile Include="Extensions\StringExtension.cs" />
+    <Compile Include="MongoOperation.cs" />
+    <Compile Include="MvcFilters\CommonExceptionAttribute.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web\Page\ReportReq.cs" />
+    <Compile Include="Web\Security\Identity.cs" />
+    <Compile Include="Web\Security\Principal.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataRules.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Yinhe.WebReference\Yinhe.WebReference.csproj">
+      <Project>{8D2934A3-8CE8-4943-A8A3-3353F8DF030B}</Project>
+      <Name>Yinhe.WebReference</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="nlog.dll.nlog">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\AuthorityService\authorityService.wsdl" />
+    <None Include="Web References\AuthorityService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\AuthorityService\UserToken.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\MessageService\messageService.wsdl" />
+    <None Include="Web References\MessageService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\MessageService\ServiceResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SystemMessage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://27.151.122.65/seeyon/services/authorityService%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\AuthorityService\</RelPath>
+      <UpdateFromURL>http://27.151.122.65/seeyon/services/authorityService%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Yinhe_ProcessingCenter_AuthorityService_authorityService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://27.151.122.65/seeyon/services/messageService%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\MessageService\</RelPath>
+      <UpdateFromURL>http://27.151.122.65/seeyon/services/messageService%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Yinhe_ProcessingCenter_MessageService_messageService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

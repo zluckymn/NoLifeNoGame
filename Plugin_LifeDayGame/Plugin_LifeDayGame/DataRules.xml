@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataRules>
+  <Table Name="CharacterInfo" Remark="微信下的角色信息" >
+    <Column Name="charac_no" IsPrimary="true" IsIdentity="true" Remark="主键" />
+    <Column Name="name" Remark="角色名称" />
+    <Column Name="weixin" Remark="weixincode" />
+    <Column Name="level" Remark="角色等级" />
+    <Column Name="grow_type" Remark="成长系数" />
+    <Column Name="maxHP" Remark="Hp" />
+    <Column Name="maxMP" Remark="Mp" />
+    <Column Name="phy_attack" Remark="物攻" />
+    <Column Name="phy_defense," Remark="物防" />
+    <Column Name="mag_attack" Remark="魔攻" />
+    <Column Name="mag_defense" Remark="魔防" />
+    <Column Name="element_resist" Remark="" />
+    <Column Name="spec_property" Remark="" />
+    <Column Name="inven_weight" Remark="" />
+    <Column Name="hp_regen" Remark="hp回复" />
+    <Column Name="mp_regen" Remark="Mp回复" />
+    <Column Name="move_speed" Remark="移动速度" />
+    <Column Name="attack_speed" Remark="攻击速度" />
+    <Column Name="cast_speed" Remark="释放速度" />
+    <Column Name="hit_recovery" Remark="硬直" />
+    <Column Name="fatigue" Remark="疲劳" />
+   </Table>
+</DataRules>
+ 
