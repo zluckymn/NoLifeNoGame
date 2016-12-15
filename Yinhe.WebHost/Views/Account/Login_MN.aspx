@@ -5,6 +5,13 @@
 <head id="Head1" runat="server">
     <title></title>
     <script src="/Scripts/Reference/Common/jquery-1.5.1.js" type="text/javascript"></script>
+    <!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+    _atrk_opts = { atrk_acct: "uGAln1aMp4105T", domain: "luckymn.cn", dynamic: true };
+    (function () { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=uGAln1aMp4105T" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript --> 
     <link href="/Content/css/client/FLKL/admincss.css" rel="stylesheet" type="text/css" />
     <style>
     .sign_left .sign_logo{ width:357px; height:94px; background:url(/Content/images/client/FLKL/admin/logo1.png) no-repeat;}
@@ -53,6 +60,7 @@
             <img src="/Content/images/client/FLKL/admin/logo1.png" alt="" />
         </div>
 <div id="loginbox"> 
+   <a href="/QuestionAnswer">题库</a>
     <form id="loginfrm" action="" method="post" class="form-vertical" >
 
     <p><b>后台管理登录</b></p>

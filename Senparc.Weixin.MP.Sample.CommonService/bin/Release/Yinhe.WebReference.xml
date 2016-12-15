@@ -1,0 +1,1615 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yinhe.WebReference</name>
+    </assembly>
+    <members>
+        <member name="T:Yinhe.WebReference.ZY_BPMService.PageDataEntity">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMService.PageDataEntity.PageIndex">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMService.PageDataEntity.PageSize">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMService.PageDataEntity.TotalCount">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMService.PageDataEntity.RowData">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZY_BPMService.StartProcessInfo">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMService.StartProcessInfo.DisplayProcessName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMService.StartProcessInfo.LaunchPage">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.YinheSchdeuler.SendSysMessage(Yinhe.WebReference.Schdeuler.Group,System.String,System.DateTime,Yinhe.WebReference.Schdeuler.SystemMsg)">
+            <summary>
+            注册消息
+            </summary>
+            <param name="group">组名</param>
+            <param name="jobName">作业名，无特别要求的使用Guid</param>
+            <param name="sendTime">发送时间</param>
+            <param name="msg">消息详细</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yinhe.WebReference.YinheSchdeuler.SendTaskNoticeOnce(Yinhe.WebReference.Schdeuler.Group,System.String,System.String)">
+            <summary>
+            注册任务提醒
+            </summary>
+            <param name="group">组名</param>
+            <param name="jobName">作业名，无特别要求的使用Guid</param>
+            <param name="cronEx">间隔时间表达式</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yinhe.WebReference.YinheSchdeuler.DeleteDesignSupplier(Yinhe.WebReference.Schdeuler.Group,System.String,System.String)">
+            <summary>
+            注册任务提醒
+            </summary>
+            <param name="group">组名</param>
+            <param name="jobName">作业名，无特别要求的使用Guid</param>
+            <param name="cronEx">间隔时间表达式</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yinhe.WebReference.YinheSchdeuler.SendInstanceApproverNotice(Yinhe.WebReference.Schdeuler.Group,System.String,System.String)">
+            <summary>
+            注册任务提醒
+            </summary>
+            <param name="group">组名</param>
+            <param name="jobName">作业名，无特别要求的使用Guid</param>
+            <param name="cronEx">间隔时间表达式</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yinhe.WebReference.YinheSchdeuler.SendWPMDelayTaskNotice(Yinhe.WebReference.Schdeuler.Group,System.String,System.String)">
+            <summary>
+            注册未完成任务任务提醒
+            </summary>
+            <param name="group">组名</param>
+            <param name="jobName">作业名，无特别要求的使用Guid</param>
+            <param name="cronEx">间隔时间表达式</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yinhe.WebReference.YinheSchdeuler.SendWPMCustomerHealthNotice(Yinhe.WebReference.Schdeuler.Group,System.String,System.String)">
+            <summary>
+            注册未完成任务任务提醒
+            </summary>
+            <param name="group">组名</param>
+            <param name="jobName">作业名，无特别要求的使用Guid</param>
+            <param name="cronEx">间隔时间表达式</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yinhe.WebReference.YinheSchdeuler.SendCommonMessageNotice(Yinhe.WebReference.Schdeuler.Group,System.String,System.String)">
+            <summary>
+            注册通用邮件提醒
+            </summary>
+            <param name="group">组名</param>
+            <param name="jobName">作业名，无特别要求的使用Guid</param>
+            <param name="cronEx">间隔时间表达式</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yinhe.WebReference.YinheSchdeuler.RemoveJob(Yinhe.WebReference.Schdeuler.Group,System.String)">
+            <summary>
+            删除已经注册的job
+            </summary>
+            <param name="group"></param>
+            <param name="jobName"></param>
+        </member>
+        <member name="T:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.ID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.Author">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.Company">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.DepartMent">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.BPMNO">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.CreateTime">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.Title">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.Content">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.Attachment">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.Mode">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.Summary">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.Catalog">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.Reader">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.Type">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.BPMUrl">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.RedCompany">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.RedSubtitle">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.IsTrainingNews">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGNewsEntity.RedNo">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZY_BPMDocService.SPAttachmentEntity">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.SPAttachmentEntity.Name">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.SPAttachmentEntity.Attachment">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZY_BPMDocService.ChildMetadataEntity">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.ChildMetadataEntity.CompanyName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.ChildMetadataEntity.CompanyKey">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.ChildMetadataEntity.ProjectName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.ChildMetadataEntity.ProjectKey">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZY_BPMDocService.MetadataEntity">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.MetadataEntity.Name">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.MetadataEntity.MetadataGuid">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZY_BPMDocService.ResultEntity">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.ResultEntity.ReturnCompanyName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.ResultEntity.ReturnProjectName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.ResultEntity.ReturnStepName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.ResultEntity.FileName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.ResultEntity.FileUrl">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZY_BPMDocService.QueryEntity">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.QueryEntity.CompanyName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.QueryEntity.ProjectName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.QueryEntity.StepName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.QueryEntity.IsKeyFile">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.QueryEntity.IsShowKeyFile">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZY_BPMDocService.ProjectDocFolderEntity">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.ProjectDocFolderEntity.FolderName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.ProjectDocFolderEntity.FolderGuid">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.ProjectDocFolderEntity.Directory">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.ProjectDocFolderEntity.ChildrenNodes">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.Author">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.Company">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.DepartMent">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.BPMNO">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.CreateTime">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.Title">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.Name">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.FolderUrl">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.Reader">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.DocContents">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.BPMUrl">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.DocCompany">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.DocItem">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.DocStage">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.DocProfession">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.IsKeyFile">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.IsShowKeyFile">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.KeyFileShowName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocEntity.KeyFileRight">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZY_BPMDocService.EGDocFolderEntity">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocFolderEntity.FolderName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocFolderEntity.FolderGuid">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZY_BPMDocService.EGDocFolderEntity.FolderURL">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZY_BPMDocService.NewsMode">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZY_BPMDocService.NewsMode.Picture">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZY_BPMDocService.NewsMode.Text">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZY_BPMDocService.NewsCatalog">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZY_BPMDocService.NewsCatalog.HeadNews">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZY_BPMDocService.NewsCatalog.EGNews">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZY_BPMDocService.NewsCatalog.CityNews">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZY_BPMDocService.NewsType">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZY_BPMDocService.NewsType.News">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZY_BPMDocService.NewsType.Notice">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZY_BPMDocService.NewsType.RedFile">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZY_BPMDocService.MetadataType">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZY_BPMDocService.MetadataType.Company">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZY_BPMDocService.MetadataType.Project">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZY_BPMDocService.MetadataType.Step">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZY_BPMDocService.MetadataType.Profession">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.Authentication">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Authentication.UserCode">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Authentication.Password">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Authentication.AnyAttr">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.Employee">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Employee.UserCode">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Employee.Password">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.DataItemParam">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.DataItemParam.ItemName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.DataItemParam.ItemValue">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.TimeSpan">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.WorkflowDataMap">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.WorkflowDataMap.ParentDataName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.WorkflowDataMap.ChildDataName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.WorkflowDataMap.Type">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.InOutType">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.InOutType.In">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.InOutType.Out">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.InOutType.InOut">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.InOutType.OutAppend">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.InOutType.InOutAppend">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.Cloneable">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.SerializableObject">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.SerializableObject.Serialized">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.SerializableObject.ObjectID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.SerializableObject.ParentObjectID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.SerializableObject.ParentPropertyName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.SerializableObject.ParentIndex">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.Comment">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Comment.BizObjectSchemaCode">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Comment.BizObjectId">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Comment.InstanceId">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Comment.Activity">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Comment.UserID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Comment.Delegant">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Comment.OUName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Comment.TokenId">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Comment.DataField">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Comment.Text">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Comment.Approval">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Comment.SignatureId">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Comment.Signature">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Comment.CreatedTime">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Comment.ModifiedTime">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Comment.ModifiedBy">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.BoolMatchValue">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.BoolMatchValue.False">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.BoolMatchValue.True">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.BoolMatchValue.Unspecified">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.UserComment">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.UserComment.UserName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.UserComment.State">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.Unit">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Unit.CompanyID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Unit.Name">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Unit.Description">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Unit.UnitID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Unit.Code">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Unit.ManagerID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Unit.ViceManagerID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Unit.SecretaryID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Unit.SupervisorID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Unit.CreatedTime">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Unit.ModifiedTime">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Unit.Attachment">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Unit.SortKey">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Unit.WorkflowCode">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.NonCompany">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.NonCompany.ParentID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.NonCompany.SourceParentID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.NonCompany.Admin">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.NonCompany.SystemID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.NonCompany.Visibility">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.NonCompany.CategoryID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.NonCompany.State">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.VisibleType">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.VisibleType.Normal">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.VisibleType.OnlyAdmin">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.VisibleType.OnlyOrganization">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.VisibleType.All">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.State">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.State.Active">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.State.Inactive">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.State.Unspecified">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.User">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.Birthday">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.Gender">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.EntryDate">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.DepartureDate">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.ServiceState">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.Email">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.Email2">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.Appellation">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.EmployeeNumber">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.EmployeeRank">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.Title">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.Password">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.Mobile">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.ImageName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.WeChatAccount">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.IsConsoleUser">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.FacsimileTelephoneNumber">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.IpPhone">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.HomePhone">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.OfficePhone">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.Pager">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.QQ">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.RTX">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.MSN">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.Skype">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.Country">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.CountryName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.Province">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.City">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.Street">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.PostOfficeBox">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.PostalCode">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.IDNumber">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.SID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.MobileType">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.DeviceToken">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.Picture">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.PrivacyLevel">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.Notification">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.NotifyType">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.CalendarId">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.FavoriteAppCodes">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.DefaultLanguage">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.DepartmentName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.MobileToken">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.User.JPushID">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.UserGender">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.UserGender.None">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.UserGender.Male">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.UserGender.Female">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.UserServiceState">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.UserServiceState.InService">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.UserServiceState.Intern">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.UserServiceState.Dismissed">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.MobileSystem">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.MobileSystem.None">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.MobileSystem.Android">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.MobileSystem.iOS">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.MobileSystem.Other">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.PrivacyLevel">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.PrivacyLevel.PublicToAll">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.PrivacyLevel.PublicToDepts">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.PrivacyLevel.PublicToDept">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.PrivacyLevel.Confidential">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.Token">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Token.TokenId">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Token.Activity">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Token.Approval">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Token.SkippedExecution">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Token.Exceptional">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Token.Retrievable">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Token.CreatedTime">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Token.PreTokens">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Token.FinishedTime">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Token.State">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Token.Participants">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Token.UsedTime">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Token.UsedTime_W">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Token.UsedTime_C">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Token.UsedTime_O">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.Token.UsedTimeRate">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.TokenState">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.TokenState.Running">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.TokenState.Finished">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.TokenState.Dropped">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.TokenState.Unspecified">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.TokenState.Undropped">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.InstanceContext">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.SequenceNo">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.MessageEmergency">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.InstanceName">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.Originator">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.OrgUnit">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.OriginatedGroup">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.OriginatedPost">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.IsChildInstance">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.ParentInstanceID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.ParentActivityCode">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.NotifyParentFinished">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.ParentActivityTokenId">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.ParentDataMaps">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.WorkflowCode">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.WorkflowVersion">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.BizObjectSchemaCode">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.BizObjectId">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.State">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.InitiativeTokenId">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.FinalTokenId">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.NextTokenId">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.Tokens">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.Exceptional">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.Suspended">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.UserSuspended">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.CreatedTime">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.StartTime">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.FinishTime">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.UsedTime">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.UsedTime_W">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.UsedTime_C">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.UsedTime_O">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.PlanFinishTime">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.UsedTimeRate">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.Progress">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.EstimatedFinishTime">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.Priority">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.Approval">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.Recurrences">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.RecurrencesRate">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.InstanceContext.LastActiveTime">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.MessageEmergencyType">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.MessageEmergencyType.Lowest">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.MessageEmergencyType.Low">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.MessageEmergencyType.Normal">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.MessageEmergencyType.High">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.MessageEmergencyType.Highest">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.InstanceState">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.InstanceState.Initiated">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.InstanceState.Starting">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.InstanceState.Running">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.InstanceState.Finishing">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.InstanceState.Finished">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.InstanceState.Canceled">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.InstanceState.Exceptional">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.InstanceState.Suspended">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.InstanceState.Unfinished">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.InstanceState.NotCanceled">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.InstanceState.Unspecified">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.PriorityType">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.PriorityType.Unspecified">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.PriorityType.Low">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.PriorityType.Normal">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.ZHHYH3Service.PriorityType.High">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.ZHHYH3Service.BPMServiceResult">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.BPMServiceResult.Success">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.BPMServiceResult.InstanceID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.BPMServiceResult.Message">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.BPMServiceResult.WorkItemID">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.ZHHYH3Service.BPMServiceResult.WorkItemUrl">
+            <remarks/>
+        </member>
+        <!-- 对于成员“T:Yinhe.WebReference.WeathWebService”忽略有格式错误的 XML 注释 -->
+        <member name="M:Yinhe.WebReference.WeathWebService.getPageInfo(System.String)">
+            <summary>
+            获取url数据
+            </summary>
+            <param name="strUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yinhe.WebReference.WeathWebService.GetWetherCondition(System.String,System.String)">
+            <summary>
+             http://m.weather.com.cn/data/101230201.html
+             http://m.weather.com.cn/atad/101230201.html
+               http://mobile.weather.com.cn/data/zsM/101230201.html 详细晨练指数
+            获取天气
+            </summary>
+            <param name="provinceName"></param>
+            <param name="cityName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Yinhe.WebReference.WeathWebService.friendNotice(Yinhe.WebReference.WeathWebService.WeatherProfile)">
+            <summary>
+            天气友情提醒
+            </summary>
+            <param name="tommorrowWether"></param>
+            <returns></returns>
+        </member>
+        <!-- 对于成员“M:Yinhe.WebReference.WeathWebService.InitialCommonWeather(Yinhe.WebReference.WeathWebService.Weatherinfo)”忽略有格式错误的 XML 注释 -->
+        <member name="M:Yinhe.WebReference.WeathWebService.GetWeatherPicUrl(System.String,System.String)">
+            <summary>
+            通过百度图片的Url获取本地天气预报图片名
+            </summary>
+            <param name="baiduPicUrl">百度图片的URL</param>
+            <param name="compPicUrl">若此参数与第一个参数值一样，则返回99</param>
+            <returns></returns>
+        </member>
+        <member name="M:Yinhe.WebReference.WeathWebService.GetWeatherByBaidu(System.String,System.String)">
+            <summary>
+            百度接口获取天气预报
+            </summary>
+            <param name="cityName">所查询城市名</param>
+            <param name="weatherUrl">接口地址</param>
+            <returns></returns>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WeatherProfile.date">
+            <summary>
+            时间
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WeatherProfile.profile">
+            <summary>
+            慨况 3月18日 多云
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WeatherProfile.temperature">
+            <summary>
+            18℃/27℃
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WeatherProfile.week">
+            <summary>
+            周几
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WeatherProfile.windy">
+            <summary>
+            无持续风向微风
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WeatherProfile.pic1">
+            <summary>
+            图片1
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WeatherProfile.pic2">
+            <summary>
+            图片2
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WeatherCondition.condition">
+            <summary>
+            //天气实况
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WeatherCondition.temperature">
+            <summary>
+            温度
+            </summary>
+        </member>
+        <!-- 对于成员“P:Yinhe.WebReference.WeathWebService.WeatherCondition.windy”忽略有格式错误的 XML 注释 -->
+        <member name="P:Yinhe.WebReference.WeathWebService.WeatherCondition.sunglassesIndex">
+            <summary>
+            太阳镜指数
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WeatherCondition.profile">
+            <summary>
+            慨况 3月18日 多云
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WeatherCondition.pic1">
+            <summary>
+            图片1
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WeatherCondition.pic2">
+            <summary>
+            图片2
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WeatherCondition.tommorrowFriendlyNotice">
+            <summary>
+            明日友情提醒
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WeatherCondition.friendlyNotice">
+            <summary>
+            当日友情提醒
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WeatherCondition.fixToDoNotice">
+            <summary>
+            适合
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WorkPlanWeatherCondition.date">
+            <summary>
+            日期 样例：03月26日
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WorkPlanWeatherCondition.week">
+            <summary>
+            星期 样例：周二
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WorkPlanWeatherCondition.weather">
+            <summary>
+            天气 样例：阴转阵雨
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WorkPlanWeatherCondition.temperature">
+            <summary>
+            温度 样例：17℃～11℃
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WorkPlanWeatherCondition.windPower">
+            <summary>
+            风力 样例：微风
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WorkPlanWeatherCondition.cladIndex">
+            <summary>
+            穿衣指数
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WorkPlanWeatherCondition.ultraViolet">
+            <summary>
+            紫外线
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WorkPlanWeatherCondition.carwash">
+            <summary>
+            洗车
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WorkPlanWeatherCondition.travel">
+            <summary>
+            旅游
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WorkPlanWeatherCondition.morningExercise">
+            <summary>
+            晨练
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WorkPlanWeatherCondition.airCure">
+            <summary>
+            晾晒
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WorkPlanWeatherCondition.allergy">
+            <summary>
+            过敏
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WorkPlanWeatherCondition.pic1">
+            <summary>
+            气象图片1
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WorkPlanWeatherCondition.pic2">
+            <summary>
+            气象图片2
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WorkPlanWeatherCondition.friendlyNotice">
+            <summary>
+            当日友情提醒
+            </summary>
+        </member>
+        <member name="P:Yinhe.WebReference.WeathWebService.WorkPlanWeatherCondition.tommorrowFriendlyNotice">
+            <summary>
+            明日友情提醒
+            </summary>
+        </member>
+        <member name="T:Yinhe.WebReference.Schdeuler.JobRegister">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.#ctor">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.HelloWord(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.HelloWordAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.HelloWordAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.TestSQLConnection(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.TestSQLConnectionAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.TestSQLConnectionAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.SendSysMessage(Yinhe.WebReference.Schdeuler.Group,System.String,System.DateTime,Yinhe.WebReference.Schdeuler.SystemMsg)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.SendSysMessageAsync(Yinhe.WebReference.Schdeuler.Group,System.String,System.DateTime,Yinhe.WebReference.Schdeuler.SystemMsg)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.SendSysMessageAsync(Yinhe.WebReference.Schdeuler.Group,System.String,System.DateTime,Yinhe.WebReference.Schdeuler.SystemMsg,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.SendMobileSMS(Yinhe.WebReference.Schdeuler.Group,System.DateTime,Yinhe.WebReference.Schdeuler.MobileSMS)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.SendMobileSMSAsync(Yinhe.WebReference.Schdeuler.Group,System.DateTime,Yinhe.WebReference.Schdeuler.MobileSMS)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.SendMobileSMSAsync(Yinhe.WebReference.Schdeuler.Group,System.DateTime,Yinhe.WebReference.Schdeuler.MobileSMS,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.RemoveJob(Yinhe.WebReference.Schdeuler.Group,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.RemoveJobAsync(Yinhe.WebReference.Schdeuler.Group,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.RemoveJobAsync(Yinhe.WebReference.Schdeuler.Group,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.SendTaskNoticeOnce(Yinhe.WebReference.Schdeuler.Group,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.SendTaskNoticeOnceAsync(Yinhe.WebReference.Schdeuler.Group,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.SendTaskNoticeOnceAsync(Yinhe.WebReference.Schdeuler.Group,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.DeleteDesignSupplier(Yinhe.WebReference.Schdeuler.Group,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.DeleteDesignSupplierAsync(Yinhe.WebReference.Schdeuler.Group,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.DeleteDesignSupplierAsync(Yinhe.WebReference.Schdeuler.Group,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.SendInstanceApproverNotice(Yinhe.WebReference.Schdeuler.Group,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.SendInstanceApproverNoticeAsync(Yinhe.WebReference.Schdeuler.Group,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.SendInstanceApproverNoticeAsync(Yinhe.WebReference.Schdeuler.Group,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.SendWPMDelayTaskNotice(Yinhe.WebReference.Schdeuler.Group,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.SendWPMDelayTaskNoticeAsync(Yinhe.WebReference.Schdeuler.Group,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.SendWPMDelayTaskNoticeAsync(Yinhe.WebReference.Schdeuler.Group,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.Schdeuler.JobRegister.CancelAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="E:Yinhe.WebReference.Schdeuler.JobRegister.HelloWordCompleted">
+            <remarks/>
+        </member>
+        <member name="E:Yinhe.WebReference.Schdeuler.JobRegister.TestSQLConnectionCompleted">
+            <remarks/>
+        </member>
+        <member name="E:Yinhe.WebReference.Schdeuler.JobRegister.SendSysMessageCompleted">
+            <remarks/>
+        </member>
+        <member name="E:Yinhe.WebReference.Schdeuler.JobRegister.SendMobileSMSCompleted">
+            <remarks/>
+        </member>
+        <member name="E:Yinhe.WebReference.Schdeuler.JobRegister.RemoveJobCompleted">
+            <remarks/>
+        </member>
+        <member name="E:Yinhe.WebReference.Schdeuler.JobRegister.SendTaskNoticeOnceCompleted">
+            <remarks/>
+        </member>
+        <member name="E:Yinhe.WebReference.Schdeuler.JobRegister.DeleteDesignSupplierCompleted">
+            <remarks/>
+        </member>
+        <member name="E:Yinhe.WebReference.Schdeuler.JobRegister.SendInstanceApproverNoticeCompleted">
+            <remarks/>
+        </member>
+        <member name="E:Yinhe.WebReference.Schdeuler.JobRegister.SendWPMDelayTaskNoticeCompleted">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.Schdeuler.Group">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.Schdeuler.Group.Msg_Persistent">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.Schdeuler.Group.Msg_CRM_Customer_UpdateStage">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.Schdeuler.Group.Msg_CRM_Customer_LeaveMsg">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.Schdeuler.Group.Msg_CRM_Customer_PopActivity">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.Schdeuler.Group.Msg_Contract_Mgr_ReceiptMileStone">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.Schdeuler.Group.Msg_Engineer_ProjectMgr_StartPlan">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.Schdeuler.Group.Msg_WF_Action_Normal">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.Schdeuler.Group.Msg_Result_ResultJudge">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.Schdeuler.Group.Msg_PlaningWorkTask">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.Schdeuler.Group.Msg_SubmitDocumentBill">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.Schdeuler.Group.Msg_ReplyPostil">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.Schdeuler.Group.Msg_ProjectResultComment">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.Schdeuler.Group.Msg_MobileSMS">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.Schdeuler.Group.Msg_StandardResult">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.Schdeuler.Group.Msg_DepartmentBudget">
+            <remarks/>
+        </member>
+        <member name="F:Yinhe.WebReference.Schdeuler.Group.Msg_ZHTZ_DeleteDesignSupplier">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.Schdeuler.SystemMsg">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.SystemMsg.SenderId">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.SystemMsg.CreateDate">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.SystemMsg.TypeId">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.SystemMsg.Title">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.SystemMsg.Content">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.SystemMsg.ContentHead">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.SystemMsg.VerificationCode">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.SystemMsg.SMSContent">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.SystemMsg.ToUserIds">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.SystemMsg.CCUserIds">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.SystemMsg.SendEmail">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.SystemMsg.SendMobileSMS">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.SystemMsg.Host">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.SystemMsg.srcTypeId">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.SystemMsg.isImportant">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.Schdeuler.MobileSMS">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.MobileSMS.Content">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.MobileSMS.verificationCode">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.MobileSMS.PhoneNumbers">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.MobileSMS.UserIds">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.Schdeuler.HelloWordCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.Schdeuler.HelloWordCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.HelloWordCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.Schdeuler.TestSQLConnectionCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.Schdeuler.TestSQLConnectionCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.TestSQLConnectionCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.Schdeuler.SendSysMessageCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.Schdeuler.SendMobileSMSCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.Schdeuler.RemoveJobCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.Schdeuler.RemoveJobCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.Schdeuler.RemoveJobCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.Schdeuler.SendTaskNoticeOnceCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.Schdeuler.DeleteDesignSupplierCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.Schdeuler.SendInstanceApproverNoticeCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.Schdeuler.SendWPMDelayTaskNoticeCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.AuthorityService.authorityService">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.AuthorityService.authorityService.#ctor">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.AuthorityService.authorityService.authenticate(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.AuthorityService.authorityService.authenticateAsync(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.AuthorityService.authorityService.authenticateAsync(System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:Yinhe.WebReference.AuthorityService.authorityService.CancelAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="E:Yinhe.WebReference.AuthorityService.authorityService.authenticateCompleted">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.AuthorityService.UserToken">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.AuthorityService.UserToken.id">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.AuthorityService.UserToken.nullToken">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.AuthorityService.authenticateCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:Yinhe.WebReference.AuthorityService.authenticateCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:Yinhe.WebReference.AuthorityService.authenticateCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+    </members>
+</doc>

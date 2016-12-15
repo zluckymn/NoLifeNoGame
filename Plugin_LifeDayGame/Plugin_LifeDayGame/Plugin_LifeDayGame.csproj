@@ -135,6 +135,10 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\A3\MengZheng.BusinessControler\MengZheng.BusinessControler.csproj">
+      <Project>{837F8C1B-49F9-44C6-92E2-33049DB8BDED}</Project>
+      <Name>MengZheng.BusinessControler</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\..\A3\Yinhe.ProcessingCenter\Yinhe.ProcessingCenter.csproj">
       <Project>{09B5BB08-C041-466F-8AAA-0E4C49747B6B}</Project>
       <Name>Yinhe.ProcessingCenter</Name>

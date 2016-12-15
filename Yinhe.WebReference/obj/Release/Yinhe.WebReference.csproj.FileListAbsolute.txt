@@ -12,3 +12,10 @@ D:\115Box\Autolink3.0\FLKLSite\Yinhe.WebReference\bin\Release\Yinhe.WebReference
 D:\115Box\Autolink3.0\FLKLSite\Yinhe.WebReference\obj\Release\Yinhe.WebReference.dll
 D:\115Box\Autolink3.0\FLKLSite\Yinhe.WebReference\obj\Release\Yinhe.WebReference.pdb
 D:\115Box\Autolink3.0\FLKLSite\Yinhe.WebReference\obj\Release\Yinhe.WebReference.XmlSerializers.dll
+F:\115Box\Autolink3.0\FLKLSite\Yinhe.WebReference\bin\Release\Yinhe.WebReference.dll.config
+F:\115Box\Autolink3.0\FLKLSite\Yinhe.WebReference\bin\Release\Yinhe.WebReference.dll
+F:\115Box\Autolink3.0\FLKLSite\Yinhe.WebReference\bin\Release\Yinhe.WebReference.XmlSerializers.dll
+F:\115Box\Autolink3.0\FLKLSite\Yinhe.WebReference\bin\Release\Yinhe.WebReference.pdb
+F:\115Box\Autolink3.0\FLKLSite\Yinhe.WebReference\obj\Release\Yinhe.WebReference.dll
+F:\115Box\Autolink3.0\FLKLSite\Yinhe.WebReference\obj\Release\Yinhe.WebReference.pdb
+F:\115Box\Autolink3.0\FLKLSite\Yinhe.WebReference\obj\Release\Yinhe.WebReference.XmlSerializers.dll

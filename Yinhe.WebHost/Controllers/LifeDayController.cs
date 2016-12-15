@@ -50,7 +50,7 @@ namespace Yinhe.WebHost.Controllers
            var addition= SysAppConfig.Mission_PointAddition;//10%加成
            var  maxAddition = SysAppConfig.Mission_MaxPointAddition;//最高加成70&
            var itemDropSeed = SysAppConfig.Mission_ItemDropSeed;//6000000
-          
+           var isLevelUp = false;
            //var addionMessage = new StringBuilder();//加成信息
            var itemMessage = new StringBuilder();//物品获得信息
            var rareItemMessage = new StringBuilder();//稀有物品获得信息
@@ -268,6 +268,10 @@ namespace Yinhe.WebHost.Controllers
                     var nexLevelExp = nexLevel.Int("levelExp");
                     while (curUserExp >= nexLevelExp)//升级
                     {
+                        if (!isLevelUp)
+                        {
+                            isLevelUp = true;
+                        }
                         updateBoson.Set("level", (nextUserLevel).ToString());
                         curUserExp -= nexLevelExp;//减少经验
                         nextUserLevel++;
@@ -331,6 +335,10 @@ namespace Yinhe.WebHost.Controllers
             {
                 //result.Message +=rareItemMessage.ToString().TrimEnd(',');
                 result.FileInfo = rareItemMessage.ToString().TrimEnd(',') ;//是否爆特殊物品
+            }
+            if (isLevelUp && result.BsonInfo!=null)
+            {
+                result.BsonInfo.Set("isLevelUp", isLevelUp.ToString());
             }
             
             return Json(TypeConvert.InvokeResultToPageJson(result));
@@ -665,7 +673,7 @@ namespace Yinhe.WebHost.Controllers
            string WorkPlanManageConnectionString = System.Web.Configuration.WebConfigurationManager.AppSettings["WorkPlanManageConnectionString"];
            DataOperation dataOp = new DataOperation(WorkPlanManageConnectionString, true);
            var lifeDayHelper = new LifeDayHelper(dataOp);
-
+           var isLevelUp = false;
             //缓存
              List<BsonDocument> allEquipment = null ;
              allEquipment = CacheHelper.GetCache("MissionItemList") as List<BsonDocument>;
@@ -764,6 +772,10 @@ namespace Yinhe.WebHost.Controllers
                             var nexLevelExp = nexLevel.Int("levelExp");
                             while (curUserExp >= nexLevelExp)//升级
                             {
+                                if (!isLevelUp)
+                                {
+                                    isLevelUp = true;
+                                }
                                 updateBoson.Set("level", (nextUserLevel).ToString());
                                 curUserExp -= nexLevelExp;//减少经验
                                 nextUserLevel++;
@@ -843,7 +855,12 @@ namespace Yinhe.WebHost.Controllers
                 //result.Message +=rareItemMessage.ToString().TrimEnd(',');
                 result.FileInfo = rareItemMessage.ToString().TrimEnd(',') ;//是否爆特殊物品
             }
-         
+
+            if (isLevelUp && result.BsonInfo != null)
+            {
+                result.BsonInfo.Set("isLevelUp", isLevelUp.ToString());
+            }
+           // result.BsonInfo.Set("isLevelUp","true");
             return Json(TypeConvert.InvokeResultToPageJson(result));
         }
     }

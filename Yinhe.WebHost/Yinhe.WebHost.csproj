@@ -114,6 +114,7 @@
     <Compile Include="Controllers\HumanResourceController.cs" />
     <Compile Include="Controllers\LogReportController.cs" />
     <Compile Include="Controllers\ModuleController.cs" />
+    <Compile Include="Controllers\QuestionAnswerController.cs" />
     <Compile Include="Controllers\searchController.cs" />
     <Compile Include="Controllers\SystemSettingsController.cs" />
     <Compile Include="Controllers\WorkPlanManageWeiXinController.cs" />
@@ -3298,6 +3299,7 @@
     <Content Include="Views\Account\Mail_Login.aspx" />
     <Content Include="Views\Account\PDF_Login.aspx" />
     <Content Include="Views\Account\Login_MN.aspx" />
+    <Content Include="Views\CompanySite\Nav.ascx" />
     <Content Include="Views\CompanySite\SiteManage.aspx" />
     <Content Include="Views\CompanySite\HeadContent.ascx" />
     <Content Include="Views\CompanySite\HonorList.ascx" />
@@ -3806,6 +3808,9 @@
     <Content Include="Views\LogReport\Index.aspx" />
     <Content Include="Views\LogReport\LogInfoList.ascx" />
     <Content Include="Views\LogReport\XHLogIndex.aspx" />
+    <Content Include="Views\QuestionAnswer\Index.aspx" />
+    <Content Include="Views\QuestionAnswer\QuestionListDetail.aspx" />
+    <Content Include="Views\QuestionAnswer\QuestionTest.aspx" />
     <Content Include="Views\SearchEngine\Index.aspx" />
     <Content Include="Views\SearchEngine\HeadContent.ascx" />
     <Content Include="Views\SearchEngine\ProjectConditionControl.ascx" />
@@ -4103,6 +4108,10 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\A3\MengZheng.BusinessControler\MengZheng.BusinessControler.csproj">
+      <Project>{837F8C1B-49F9-44C6-92E2-33049DB8BDED}</Project>
+      <Name>MengZheng.BusinessControler</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\A3\Yinhe.ProcessingCenter\Yinhe.ProcessingCenter.csproj">
       <Project>{09B5BB08-C041-466F-8AAA-0E4C49747B6B}</Project>
       <Name>Yinhe.ProcessingCenter</Name>

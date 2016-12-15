@@ -3,18 +3,43 @@
   <Table Name="CharacterInfo" Remark="微信下的角色信息" >
     <Column Name="charac_no" IsPrimary="true" IsIdentity="true" Remark="主键" />
     <Column Name="name" Remark="角色名称" />
+    <Column Name="growTypeId" Remark="职业" />
     <Column Name="weixin" Remark="weixincode" />
     <Column Name="level" Remark="角色等级" />
-    <Column Name="grow_type" Remark="成长系数" />
+    <Column Name="strength" Remark="力量" />
+    <Column Name="intelligence" Remark="智力" />
     <Column Name="maxHP" Remark="Hp" />
     <Column Name="maxMP" Remark="Mp" />
     <Column Name="phy_attack" Remark="物攻" />
-    <Column Name="phy_defense," Remark="物防" />
+    <Column Name="phy_defense" Remark="物防" />
     <Column Name="mag_attack" Remark="魔攻" />
     <Column Name="mag_defense" Remark="魔防" />
-    <Column Name="element_resist" Remark="" />
+    <Column Name="element_resist" Remark="属性抗性" />
     <Column Name="spec_property" Remark="" />
-    <Column Name="inven_weight" Remark="" />
+    <Column Name="inven_weight" Remark="负重" />
+    <Column Name="hp_regen" Remark="hp回复" />
+    <Column Name="mp_regen" Remark="Mp回复" />
+    <Column Name="move_speed" Remark="移动速度" />
+    <Column Name="attack_speed" Remark="攻击速度" />
+    <Column Name="cast_speed" Remark="释放速度" />
+    <Column Name="hit_recovery" Remark="硬直" />
+    <Column Name="hitRate" Remark="命中" />
+    <Column Name="stuckRate" Remark="回避" />
+    <Column Name="criticalRate" Remark="暴击" />
+    <Column Name="fatigue" Remark="疲劳" />
+   </Table>
+ <Table Name="GrowType" Remark="职业" >
+    <Column Name="groupTypeId" IsPrimary="true" IsIdentity="true" Remark="主键" />
+    <Column Name="name" Remark="职业名称" />
+    <Column Name="maxHP" Remark="Hp" />
+    <Column Name="maxMP" Remark="Mp" />
+    <Column Name="phy_attack" Remark="物攻" />
+    <Column Name="phy_defense" Remark="物防" />
+    <Column Name="mag_attack" Remark="魔攻" />
+    <Column Name="mag_defense" Remark="魔防" />
+    <Column Name="element_resist" Remark="属性抗性" />
+    <Column Name="spec_property" Remark="" />
+    <Column Name="inven_weight" Remark="负重" />
     <Column Name="hp_regen" Remark="hp回复" />
     <Column Name="mp_regen" Remark="Mp回复" />
     <Column Name="move_speed" Remark="移动速度" />
@@ -22,6 +47,58 @@
     <Column Name="cast_speed" Remark="释放速度" />
     <Column Name="hit_recovery" Remark="硬直" />
     <Column Name="fatigue" Remark="疲劳" />
-   </Table>
+  </Table>
+
+  <Table Name="Skill" Remark="技能" >
+    <Column Name="skillId" IsPrimary="true" IsIdentity="true" Remark="主键" />
+    <Column Name="name" Remark="技能名称" />
+    <Column Name="explain" Remark="技能描述" />
+    <Column Name="maxLevel" Remark="最高等级" />
+    <Column Name="masterLevel" Remark="掌握等级" />
+    <Column Name="attactMode" Remark="possitive 主动 possitive被动" />
+    <Column Name="range" Remark="攻击范围 1单体 其他-1全体" />
+    <Column Name="subject" Remark="self自己enemy" />
+    <Column Name="hp_consume" Remark="hp花费" />
+    <Column Name="mp_consume" Remark="mp花费" />
+    <Column Name="coolTime" Remark="冷却回合" />
+    <Column Name="addionalMode" Remark="加成模式0百分比 1固定攻击数据" />
+    <Column Name="basicalAddional" Remark="基本每个等级加成" />
+  </Table>
+  <Table Name="SkillDetail" Remark="技能详细,主要用于微调" >
+    <Column Name="skillDetailId" IsPrimary="true" IsIdentity="true" Remark="主键" />
+    <Column Name="skillId" SourceTable="Skill" SourceColumn="skillId" Remark="技能" />
+    <Column Name="level" Remark="等级" />
+    <Column Name="masterLevel" Remark="掌握等级" />
+    <Column Name="point_consume" Remark="需要点数" />
+    <Column Name="basicalAddional" Remark="基本每个等级加成" />
+    <Column Name="hp_consume" Remark="hp花费" />
+    <Column Name="mp_consume" Remark="mp花费" />
+    <Column Name="coolTime" Remark="冷却回合" />
+    <Column Name="phy_attack_add" Remark="物攻" />
+    <Column Name="phy_defense_add" Remark="物防增加" />
+    <Column Name="hp_regen_add" Remark="hp回复" />
+    <Column Name="mp_regen_add" Remark="Mp回复" />
+    <Column Name="mag_attack_add" Remark="魔攻" />
+    <Column Name="mag_defense_add" Remark="魔防" />
+    <Column Name="move_speed_add" Remark="移动速度" />
+    <Column Name="attack_speed_add" Remark="攻击速度" />
+    <Column Name="cast_speed_add" Remark="释放速度" />
+    <Column Name="stuck_add" Remark="命中为负数" />
+    <Column Name="stuck_resistance_add" Remark="回避" />
+    <Column Name="criticalRate_add" Remark="暴击" />
+  </Table>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </DataRules>
  

@@ -382,35 +382,11 @@
                   }
                   else {
                      //$.tmsg("m_jfw", "大成功！", { infotype: 1 });
-                     var hideAfter=2;
-                     var message=data.Message;
                      
-                     if(typeof(data.Message)=="undefined"||data.Message==""||data.Message==null)
-                     {
-                        hideAfter=2;
-                     }else
-                     {
-                        //是否爆出特殊物品
-                        if(typeof(data.FileInfo)=="undefined"||data.FileInfo==""||data.FileInfo==null)
-                        {
-                          hideAfter=2;
-                        }else
-                        {
-                            hideAfter=3600;
-                            $.globalMessenger().post({
-                            message: data.FileInfo,
-                            hideAfter:hideAfter,
-                            type: 'success',
-                            showCloseButton: true
-                    });
-                        }
-                     }
-                    $.globalMessenger().post({
-                        message: message,
-                        hideAfter:hideAfter,
-                        type: 'success',
-                        showCloseButton: true
-                    });
+                       CheckItemDrop(data);
+                       CheckLevelUpAction(data);
+                           
+
                        $("#pointPositionDiv").html(curPoint+"P");
                       //window.location.reload();
                   }
@@ -418,7 +394,10 @@
           });
 
       }
- 
+
+      
+
+
 
       function Search() {
 
@@ -571,9 +550,26 @@ function RemoveBMask() {
 
                     setTimeout(function(){
                     
-                    RemoveBMask();
+                       RemoveBMask();
+                       CheckItemDrop(data);
+                       CheckLevelUpAction(data);
+                         
+                      $("#hellChallengeCount").html(hellChallengeCount);
+                      //window.location.reload();
                     
-                     //$.tmsg("m_jfw", "大成功！", { infotype: 1 });
+                    },3000);
+                    
+                  }
+              }
+          });
+
+      }
+
+
+       ///检查稀有物品
+      function CheckItemDrop(data)
+      {
+
                      var hideAfter=2;
                      var message=data.Message;
                      
@@ -588,30 +584,42 @@ function RemoveBMask() {
                           hideAfter=2;
                         }else
                         {
-                            hideAfter=36;
+                            hideAfter=3600;
                             $.globalMessenger().post({
                             message: data.FileInfo,
                             hideAfter:hideAfter,
                             type: 'success',
                             showCloseButton: true
-                    });
+                             });
                         }
                      }
-                    $.globalMessenger().post({
-                        message: message,
-                        hideAfter:hideAfter,
-                        type: 'success',
-                        showCloseButton: true
-                    });
-                      $("#hellChallengeCount").html(hellChallengeCount);
-                      //window.location.reload();
-                    
-                    },3000);
-                    
-                  }
-              }
-          });
+                        $.globalMessenger().post({
+                            message: message,
+                            hideAfter:hideAfter,
+                            type: 'success',
+                            showCloseButton: true
+                        });
+      
+      }
 
+      
+      ///检查升级
+      function CheckLevelUpAction(data)
+      {
+
+                       if(typeof(data.htInfo)!="undefined"&&typeof(data.htInfo.isLevelUp)!="undefined")
+                        {
+                           if(data.htInfo.isLevelUp=="true")
+                           {
+                            $.globalMessenger().post({
+                                                message: "恭喜您的等级已提升",
+                                                hideAfter:2,
+                                                type: 'success',
+                                                showCloseButton: true
+                                            });
+                        }
+                        }
+      
       }
         </script>
 </asp:Content>
