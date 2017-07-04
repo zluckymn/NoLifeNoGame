@@ -64,6 +64,7 @@ namespace Senparc.Weixin.MP.Sample.CommonService.CustomMessageHandler
         private string WorkPlanManageConnectionString = WebConfigurationManager.AppSettings["WorkPlanManageConnectionString"];
         private string DayLifeUrl = WebConfigurationManager.AppSettings["DayLifeUrl"] == null ? "" : WebConfigurationManager.AppSettings["DayLifeBakUrl"];//;//日常地址
         private string DayLifeBakUrl = WebConfigurationManager.AppSettings["DayLifeBakUrl"] == null ? "http://59.61.72.34:8025/" : WebConfigurationManager.AppSettings["DayLifeBakUrl"];//日常地址
+        private string MeetingAppUrl = WebConfigurationManager.AppSettings["MeetingAppUrl"] == null ? "http://api.meng-zheng.com.cn/MeetingApp/MeetingLogin" : WebConfigurationManager.AppSettings["MeetingAppUrl"];//会议地址
         private static DataOperation dataop = null;
         private static List<UserInfo> UserModeInfoList = new List<UserInfo>();//记录用户的动作模式
       
