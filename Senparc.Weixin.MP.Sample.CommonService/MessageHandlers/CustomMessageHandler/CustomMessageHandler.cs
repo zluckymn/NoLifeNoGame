@@ -1098,7 +1098,7 @@ Url:{2}", requestMessage.Title, requestMessage.Description, requestMessage.Url);
                   
                     responseMessage.Content = resultSB.ToString();
                 }
-                else
+                else5
                 {
                     resultSB.AppendLine("由于您未绑定系统管理员不知道你是谁无法发送邮件");
                     responseMessage.Content = resultSB.ToString();
